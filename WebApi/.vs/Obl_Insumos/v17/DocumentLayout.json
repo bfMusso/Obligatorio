@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cualtamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cualtamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\dtos\\dtomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\dtos\\mappermovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mappermovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\logicadatos\\repositorios\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cubajamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cubajamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusoarticulo\\cualtaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusoarticulo\\cualtaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\logicanegocio\\interfacesrepositorios\\irepositoriomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\logicanegocio\\dominio\\movimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicanegocio\\dominio\\movimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\movimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\dtos\\dtolistararticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cualtamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cualtamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\dtos\\dtomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\dtos\\mappermovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mappermovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicadatos\\repositorios\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cubajamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cubajamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusoarticulo\\cualtaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusoarticulo\\cualtaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicanegocio\\interfacesrepositorios\\irepositoriomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\dtos\\dtolistararticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtolistararticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\webapi\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\webapi\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cubuscarmovimientodestockporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cubuscarmovimientodestockporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cubuscarmovimientodestockporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\otros\\buckup-13-06\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,176 +62,165 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "DTOListarArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\DTOs\\DTOListarArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\DTOListarArticulos.cs",
               "RelativeDocumentMoniker": "DTOs\\DTOListarArticulos.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\DTOs\\DTOListarArticulos.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\DTOListarArticulos.cs",
               "RelativeToolTip": "DTOs\\DTOListarArticulos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T21:09:41.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T21:09:41.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "MovimientoDeStock.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaNegocio\\Dominio\\MovimientoDeStock.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\Dominio\\MovimientoDeStock.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\MovimientoDeStock.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaNegocio\\Dominio\\MovimientoDeStock.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\Dominio\\MovimientoDeStock.cs",
               "RelativeToolTip": "LogicaNegocio\\Dominio\\MovimientoDeStock.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBUAAAAWAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T21:02:18.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IRepositorioMovimientoDeStock.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioMovimientoDeStock.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioMovimientoDeStock.cs",
               "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioMovimientoDeStock.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioMovimientoDeStock.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioMovimientoDeStock.cs",
               "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioMovimientoDeStock.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:55:41.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:55:41.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CUAltaArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoArticulo\\CUAltaArticulo.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoArticulo\\CUAltaArticulo.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoArticulo\\CUAltaArticulo.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoArticulo\\CUAltaArticulo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T20:55:21.847Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CUAltaArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoArticulo\\CUAltaArticulo.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoArticulo\\CUAltaArticulo.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoArticulo\\CUAltaArticulo.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoArticulo\\CUAltaArticulo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Title": "CUBajaMovimientoDeStock.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBajaMovimientoDeStock.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBajaMovimientoDeStock.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBajaMovimientoDeStock.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBajaMovimientoDeStock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:55:21.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:54:47.587Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CUBajaMovimientoDeStock.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBajaMovimientoDeStock.cs",
-              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBajaMovimientoDeStock.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBajaMovimientoDeStock.cs",
-              "RelativeToolTip": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBajaMovimientoDeStock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LibreriaContext.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\LibreriaContext.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\LibreriaContext.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\LibreriaContext.cs",
+              "RelativeToolTip": "LogicaDatos\\Repositorios\\LibreriaContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:54:47.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:49:31.941Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LibreriaContext.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaDatos\\Repositorios\\LibreriaContext.cs",
-              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\LibreriaContext.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaDatos\\Repositorios\\LibreriaContext.cs",
-              "RelativeToolTip": "LogicaDatos\\Repositorios\\LibreriaContext.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "MapperMovimientoDeStock.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\MapperMovimientoDeStock.cs",
+              "RelativeDocumentMoniker": "DTOs\\MapperMovimientoDeStock.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\MapperMovimientoDeStock.cs",
+              "RelativeToolTip": "DTOs\\MapperMovimientoDeStock.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwB0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:49:31.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:42:05.378Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MapperMovimientoDeStock.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\DTOs\\MapperMovimientoDeStock.cs",
-              "RelativeDocumentMoniker": "DTOs\\MapperMovimientoDeStock.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\DTOs\\MapperMovimientoDeStock.cs",
-              "RelativeToolTip": "DTOs\\MapperMovimientoDeStock.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAUwB0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:42:05.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "DTOMovimientoDeStock.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\DTOs\\DTOMovimientoDeStock.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\DTOMovimientoDeStock.cs",
               "RelativeDocumentMoniker": "DTOs\\DTOMovimientoDeStock.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\DTOs\\DTOMovimientoDeStock.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\DTOMovimientoDeStock.cs",
               "RelativeToolTip": "DTOs\\DTOMovimientoDeStock.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:41:31.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:41:31.309Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "MovimientosDeStockController.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\WebApi\\Controllers\\MovimientosDeStockController.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Controllers\\MovimientosDeStockController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\MovimientosDeStockController.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\WebApi\\Controllers\\MovimientosDeStockController.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Controllers\\MovimientosDeStockController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\MovimientosDeStockController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:40:06.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:40:06.394Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\WebApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:38:19.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:38:19.815Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "CUBuscarMovimientoDeStockPorId.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBuscarMovimientoDeStockPorId.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBuscarMovimientoDeStockPorId.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBuscarMovimientoDeStockPorId.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBuscarMovimientoDeStockPorId.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBuscarMovimientoDeStockPorId.cs",
               "RelativeToolTip": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUBuscarMovimientoDeStockPorId.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:38:04.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:38:04.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CUAltaMovimientoDeStock.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
               "RelativeDocumentMoniker": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
               "RelativeToolTip": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwB0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-13T20:37:17.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RepositorioMovimientosDeStockEF.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
               "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
               "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAowC4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:29:38.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T20:29:38.37Z"
             }
           ]
         }

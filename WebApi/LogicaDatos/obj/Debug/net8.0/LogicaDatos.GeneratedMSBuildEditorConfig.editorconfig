@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LogicaDatos
-build_property.ProjectDir = C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\
+build_property.ProjectDir = C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\LogicaDatos\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

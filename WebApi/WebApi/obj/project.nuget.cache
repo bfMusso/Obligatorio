@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kQJ+WQpcVNY=",
+  "dgSpecHash": "CU3zlChiMfM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\feder\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\feder\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

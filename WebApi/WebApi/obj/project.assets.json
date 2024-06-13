@@ -4592,11 +4592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4614,11 +4614,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\DTOs\\DTOs.csproj": {
-              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\DTOs\\DTOs.csproj"
+            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\DTOs.csproj": {
+              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\DTOs.csproj"
             },
-            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\LogicaAplicacion.csproj": {
-              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaAplicacion\\LogicaAplicacion.csproj"
+            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\LogicaAplicacion.csproj"
             }
           }
         }

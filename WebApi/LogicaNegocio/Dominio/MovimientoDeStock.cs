@@ -14,6 +14,7 @@ namespace LogicaNegocio.Dominio
     public class MovimientoDeStock : IValidable
     {
 
+        //PREGUNTAR DPOR TIPOS QUE NOD EBERIAN USARSE
         public enum TipoDeMovimiento
         {
             Translado,

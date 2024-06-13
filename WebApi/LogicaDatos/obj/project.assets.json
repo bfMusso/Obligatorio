@@ -4156,11 +4156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaDatos\\LogicaDatos.csproj",
+      "projectUniqueName": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\LogicaDatos.csproj",
       "projectName": "LogicaDatos",
-      "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaDatos\\LogicaDatos.csproj",
+      "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\LogicaDatos.csproj",
       "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaDatos\\obj\\",
+      "outputPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4178,8 +4178,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj": {
-              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj"
+            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj": {
+              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj"
             }
           }
         }
