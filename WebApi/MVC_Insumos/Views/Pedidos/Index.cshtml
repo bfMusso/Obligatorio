@@ -1,0 +1,105 @@
+﻿@model IEnumerable<DTOs.DTOPedidoListar>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>PEDIDOS</h1>
+
+@if (ViewBag.Mensaje != null)
+{
+    <p class="alert alert-danger">@ViewBag.Mensaje</p>
+}
+
+@{
+    if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+}
+
+<div class="row mt-3">
+    <div class="col-md-4">
+        <form asp-action="BuscarPedidosPorFecha">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label for="fecha" class="control-label">Fecha:</label>
+                <input name="fecha" type="date" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" required />
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Buscar" placeholder="Ingrese la fecha" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+
+<div class="row mt-3">
+    <div class="col-md-4">
+        <form asp-action="BuscarPedidosAnulados">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <input type="submit" value="Pedidos anulados" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<p class="fw-bold fs-5 mt-3">
+    <a asp-action="Create">Nuevo</a>
+</p>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeEntrega)
+            </th>             
+            <th>
+                @Html.DisplayNameFor(model => model.CostoDelPedido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClienteNombre)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDeEntrega)
+            </td>
+            
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.CostoDelPedido)
+            </td>
+            <th>
+                @Html.DisplayFor(modelItem => item.ClienteNombre)
+            </th>
+            <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Baja", "Baja", new { id=item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

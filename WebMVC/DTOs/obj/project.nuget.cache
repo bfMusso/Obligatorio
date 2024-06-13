@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "u365SYVKsqvDE4C23qBwnw5MmDmf2H2gVrg61lbEebeZ/mhObCmOc6DGMWcy7CAFTHilnoml6/xPEbOdsu3Ipw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\WebMVC\\DTOs\\DTOs.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "No se encuentra el proyecto \"C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

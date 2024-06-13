@@ -1,0 +1,377 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\MVC_Insumos\\MVC_Insumos.csproj": {}
+  },
+  "projects": {
+    "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\DTOs\\DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\DTOs\\DTOs.csproj",
+        "packagesPath": "C:\\Users\\xfer9\\.nuget\\packages\\",
+        "outputPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xfer9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaAplicacion\\LogicaAplicacion.csproj",
+        "projectName": "LogicaAplicacion",
+        "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaAplicacion\\LogicaAplicacion.csproj",
+        "packagesPath": "C:\\Users\\xfer9\\.nuget\\packages\\",
+        "outputPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaAplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xfer9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\DTOs\\DTOs.csproj"
+              },
+              "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaDatos\\LogicaDatos.csproj": {
+                "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaDatos\\LogicaDatos.csproj"
+              },
+              "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaDatos\\LogicaDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaDatos\\LogicaDatos.csproj",
+        "projectName": "LogicaDatos",
+        "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaDatos\\LogicaDatos.csproj",
+        "packagesPath": "C:\\Users\\xfer9\\.nuget\\packages\\",
+        "outputPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xfer9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj",
+        "projectName": "LogicaNegocio",
+        "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj",
+        "packagesPath": "C:\\Users\\xfer9\\.nuget\\packages\\",
+        "outputPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xfer9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\MVC_Insumos\\MVC_Insumos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\MVC_Insumos\\MVC_Insumos.csproj",
+        "projectName": "MVC_Insumos",
+        "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\MVC_Insumos\\MVC_Insumos.csproj",
+        "packagesPath": "C:\\Users\\xfer9\\.nuget\\packages\\",
+        "outputPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\MVC_Insumos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xfer9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\DTOs\\DTOs.csproj": {
+                "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\DTOs\\DTOs.csproj"
+              },
+              "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaAplicacion\\LogicaAplicacion.csproj": {
+                "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaAplicacion\\LogicaAplicacion.csproj"
+              },
+              "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj": {
+                "projectPath": "C:\\ORT\\Semestre 3\\Programacion 3\\2do OBLIGATORIO\\Obl_Insumos_14-05\\Obl_Insumos_14-05\\LogicaNegocio\\LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

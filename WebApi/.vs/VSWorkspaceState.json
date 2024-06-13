@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LogicaNegocio",
+    "\\LogicaNegocio\\Dominio",
+    "\\MVC_Insumos",
+    "\\MVC_Insumos\\Views",
+    "\\MVC_Insumos\\Views\\Shared"
+  ],
+  "SelectedNode": "\\LogicaNegocio\\Dominio\\Express.cs",
+  "PreviewInSolutionExplorer": false
+}

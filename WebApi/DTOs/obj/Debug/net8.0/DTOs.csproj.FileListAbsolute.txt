@@ -1,0 +1,270 @@
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\Obl_Insumos_13-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\DTOs\obj\Debug\net8.0\ref\DTOs.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\bin\Debug\net8.0\DTOs.deps.json
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\bin\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\bin\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\DTOs.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\DTOs.AssemblyInfo.cs
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\DTOs.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\DTOs.csproj.Up2Date
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\DTOs.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\refint\DTOs.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\DTOs.pdb
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\DTOs\obj\Debug\net8.0\ref\DTOs.dll

@@ -1,0 +1,494 @@
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Proyecto\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\D505179\Desktop\Proyectos_C#\Oblg_3\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\D505179\Desktop\Proyectos_C#\Oblg_3\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\D505179\Desktop\Proyectos_C#\Oblg_3\Obl_Insumos\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_18_05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\Federico\Desktop\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_19-05-Sin_Cliente\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO\Segunda Entrega Avance\FernandoBaptista209431_FedericoMusso306533\Obl_Insumos_19-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO 3ra\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\xfer9\Downloads\respaldo_fede\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Fernando-Baptistadealmeida 209431-Federico-Musso-306533\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\OBLIGATORIO FINAl\Obli_0705\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\xfer9\Downloads\Obli_0805_DTOs\Obli_0805_DTOs\Obli_0805\Obl_Insumos_01-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_10-05 (1)\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_ANDANDO\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_10-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\ULTIMO obli\Obl_Insumos_11-05_Final_QuedanDetalles\Obl_Insumos_11-05\Obl_Insumos_11-05_Fin_con_detalles\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\xfer9\Downloads\Obl_Insumos_11-05_Fin_con_detalles2\Obl_Insumos_11-05_Fin_con_detalles2\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\DOCUMENTACION\Ultimo\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\Entrega final 16_05\Obl_Insumos_13-05-Cambios-CU-Rep\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\feder\Desktop\Obl_Insumos_13-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\feder\Desktop\Paquete-Entrega\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\OBLI PARA ENTREGAR\Obl_Insumos_Paquete\Obl_Insumos_14-05-Ultimo\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\feder\Desktop\ORT\ORT\Tercer Semestre\P3\Obligatorio\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\ORT\Semestre 3\Programacion 3\2do OBLIGATORIO\Obl_Insumos_14-05\Obl_Insumos_14-05\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\bin\Debug\net8.0\LogicaDatos.deps.json
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\bin\Debug\net8.0\LogicaDatos.runtimeconfig.json
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\bin\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\bin\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.AssemblyReference.cache
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfoInputs.cache
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDatos.AssemblyInfo.cs
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDatos.csproj.CoreCompileInputs.cache
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDa.B8F08538.Up2Date
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDatos.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\refint\LogicaDatos.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDatos.pdb
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\LogicaDatos.genruntimeconfig.cache
+C:\Users\feder\Desktop\2do OBLIGATORIO\Otros\Buckup-13-06\WebApi\LogicaDatos\obj\Debug\net8.0\ref\LogicaDatos.dll

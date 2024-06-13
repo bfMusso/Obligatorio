@@ -1,0 +1,100 @@
+﻿@model IEnumerable<DTOs.DTOCliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (ViewBag.Mensaje != null)
+{
+    <p class="alert alert-danger">@ViewBag.Mensaje</p>
+}
+
+    <h1>Clientes</h1>
+
+
+    <div class="row">
+        <div class="col-md-4">
+
+
+            <form asp-action="BuscarClientePorTexto">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label for="texto" class="control-label">Texto:</label>
+                    <input name="texto" type="text" class="form-control" required />
+                </div>
+                <div class="form-group mt-3">
+                    <input type="submit" value="Buscar por texto" placeholder="Escriba aqui" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+
+
+            <form asp-action="BuscarClientePorMonto">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label for="monto" class="control-label">Monto:</label>
+                    <input name="monto" type="number" class="form-control" required />
+                </div>
+                <div class="form-group mt-3">
+                    <input type="submit" value="Buscar por monto" placeholder="Escriba el monto" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.CodigoRut)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DistanciaKM)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RazonSocial)
+                </th>
+                <!-- Elementos del value object Direccion -->
+                <th>
+                    @Html.DisplayNameFor(model => model.Calle)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Numero)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Ciudad)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CodigoRut)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DistanciaKM)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RazonSocial)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.Calle)
+                     </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.Numero)
+                     </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.Ciudad)
+                     </td>
+                </tr>
+            }
+        </tbody>
+    </table>

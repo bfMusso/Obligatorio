@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VV3ibYAbMX4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Otros\\Buckup-13-06\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\feder\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

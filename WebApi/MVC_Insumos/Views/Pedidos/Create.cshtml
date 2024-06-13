@@ -1,0 +1,73 @@
+﻿@model MVC_Insumos.Models.PedidoAltaViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Nuevo</h1>
+
+@if(ViewBag.Mensaje!= null){
+    <p class="alert alert-danger">@ViewBag.Mensaje</p>
+}
+
+
+<h4>Nuevo Pedido</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" class="mt-3">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FechaDeEntrega" class="control-label"></label>
+                <input asp-for="FechaDeEntrega" class="form-control" />
+                <span asp-validation-for="FechaDeEntrega" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="ArticuloCantidad" class="control-label"></label>
+                <input asp-for="ArticuloCantidad" class="form-control" />
+                <span asp-validation-for="ArticuloCantidad" class="text-danger"></span>
+            </div>
+            <!-- Articulos listados apartir de la prop de VM Articulos -->
+            <div class="form-group mt-3">
+                <label for="ArticuloId" class="control-label">Articulos : </label>
+                <select name="ArticuloId" class="form-select">
+                    <option value ="">-- Articulos --</option>
+                    @foreach (var articulo in Model.Articulos)
+                    {
+                        <option value ="@articulo.Id">@articulo.Nombre</option>
+                    }
+                </select>
+            </div>
+            <!-- Clientes listados apartir de la prop de VM Clientes -->
+            <div class="form-group mt-3">
+                <label for="ClienteId" class="control-label">Clientes :</label>
+                <select name="ClienteId" class="form-select">
+                    <option value="">-- Clientes --</option>
+                    @foreach(var cliente in Model.Clientes)
+                    {
+                        <option value="@cliente.Id">@cliente.RazonSocial</option>
+                    }
+                </select>
+            </div>
+            <div class="mt-3">
+                <label for="Tipo" class="control-label">Tipo: </label>
+                <select name="Tipo" class="form-select">
+                    <option value="S/A">-- Tipo de Pedido --</option>
+                    <option value="Comun">Común</option>
+                    <option value="Express">Express</option>
+                </select>
+            </div>
+            <div class="form-group mt-3">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
