@@ -39,16 +39,21 @@ namespace WebApi.Controllers
         {
             try
             {
-                //Controla si el Id es 
-                if (id == 0)
+                //Controla si el Id es menor o igual a 0
+                if (id <= 0)
                 {
                     return BadRequest("El Id del objeto no es un Id valido.");
                 }
+                //Se usa el casode uso para buscar el movimiento por Id
                 DTOMovimientoDeStock objDTOMovimiento = CUBuscarMovimientoPorId.Buscar(id);
+
+                //En caso de que el objeto sea null se retorna 4004
                 if (objDTOMovimiento == null)
                 {
                     return BadRequest("No se encontro el elemento que busca.");
                 }
+
+                //Si hay resultado se devuelve con un Ok 
                 return Ok(objDTOMovimiento);
 
             }
@@ -74,15 +79,15 @@ namespace WebApi.Controllers
                 }
                 if (dtoMovimiento.Id != 0)
                 {
-                    return BadRequest("Problemas con el usuario.");
+                    return BadRequest("El Id de nuevo elemento no puede ser distinto a 0.");
                 }
-                if (dtoMovimiento.ArticuloDeMovimiento != 0)
+                if (dtoMovimiento.ArticuloDeMovimiento <= 0)
                 {
-                    return BadRequest("Problemas con el usuario.");
+                    return BadRequest("Problemas con el usuario, Id de articulo debe ser mayor a 0.");
                 }
-                if (dtoMovimiento.UsuarioDeMovimiento != 0)
+                if (dtoMovimiento.UsuarioDeMovimiento <= 0)
                 {
-                    return BadRequest("Problemas con el usuario.");
+                    return BadRequest("Problemas con el usuario, Id de usuario debe ser mayor a 0..");
                 }
 
                 CUAltaMovimientoDeStock.Alta(dtoMovimiento);
@@ -94,9 +99,11 @@ namespace WebApi.Controllers
                 return BadRequest(ex.Message);
 
             }
-            catch
+            catch (Exception ex)
             {
-                return StatusCode(500, "Error inesperado, no se pudo realizar el alta...");
+                // Log the exception details for debugging
+                // Logger.LogError(ex, "Unexpected error occurred while creating MovimientoDeStock.");
+                return StatusCode(500, $"Error inesperado, no se pudo realizar el alta. Detalles: {ex.Message}");
 
             }
         }

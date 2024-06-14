@@ -3,6 +3,7 @@ using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
 using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
+using LogicaNegocio.Excepciones;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,17 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
         public DTOMovimientoDeStock Buscar(int id)
         {
             MovimientoDeStock movimientoEncontrado = Repo.GetById(id);
-            return MapperMovimientoDeStock.ToDTOMovimientoDeStock(movimientoEncontrado);
+
+            if (movimientoEncontrado != null)
+            {
+                return MapperMovimientoDeStock.ToDTOMovimientoDeStock(movimientoEncontrado);
+
+            }
+            else
+            {
+                throw new ExcepcionCustomException("No se encontro el movimiento de stock correspondiente al Id: " + id);
+            }
+           
         }
     }
 }
