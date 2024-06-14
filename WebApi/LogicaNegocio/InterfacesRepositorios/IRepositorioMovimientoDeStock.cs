@@ -8,8 +8,14 @@ using static LogicaNegocio.Dominio.MovimientoDeStock;
 
 namespace LogicaNegocio.InterfacesRepositorios
 {
-    public interface IRepositorioMovimientoDeStock : IRepositorio<MovimientoDeStock>
+    public interface IRepositorioMovimientoDeStock
     {
+        List<MovimientoDeStock> GetAll();
+
+        MovimientoDeStock GetById(int id);
+
+        void Add(MovimientoDeStock obj);
+
         public List<MovimientoDeStock> BuscarElementosPorIdYTipo(int id, TipoDeMovimiento tipo);
 
         public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final);

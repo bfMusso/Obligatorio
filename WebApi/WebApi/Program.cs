@@ -2,7 +2,9 @@
 using DTOs;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoArticulo;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock;
+using LogicaAplicacion.CasosDeUso.CasosDeUsoTipoDeMovimiento;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
+using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaDatos.Repositorios;
 using LogicaNegocio.InterfacesRepositorios;
 using Microsoft.EntityFrameworkCore;
@@ -17,12 +19,20 @@ namespace WebApi
 
             //Articulos
             builder.Services.AddScoped<ICUListar<DTOListarArticulos>, CUListarArticulos>();
-            builder.Services.AddScoped<ICUAlta<DTOMovimientoDeStock>, CUAltaMovimientoDeStock>();
-            builder.Services.AddScoped<ICUBuscarPorId<DTOMovimientoDeStock>, CUBuscarMovimientoDeStockPorId>();
+            //Movimiento de Stock
+            builder.Services.AddScoped<ICUAltaMovimientoDeStock<DTOMovimientoDeStock>, CUAltaMovimientoDeStock>();
+            builder.Services.AddScoped<ICUBuscarMovimientoPorId<DTOMovimientoDeStock>, CUBuscarMovimientoDeStockPorId>();
+            //Tipo de movimiento de Stock
+            builder.Services.AddScoped<ICUAlta<DTOTipoDeMovimiento>, CUAltaTipoDeMovimiento>();
+            builder.Services.AddScoped<ICUActualizar<DTOTipoDeMovimiento>, CUActualizarTipoDeMovimiento>();
+            builder.Services.AddScoped<ICUBaja<DTOTipoDeMovimiento>, CUBajaTipoDeMovimiento>();
+            builder.Services.AddScoped<ICUBuscarPorId<DTOTipoDeMovimiento>, CUBuscarTipoDeMovimientoPorId>();
+            builder.Services.AddScoped<ICUListar<DTOTipoDeMovimiento>, CUListarTiposDeMovimiento>();
 
             //Repositorios
             builder.Services.AddScoped<IRepositorioArticulos, RepositorioArticulosEF>();
             builder.Services.AddScoped<IRepositorioMovimientoDeStock, RepositorioMovimientosDeStockEF>();
+            builder.Services.AddScoped<IRepositorioTipoDeMovimiento, RepositorioTipoDeMovimiento>();
 
             //conexion BD
             string strCon = builder.Configuration.GetConnectionString("conekt");

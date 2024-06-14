@@ -26,6 +26,7 @@ namespace LogicaDatos.Repositorios
             //Agregamos a BD
             Contexto.Entry(obj.ArticuloDeMovimiento).State = EntityState.Unchanged;
             Contexto.Entry(obj.UsuarioDeMovimiento).State = EntityState.Unchanged;
+            Contexto.Entry(obj.Tipo).State = EntityState.Unchanged;
             Contexto.MovimientosDeStock.Add(obj);
             Contexto.SaveChanges();
         }
@@ -43,40 +44,19 @@ namespace LogicaDatos.Repositorios
             return Contexto.MovimientosDeStock
                             .Include(m => m.ArticuloDeMovimiento)
                             .Include(m => m.UsuarioDeMovimiento)
+                            .Include(m => m.Tipo)
                             .FirstOrDefault(m => m.Id == id);
         }
 
-        public void Remove(int id)
-        {
-            MovimientoDeStock movimiento = GetById(id);
-            if (movimiento != null)
-            {
-                Contexto.MovimientosDeStock.Remove(movimiento);
-                Contexto.SaveChanges();
-            }
-            else
-            {
-                throw new ExcepcionCustomException("El Movimiento con id" + id + " no existe");
-            }
-        }
 
-        public void Update(MovimientoDeStock obj)
-        {
-            //Se ejecutan las validaciones del dominio
-            obj.Validar();
-            //Actualizar y guardar
-            Contexto.MovimientosDeStock.Update(obj);
-            //Se efectuan los cambios
-            Contexto.SaveChanges();
-        }
-
-        public List<MovimientoDeStock> BuscarElementosPorIdYTipo(int id, MovimientoDeStock.TipoDeMovimiento tipo)
+        public List<MovimientoDeStock> BuscarElementosPorIdYTipo(int id, TipoDeMovimiento tipo)
         {
             List<MovimientoDeStock> movimientosEncontrados = new List<MovimientoDeStock>();
             //Buscamos movimientos segun tipo y el id de articulo
             movimientosEncontrados = Contexto.MovimientosDeStock
                                   .Include(m => m.ArticuloDeMovimiento)
                                   .Include(m => m.UsuarioDeMovimiento)
+                                  .Include(m => m.Tipo)
                                   .Where(m => m.ArticuloDeMovimiento.Id == id && m.Tipo == tipo)
                                   .OrderByDescending(m => m.FechaYHora)
                                   .ThenBy(m => m.CantidadArticulo)
@@ -100,7 +80,7 @@ namespace LogicaDatos.Repositorios
 
         }
 
-        public int CantidadesPorTipoYFecha(int anio, MovimientoDeStock.TipoDeMovimiento tipo)
+        public int CantidadesPorTipoYFecha(int anio, TipoDeMovimiento tipo)
         {
             int cantidadesMovidas = 0;
             //Buscamos las cantidades segun tipo y año

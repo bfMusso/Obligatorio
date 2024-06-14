@@ -13,6 +13,7 @@ namespace LogicaDatos.Repositorios
         public DbSet<Articulo> Articulos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<MovimientoDeStock> MovimientosDeStock { get; set; }
+        public DbSet<TipoDeMovimiento> TipoDeMovimientos { get; set; }
         public DbSet<Impuesto> Impuestos { get; set; }
 
 
