@@ -1,6 +1,7 @@
 ﻿using DTOs;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
 using LogicaNegocio.Dominio;
+using LogicaNegocio.Excepciones;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
 using System.Collections.Generic;
@@ -22,8 +23,15 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoTipoDeMovimiento
         public DTOTipoDeMovimiento Buscar(int id)
         {
             TipoDeMovimiento tipoEncontrado = Repo.GetById(id);
-            DTOTipoDeMovimiento dtoTipoEncontrado = MapperTipoDeMovimiento.ToDTOTipoDeMovimiento(tipoEncontrado);
-            return dtoTipoEncontrado;
+
+            if (tipoEncontrado != null)
+            {
+                return MapperTipoDeMovimiento.ToDTOTipoDeMovimiento(tipoEncontrado);
+            }
+            else 
+            {
+                throw new ExcepcionCustomException("No se encontro el tipo de movimiento correspondiente al Id: " + id);
+            }
         }
     }
 }

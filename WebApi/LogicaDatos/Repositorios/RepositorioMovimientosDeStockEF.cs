@@ -23,13 +23,30 @@ namespace LogicaDatos.Repositorios
         {
             //Aplicamos validaciones
             obj.Validar();
+
+            // Controles de Articulo, usuario y Tipo
+            if (!ControlarSiTipoExiste(obj.Tipo.Id))
+            {
+                throw new ExcepcionCustomException("El tipo de movimiento no existe.");
+            }
+            if (!ControlarSiArticuloExiste(obj.ArticuloDeMovimiento.Id))
+            {
+                throw new ExcepcionCustomException("El artículo no existe.");
+            }
+            if (!ControlarSiUsuarioExiste(obj.UsuarioDeMovimiento.Id))
+            {
+                throw new ExcepcionCustomException("El usuario existe ese usuario de tipo Encargado.");
+            }
+
+            //Hacemos el cambio en el stock de articulos
+            ModificarStockArticulos(obj.CantidadArticulo, obj.ArticuloDeMovimiento.Id, obj.Tipo.tipoDeCambioEnStock);
+
             //Agregamos a BD
             Contexto.Entry(obj.ArticuloDeMovimiento).State = EntityState.Unchanged;
             Contexto.Entry(obj.UsuarioDeMovimiento).State = EntityState.Unchanged;
             Contexto.Entry(obj.Tipo).State = EntityState.Unchanged;
             Contexto.MovimientosDeStock.Add(obj);
-            //Hacemos el cambio en el stock de articulos
-            ModificarStockArticulos(obj.CantidadArticulo, obj.ArticuloDeMovimiento.Id, obj.Tipo.tipoDeCambioEnStock);
+
             //Guardamos cambios
             Contexto.SaveChanges();
         }
@@ -94,6 +111,7 @@ namespace LogicaDatos.Repositorios
             return cantidadesMovidas;
         }
 
+
         public void ModificarStockArticulos(int cantidad, int IdArticulo, bool tipoCambio) {
             //Traemos el articulo
             Articulo? articulo = Contexto.Articulos
@@ -104,64 +122,97 @@ namespace LogicaDatos.Repositorios
                 throw new ExcepcionCustomException("No se encontro el articulo para el movimiento de stock.");
             }
 
-            try
+            //Control de tipo de cambio
+            if (tipoCambio)
             {
-                //Control de tipo de cambio
-                if (tipoCambio)
-                {
-                    articulo.Stock = articulo.Stock + 1;
-                }
-                else
-                {
-                    articulo.Stock = articulo.Stock - 1;
-                }
-                //Actualizamos el stock
-                Contexto.Articulos.Update(articulo);
+                articulo.Stock = articulo.Stock + cantidad;
             }
-            catch {
-                throw new ExcepcionCustomException("No hay stock suficiente.");
+            else
+            {
+                articulo.Stock = articulo.Stock - cantidad;
             }
 
+            //Actualizamos el stock
+            if (articulo.Stock < 0)
+            {
+                throw new ExcepcionCustomException("Cantidad de stock insuficiente para realizar la operacon.");
+            }
+
+            try
+            {
+                Contexto.Articulos.Update(articulo);
+                Contexto.SaveChanges();
+            }
+            catch
+            {
+                throw new ExcepcionCustomException("Error al actualizar el stock en la base de datos.");
+            }
         }
 
 
-        public bool ControlarSiTipoExiste(int id)
+        public bool  ControlarSiArticuloExiste(int id)
         {
-            return Contexto.TipoDeMovimientos
-                            .Any(m => m.Id == id);
+            try
+            {
+                return Contexto.Articulos
+                            .Any(a => a.Id == id);
+            }
+            catch
+            {
+                throw new ExcepcionCustomException("Error en control de articulos de existentes.");
+            }
+            
         }
 
         public bool ControlarSiUsuarioExiste(int id)
         {
-            bool retorno = false;
+            try
+            {
 
-            Usuario? usu = Contexto.Usuarios
-                          .SingleOrDefault(u => u.Id == id);
+                bool retorno = false;
 
-            if (usu != null) {
-                if (usu.TipoUsuario == Usuario.TipoDeUsuario.Encargado)
+                Usuario? usu = Contexto.Usuarios
+                              .SingleOrDefault(u => u.Id == id);
+
+                if (usu != null)
                 {
-                    retorno = true;
+                    if (usu.TipoUsuario == Usuario.TipoDeUsuario.Encargado)
+                    {
+                        retorno = true;
+                    }
                 }
-            }
 
-            return retorno;
+                return retorno;
+
+            }
+            catch 
+            {
+                throw new ExcepcionCustomException("Error en control de usuarios existentes.");
+            } 
         }
 
-        public bool ControlarSiArticuloExiste(int id)
+        public bool ControlarSiTipoExiste(int id)
         {
-            bool retorno = false;
+            try
+            {
+                bool retorno = false;
 
-            TipoDeMovimiento? tipo = Contexto.TipoDeMovimientos
-                          .SingleOrDefault(t => t.Id == id);
+                TipoDeMovimiento? tipo = Contexto.TipoDeMovimientos
+                              .SingleOrDefault(t => t.Id == id);
 
-            if (tipo != null) {
-                if (tipo.tipoDeCambioEnStock == true || tipo.tipoDeCambioEnStock == false)
+                if (tipo != null)
                 {
-                    retorno = true;
+                    if (tipo.tipoDeCambioEnStock == true || tipo.tipoDeCambioEnStock == false)
+                    {
+                        retorno = true;
+                    }
                 }
+                return retorno;
             }
-            return retorno;
+            catch 
+            {
+                throw new ExcepcionCustomException("Error en control tipos de movimientos existentes.");
+            }
         }
 
 

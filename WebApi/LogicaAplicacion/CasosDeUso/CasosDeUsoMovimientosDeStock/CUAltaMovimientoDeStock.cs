@@ -18,19 +18,34 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
 
         public IRepositorioMovimientoDeStock RepoMovimiento { get; set; }
 
+        public IRepositorioUsuarios RepoUsuario { get; set; }
 
-        public CUAltaMovimientoDeStock(IRepositorioMovimientoDeStock repoMovimiento) 
+        public IRepositorioArticulos RepoArticulo { get; set; }
+
+        public IRepositorioTipoDeMovimiento RepoTipoDeMovimiento { get; set; }
+
+
+        public CUAltaMovimientoDeStock(IRepositorioMovimientoDeStock repoMovimiento, IRepositorioUsuarios repoUsuario, IRepositorioArticulos repoArticulo, IRepositorioTipoDeMovimiento repoTipoDeMovimiento) 
         {
             RepoMovimiento = repoMovimiento;
+            RepoUsuario = repoUsuario;
+            RepoArticulo = repoArticulo;
+            RepoTipoDeMovimiento = repoTipoDeMovimiento;
         }
 
         public void Alta(DTOMovimientoDeStock dto)
         {
             //Mapeamos a Objeto MovimientoDeStock desde DTO
             MovimientoDeStock movimientoDeStock = MapperMovimientoDeStock.ToMovimientoDeStock(dto);
+            Articulo art = RepoArticulo.GetById(dto.ArticuloDeMovimiento);
+            Usuario usu = RepoUsuario.GetById(dto.UsuarioDeMovimiento);
+            TipoDeMovimiento tipo = RepoTipoDeMovimiento.GetById(dto.Tipo);
             //Si no es null hacemos el Add al repo
             if (movimientoDeStock != null)
             {
+                movimientoDeStock.ArticuloDeMovimiento = art;
+                movimientoDeStock.UsuarioDeMovimiento = usu;
+                movimientoDeStock.Tipo = tipo;
                 RepoMovimiento.Add(movimientoDeStock);
             }
             //Si es null tiramos una excepcion

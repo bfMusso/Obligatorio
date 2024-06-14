@@ -19,22 +19,30 @@ namespace DTOs
 
                 FechaYHora = dto.FechaYHora,
 
-                ArticuloDeMovimiento = new Articulo()
+                CantidadArticulo = dto.CantidadArticulo,
+
+                //Consultar por que da error cuando EF hace el rastro de estas entidades si se colocan asi:
+                /*
+                 * ArticuloDeMovimiento = new Articulo()
                 {
                     Id = dto.ArticuloDeMovimiento
                 },
+                */
 
-                CantidadArticulo = dto.CantidadArticulo,
-
-                UsuarioDeMovimiento = new Usuario()
+                /*
+                 * UsuarioDeMovimiento = new Usuario()
                 {
                     Id = dto.UsuarioDeMovimiento
                 },
+                */
 
-                Tipo = new TipoDeMovimiento()
+                /*
+                 * Tipo = new TipoDeMovimiento()
                 {
                     Id = dto.Tipo
                 }
+                */
+
 
             };
 

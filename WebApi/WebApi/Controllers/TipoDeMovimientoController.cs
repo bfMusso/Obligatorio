@@ -37,8 +37,20 @@ namespace WebApi.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            List<DTOTipoDeMovimiento> tiposDeMovimientos = CUListar.ObtenerListado();
-            return Ok(tiposDeMovimientos);
+            try
+            {
+                List<DTOTipoDeMovimiento> tiposDeMovimientos = CUListar.ObtenerListado();
+                return Ok(tiposDeMovimientos);
+            }
+            catch (ExcepcionCustomException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch 
+            {
+                return StatusCode(500, "Error inesperado.");
+            }
+           
         }
 
         //api/TipoDeMovimientoController/5
@@ -51,6 +63,7 @@ namespace WebApi.Controllers
             {
                 return BadRequest("Elemento invalido.");
             }
+
             try
             {   
                 //Se trae el objeto DTO con el buscar por Id
@@ -113,11 +126,13 @@ namespace WebApi.Controllers
                 //Se devuelve 400 con Falta informacion
                 return BadRequest("Falta informacion para la operacion.");
             }
+
             if (id <= 0)
             {
                 //Se devuelve 400 con id debe proporcionarse como mayor a 0
                 return BadRequest("El id debe ser un valor positivo.");
             }
+
             if (id != DtoTipo.Id)
             {
                 //Se devuelve 400 con id no debe ser un valor positivo
@@ -148,22 +163,34 @@ namespace WebApi.Controllers
         [HttpGet("{id}", Name = "BuscarPorId")]
         public IActionResult Get(int id)
         {
-            //En caso de Id=0 se retorna BadRequest 400
-            if (id <= 0) 
+            try
             {
-                return BadRequest("El elemento ingresado no es correcto.");
+                //En caso de Id=0 se retorna BadRequest 400
+                if (id <= 0)
+                {
+                    return BadRequest("El elemento ingresado no es correcto.");
+                }
+                //Se usa el casode uso para buscar el tipo de movimiento
+                DTOTipoDeMovimiento tiposDeMovimiento = CUBuscarPorId.Buscar(id);
+
+                //En caso de null se retorna NotFound 404
+                if (tiposDeMovimiento == null)
+                {
+                    return NotFound("El Tipo de movimiento con el id" + id + "no existe");
+                }
+
+                //Si hay resultado se devuelve con un Ok
+                return Ok(tiposDeMovimiento);
+            }
+            catch (ExcepcionCustomException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch
+            {
+                return StatusCode(50, "Error inesperado.");
             }
 
-            DTOTipoDeMovimiento tiposDeMovimiento = CUBuscarPorId.Buscar(id);
-
-            //En caso de null se retorna NotFound 404
-            if (tiposDeMovimiento == null) 
-            {
-                return NotFound("El Tipo de movimiento con el id" + id + "no existe");
-            }
-
-            //Si hay resultado se devuelve con un Ok
-            return Ok(tiposDeMovimiento);
 
         }
     }

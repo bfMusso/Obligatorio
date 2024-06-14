@@ -31,6 +31,7 @@ namespace WebApi
 
             //Repositorios
             builder.Services.AddScoped<IRepositorioArticulos, RepositorioArticulosEF>();
+            builder.Services.AddScoped<IRepositorioUsuarios, RepositorioUsuariosEF>();
             builder.Services.AddScoped<IRepositorioMovimientoDeStock, RepositorioMovimientosDeStockEF>();
             builder.Services.AddScoped<IRepositorioTipoDeMovimiento, RepositorioTipoDeMovimiento>();
 
