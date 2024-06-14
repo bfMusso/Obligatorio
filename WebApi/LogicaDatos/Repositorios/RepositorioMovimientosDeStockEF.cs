@@ -29,7 +29,7 @@ namespace LogicaDatos.Repositorios
             Contexto.Entry(obj.Tipo).State = EntityState.Unchanged;
             Contexto.MovimientosDeStock.Add(obj);
             //Hacemos el cambio en el stock de articulos
-            modificarStockArticulos(obj.CantidadArticulo, obj.ArticuloDeMovimiento.Id, obj.Tipo.tipoDeCambioEnStock);
+            ModificarStockArticulos(obj.CantidadArticulo, obj.ArticuloDeMovimiento.Id, obj.Tipo.tipoDeCambioEnStock);
             //Guardamos cambios
             Contexto.SaveChanges();
         }
@@ -94,7 +94,7 @@ namespace LogicaDatos.Repositorios
             return cantidadesMovidas;
         }
 
-        public void modificarStockArticulos(int cantidad, int IdArticulo, bool tipoCambio) {
+        public void ModificarStockArticulos(int cantidad, int IdArticulo, bool tipoCambio) {
             //Traemos el articulo
             Articulo? articulo = Contexto.Articulos
                                         .Where(a => a.Id == IdArticulo)
@@ -124,6 +124,47 @@ namespace LogicaDatos.Repositorios
 
         }
 
-  
+
+        public bool ControlarSiTipoExiste(int id)
+        {
+            return Contexto.TipoDeMovimientos
+                            .Any(m => m.Id == id);
+        }
+
+        public bool ControlarSiUsuarioExiste(int id)
+        {
+            bool retorno = false;
+
+            Usuario? usu = Contexto.Usuarios
+                          .SingleOrDefault(u => u.Id == id);
+
+            if (usu != null) {
+                if (usu.TipoUsuario == Usuario.TipoDeUsuario.Encargado)
+                {
+                    retorno = true;
+                }
+            }
+
+            return retorno;
+        }
+
+        public bool ControlarSiArticuloExiste(int id)
+        {
+            bool retorno = false;
+
+            TipoDeMovimiento? tipo = Contexto.TipoDeMovimientos
+                          .SingleOrDefault(t => t.Id == id);
+
+            if (tipo != null) {
+                if (tipo.tipoDeCambioEnStock == true || tipo.tipoDeCambioEnStock == false)
+                {
+                    retorno = true;
+                }
+            }
+            return retorno;
+        }
+
+
+
     }
 }
