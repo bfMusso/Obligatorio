@@ -135,7 +135,7 @@ namespace LogicaDatos.Repositorios
             //Actualizamos el stock
             if (articulo.Stock < 0)
             {
-                throw new ExcepcionCustomException("Cantidad de stock insuficiente para realizar la operacon.");
+                throw new ExcepcionCustomException("Cantidad de stock insuficiente para realizar la operacion.");
             }
 
             try
