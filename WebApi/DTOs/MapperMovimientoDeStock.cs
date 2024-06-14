@@ -31,7 +31,10 @@ namespace DTOs
                     Id = dto.UsuarioDeMovimiento
                 },
 
-                Tipo = dto.Tipo
+                Tipo = new TipoDeMovimiento()
+                {
+                    Id = dto.Tipo
+                }
 
             };
 
@@ -54,7 +57,7 @@ namespace DTOs
 
                 UsuarioDeMovimiento = obj.UsuarioDeMovimiento.Id,
 
-                Tipo = obj.Tipo
+                Tipo = obj.Tipo.Id
 
             };
 

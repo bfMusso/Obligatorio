@@ -15,15 +15,6 @@ namespace LogicaNegocio.Dominio
     {
 
         //PREGUNTAR DPOR TIPOS QUE NOD EBERIAN USARSE
-        public enum TipoDeMovimiento
-        {
-            Translado,
-            Venta,
-            Compra,
-            Devolucion
-            
-        }
-
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Fecha y hora son obligatorios.")]
@@ -58,9 +49,8 @@ namespace LogicaNegocio.Dominio
             if (CantidadArticulo <= 0)
                 throw new ExcepcionCustomException("No puede realizarse pedidos con 0 o menos Articulos.");
 
-            if (Tipo != TipoDeMovimiento.Compra && Tipo != TipoDeMovimiento.Venta) {
-                throw new ExcepcionCustomException("ActualmenteNo solo se permiten ingresos y egresos de articulos.");
-            }
+            if (Tipo == null)
+                throw new ExcepcionCustomException("Solo se permite Compra y Venta.");
 
         }
 

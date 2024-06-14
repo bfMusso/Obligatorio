@@ -1,5 +1,6 @@
 ﻿using DTOs;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
+using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaDatos.Repositorios;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.Excepciones;
@@ -12,20 +13,15 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
 {
-    public class CUAltaMovimientoDeStock : ICUAlta<DTOMovimientoDeStock>
+    public class CUAltaMovimientoDeStock : ICUAltaMovimientoDeStock<DTOMovimientoDeStock>
     {
 
         public IRepositorioMovimientoDeStock RepoMovimiento { get; set; }
 
-        //public RepositorioArticulosEF RepoArticulo { get; set; }
 
-        //public RepositorioUsuariosEF RepoUsuario { get; set; }
-
-        public CUAltaMovimientoDeStock(IRepositorioMovimientoDeStock repoMovimiento) //, RepositorioArticulosEF repoArticulo, RepositorioUsuariosEF repousuario
+        public CUAltaMovimientoDeStock(IRepositorioMovimientoDeStock repoMovimiento) 
         {
             RepoMovimiento = repoMovimiento;
-            //RepoArticulo = repoArticulo;
-            //RepoUsuario = repousuario;
         }
 
         public void Alta(DTOMovimientoDeStock dto)

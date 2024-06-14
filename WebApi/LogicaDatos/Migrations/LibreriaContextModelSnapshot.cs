@@ -91,7 +91,7 @@ namespace LogicaDatos.Migrations
                     b.Property<int>("CantidadArticulo")
                         .HasColumnType("int");
 
-                    b.Property<int>("Tipo")
+                    b.Property<int>("TipoId")
                         .HasColumnType("int");
 
                     b.Property<int>("UsuarioDeMovimientoId")
@@ -101,9 +101,34 @@ namespace LogicaDatos.Migrations
 
                     b.HasIndex("ArticuloDeMovimientoId");
 
+                    b.HasIndex("TipoId");
+
                     b.HasIndex("UsuarioDeMovimientoId");
 
                     b.ToTable("MovimientosDeStock");
+                });
+
+            modelBuilder.Entity("LogicaNegocio.Dominio.TipoDeMovimiento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<bool>("tipoDeCambioEnStock")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Nombre")
+                        .IsUnique();
+
+                    b.ToTable("TipoDeMovimientos");
                 });
 
             modelBuilder.Entity("LogicaNegocio.Dominio.Usuario", b =>
@@ -153,6 +178,12 @@ namespace LogicaDatos.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("LogicaNegocio.Dominio.TipoDeMovimiento", "Tipo")
+                        .WithMany()
+                        .HasForeignKey("TipoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("LogicaNegocio.Dominio.Usuario", "UsuarioDeMovimiento")
                         .WithMany()
                         .HasForeignKey("UsuarioDeMovimientoId")
@@ -160,6 +191,8 @@ namespace LogicaDatos.Migrations
                         .IsRequired();
 
                     b.Navigation("ArticuloDeMovimiento");
+
+                    b.Navigation("Tipo");
 
                     b.Navigation("UsuarioDeMovimiento");
                 });
