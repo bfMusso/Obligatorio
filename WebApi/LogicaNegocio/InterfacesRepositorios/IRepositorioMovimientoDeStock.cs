@@ -21,5 +21,13 @@ namespace LogicaNegocio.InterfacesRepositorios
         public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final);
 
         public int CantidadesPorTipoYFecha(int anio, TipoDeMovimiento tipo);
+
+        public void ModificarStockArticulos(int cantidad, int IdArticulo, bool tipoCambio);
+
+        public bool ControlarSiTipoExiste(int id);
+
+        public bool ControlarSiUsuarioExiste(int id);
+
+        public bool ControlarSiArticuloExiste(int id);
     }
 }

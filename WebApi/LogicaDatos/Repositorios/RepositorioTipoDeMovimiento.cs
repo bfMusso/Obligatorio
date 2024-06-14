@@ -52,8 +52,18 @@ namespace LogicaDatos.Repositorios
             TipoDeMovimiento tipoMovimiento = GetById(id);
             if (tipoMovimiento != null)
             {
-                Contexto.TipoDeMovimientos.Remove(tipoMovimiento);
-                Contexto.SaveChanges();
+                //Controlar si existe
+                if (!controlarSiEstaEnUso(id))
+                {
+                    Contexto.TipoDeMovimientos.Remove(tipoMovimiento);
+                    Contexto.SaveChanges();
+
+                }
+                else 
+                {
+                    throw new ExcepcionCustomException("El Movimiento con id" + id + " esta siendo utilizado en un movimiento de stock.");
+                }
+                
             }
             else
             {
@@ -65,11 +75,25 @@ namespace LogicaDatos.Repositorios
         {
             //Se ejecutan las validaciones del dominio
             obj.Validar();
-            //Actualizar y guardar
-            Contexto.TipoDeMovimientos.Update(obj);
-            //Se efectuan los cambios
-            Contexto.SaveChanges();
+            //Controlar si existe
+            if (!controlarSiEstaEnUso(obj.Id))
+            {
+                //Actualizar y guardar
+                Contexto.TipoDeMovimientos.Update(obj);
+                //Se efectuan los cambios
+                Contexto.SaveChanges();
+            }
+            else
+            {
+                throw new ExcepcionCustomException("El Movimiento con id" + obj.Id + " esta siendo utilizado en un movimiento de stock.");
+            }
+
         }
 
+        public bool controlarSiEstaEnUso(int id)
+        {
+            return  Contexto.MovimientosDeStock
+                            .Any(m => m.Tipo.Id == id);
+        }
     }
 }
