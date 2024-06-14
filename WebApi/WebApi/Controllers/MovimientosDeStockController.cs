@@ -1,5 +1,6 @@
 ﻿using DTOs;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
+using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaNegocio.Excepciones;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,11 +13,11 @@ namespace WebApi.Controllers
     public class MovimientosDeStockController : ControllerBase
     {
 
-        public ICUAlta<DTOMovimientoDeStock> CUAltaMovimientoDeStock { get; set; }
+        public ICUAltaMovimientoDeStock<DTOMovimientoDeStock> CUAltaMovimientoDeStock { get; set; }
 
-        public ICUBuscarPorId<DTOMovimientoDeStock> CUBuscarMovimientoPorId { get; set; }
+        public ICUBuscarMovimientoPorId<DTOMovimientoDeStock> CUBuscarMovimientoPorId { get; set; }
 
-        public MovimientosDeStockController(ICUAlta<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId)
+        public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
@@ -101,15 +102,21 @@ namespace WebApi.Controllers
         }
 
         // PUT api/<MovimientosDeStockController>/5
+        /*
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
+        */
+
 
         // DELETE api/<MovimientosDeStockController>/5
+        /*
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
         }
+        */
+
     }
 }
