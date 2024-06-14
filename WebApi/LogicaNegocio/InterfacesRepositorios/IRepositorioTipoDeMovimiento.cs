@@ -9,6 +9,6 @@ namespace LogicaNegocio.InterfacesRepositorios
 {
     public interface IRepositorioTipoDeMovimiento : IRepositorio<TipoDeMovimiento>
     {
-
+        public bool controlarSiEstaEnUso(int id);
     }
 }

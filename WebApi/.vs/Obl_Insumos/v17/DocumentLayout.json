@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\webapi\\controllers\\tipodemovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\tipodemovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicadatos\\repositorios\\repositoriotipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriotipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cualtamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusomovimientosdestock\\cualtamovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\webapi\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicanegocio\\interfacesrepositorios\\irepositoriotipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriotipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicanegocio\\dominio\\tipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\tipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TipoDeMovimientoController.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Controllers\\TipoDeMovimientoController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\TipoDeMovimientoController.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Controllers\\TipoDeMovimientoController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\TipoDeMovimientoController.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAkwJgAAAANAAAA",
+              "DocumentIndex": 2,
+              "Title": "IRepositorioTipoDeMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioTipoDeMovimiento.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioTipoDeMovimiento.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\InterfacesRepositorios\\IRepositorioTipoDeMovimiento.cs",
+              "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioTipoDeMovimiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T02:13:06.901Z",
+              "WhenOpened": "2024-06-14T13:12:10.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RepositorioTipoDeMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioTipoDeMovimiento.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioTipoDeMovimiento.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioTipoDeMovimiento.cs",
+              "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioTipoDeMovimiento.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA9wCcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:09:58.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoDeMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\Dominio\\TipoDeMovimiento.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\TipoDeMovimiento.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\Dominio\\TipoDeMovimiento.cs",
+              "RelativeToolTip": "LogicaNegocio\\Dominio\\TipoDeMovimiento.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABsAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:09:22.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA/AAAA",
+              "Title": "CUAltaMovimientoDeStock.cs",
+              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
+              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoMovimientosDeStock\\CUAltaMovimientoDeStock.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T01:53:50.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MovimientosDeStockController.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Controllers\\MovimientosDeStockController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\MovimientosDeStockController.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\WebApi\\Controllers\\MovimientosDeStockController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\MovimientosDeStockController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T01:53:10.813Z",
+              "WhenOpened": "2024-06-14T12:08:11.531Z",
               "EditorCaption": ""
             }
           ]
