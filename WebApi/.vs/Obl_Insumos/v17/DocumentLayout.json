@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\dtos\\mappermovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mappermovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RepositorioMovimientosDeStockEF.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAewCEAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T18:19:33.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MapperMovimientoDeStock.cs",
               "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\MapperMovimientoDeStock.cs",
               "RelativeDocumentMoniker": "DTOs\\MapperMovimientoDeStock.cs",
               "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\MapperMovimientoDeStock.cs",
               "RelativeToolTip": "DTOs\\MapperMovimientoDeStock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T18:18:48.329Z",
+              "WhenOpened": "2024-06-14T18:43:27.587Z",
               "EditorCaption": ""
             }
           ]
