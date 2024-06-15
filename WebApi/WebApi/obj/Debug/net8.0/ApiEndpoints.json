@@ -10,13 +10,134 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.PedidosController",
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
     "Method": "Get",
-    "RelativePath": "api/Pedidos",
+    "RelativePath": "api/MovimientosDeStock",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
+    "Method": "Post",
+    "RelativePath": "api/MovimientosDeStock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dtoMovimiento",
+        "Type": "DTOs.DTOMovimientoDeStock",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
+    "Method": "Get",
+    "RelativePath": "api/MovimientosDeStock/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TipoDeMovimientoController",
+    "Method": "Get",
+    "RelativePath": "api/TipoDeMovimiento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TipoDeMovimientoController",
+    "Method": "Post",
+    "RelativePath": "api/TipoDeMovimiento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DtoTipo",
+        "Type": "DTOs.DTOTipoDeMovimiento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TipoDeMovimientoController",
+    "Method": "Delete",
+    "RelativePath": "api/TipoDeMovimiento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TipoDeMovimientoController",
+    "Method": "Put",
+    "RelativePath": "api/TipoDeMovimiento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "DtoTipo",
+        "Type": "DTOs.DTOTipoDeMovimiento",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.TipoDeMovimientoController",
+    "Method": "Get",
+    "RelativePath": "api/TipoDeMovimiento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

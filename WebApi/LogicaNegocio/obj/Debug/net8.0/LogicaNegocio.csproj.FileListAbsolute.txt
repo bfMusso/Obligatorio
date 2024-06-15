@@ -364,3 +364,16 @@ C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\LogicaNegocio\obj\Debu
 C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\refint\LogicaNegocio.dll
 C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.pdb
 C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\ref\LogicaNegocio.dll
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.deps.json
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\bin\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.AssemblyReference.cache
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfoInputs.cache
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.AssemblyInfo.cs
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.sourcelink.json
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.dll
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\refint\LogicaNegocio.dll
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\LogicaNegocio.pdb
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\LogicaNegocio\obj\Debug\net8.0\ref\LogicaNegocio.dll

@@ -65,21 +65,26 @@ namespace WebApi.Controllers
             }
 
             try
-            {   
+            {
                 //Se trae el objeto DTO con el buscar por Id
                 DTOTipoDeMovimiento aBorrar = CUBuscarPorId.Buscar(id);
                 if (aBorrar == null)
-                {   
+                {
                     //Si es null, se devuelve 404
-                    return NotFound("El Tipo de movimiento con el id" + id + "no existe");
+                    return BadRequest("Proporcione un tipo de movimiento valido, " + id + " no existe");
                 }
                 //Si llega hasta aca, se elimina el objeto con el id y devuelve 201
                 CUBaja.Baja(id);
                 return NoContent();
             }
-            catch (ExcepcionCustomException ex) 
-            {   
-                return StatusCode(500, ex.Message);
+            catch (ExcepcionCustomException ex)
+            {
+                return NotFound("El Tipo de movimiento con el id, " + id + " no existe");
+
+            }
+            catch
+            {
+                return StatusCode(500, "Error inesperado.");
             }
         }
 
@@ -135,8 +140,8 @@ namespace WebApi.Controllers
 
             if (id != DtoTipo.Id)
             {
-                //Se devuelve 400 con id no debe ser un valor positivo
-                return BadRequest("El id debe ser un valor positivo.");
+                //Se devuelve 400 con id no es correcto (puede estar en uso)
+                return BadRequest("El id es incorrecto.");
             }
 
             try
