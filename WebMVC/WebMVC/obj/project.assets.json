@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\feder\\.nuget\\packages\\": {}
+    "C:\\Users\\xfer9\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\WebMVC\\WebMVC\\WebMVC.csproj",
+      "projectUniqueName": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\WebMVC.csproj",
       "projectName": "WebMVC",
-      "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\WebMVC\\WebMVC\\WebMVC.csproj",
-      "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\WebMVC\\WebMVC\\obj\\",
+      "projectPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\WebMVC.csproj",
+      "packagesPath": "C:\\Users\\xfer9\\.nuget\\packages\\",
+      "outputPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\xfer9\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
