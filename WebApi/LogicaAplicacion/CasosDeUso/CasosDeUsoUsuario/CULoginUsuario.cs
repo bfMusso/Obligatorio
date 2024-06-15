@@ -1,4 +1,5 @@
-﻿using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
+﻿using DTOs;
+using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario
 {
-    public class CULoginUsuario : ICULogin<Usuario>
+    public class CULoginUsuario : ICULogin<DTOUsuario>
     {
 
         public IRepositorioUsuarios Repo { get; set; }
@@ -20,10 +21,13 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario
             Repo = repo;
         }
 
-        public Usuario Login(string mail, string password)
+        public DTOUsuario Login(string mail, string password)
         {
             string encriptado = Repo.EncriptarPassword(password);
-            return Repo.BuscarPorMail(mail, encriptado); //Cambiar para agregar Primer user
+            Usuario usuario = Repo.BuscarPorMail(mail, encriptado);
+
+           
+            return MapperUsuarios.ToDTOUsuario(usuario); 
         }
 
     }

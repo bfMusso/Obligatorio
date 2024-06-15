@@ -176,7 +176,7 @@ namespace LogicaDatos.Repositorios
 
                 if (usu != null)
                 {
-                    if (usu.TipoUsuario == Usuario.TipoDeUsuario.Encargado)
+                    if (usu.Rol == "Encargado")
                     {
                         retorno = true;
                     }

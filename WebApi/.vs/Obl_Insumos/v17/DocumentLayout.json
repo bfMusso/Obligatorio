@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\token\\manejadortoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\token\\manejadortoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\logicadatos\\migrations\\20240615165513_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\migrations\\20240615165513_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\logicaaplicacion\\casosdeuso\\casosdeusousuario\\culoginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\casosdeuso\\casosdeusousuario\\culoginusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\dtos\\mapperusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mapperusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\dtos\\dtousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\logicaaplicacion\\interfacescasosdeuso\\usuario\\iculogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0C3852-01F3-4BFC-A650-40E3553CC219}|LogicaAplicacion\\LogicaAplicacion.csproj|solutionrelative:logicaaplicacion\\interfacescasosdeuso\\usuario\\iculogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\dtos\\dtousuariologueado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtousuariologueado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\logicanegocio\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\controllers\\tipodemovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\tipodemovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +78,154 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240615165513_Login.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaDatos\\Migrations\\20240615165513_Login.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Migrations\\20240615165513_Login.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaDatos\\Migrations\\20240615165513_Login.cs",
+              "RelativeToolTip": "LogicaDatos\\Migrations\\20240615165513_Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T16:55:13.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T16:40:44.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ManejadorToken.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Token\\ManejadorToken.cs",
+              "RelativeDocumentMoniker": "WebApi\\Token\\ManejadorToken.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Token\\ManejadorToken.cs",
+              "RelativeToolTip": "WebApi\\Token\\ManejadorToken.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T16:08:54.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-15T16:08:20.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:49:29.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CULoginUsuario.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoUsuario\\CULoginUsuario.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoUsuario\\CULoginUsuario.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaAplicacion\\CasosDeUso\\CasosDeUsoUsuario\\CULoginUsuario.cs",
+              "RelativeToolTip": "LogicaAplicacion\\CasosDeUso\\CasosDeUsoUsuario\\CULoginUsuario.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:15:27.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICULogin.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaAplicacion\\InterfacesCasosDeUso\\Usuario\\ICULogin.cs",
+              "RelativeDocumentMoniker": "LogicaAplicacion\\InterfacesCasosDeUso\\Usuario\\ICULogin.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaAplicacion\\InterfacesCasosDeUso\\Usuario\\ICULogin.cs",
+              "RelativeToolTip": "LogicaAplicacion\\InterfacesCasosDeUso\\Usuario\\ICULogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:42:38.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MapperUsuarios.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\MapperUsuarios.cs",
+              "RelativeDocumentMoniker": "DTOs\\MapperUsuarios.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\MapperUsuarios.cs",
+              "RelativeToolTip": "DTOs\\MapperUsuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:41:58.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositorioMovimientosDeStockEF.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
+              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
+              "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAjwLUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:33:12.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaNegocio\\Dominio\\Usuario.cs",
+              "RelativeDocumentMoniker": "LogicaNegocio\\Dominio\\Usuario.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaNegocio\\Dominio\\Usuario.cs",
+              "RelativeToolTip": "LogicaNegocio\\Dominio\\Usuario.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwC0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:29:37.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DTOUsuarioLogueado.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\DTOUsuarioLogueado.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOUsuarioLogueado.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\DTOUsuarioLogueado.cs",
+              "RelativeToolTip": "DTOs\\DTOUsuarioLogueado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:25:09.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DTOUsuario.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\DTOUsuario.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOUsuario.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\DTOUsuario.cs",
+              "RelativeToolTip": "DTOs\\DTOUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:16:40.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "TipoDeMovimientoController.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\TipoDeMovimientoController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\TipoDeMovimientoController.cs",
@@ -38,8 +233,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\TipoDeMovimientoController.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAuwFYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T00:00:25.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T00:00:25.084Z"
             }
           ]
         }
