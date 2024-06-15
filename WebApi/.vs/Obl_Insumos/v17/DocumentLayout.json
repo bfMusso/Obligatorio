@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\",
+  "WorkspaceRootPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriomovimientosdestockef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webapi\\dtos\\mappermovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mappermovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\controllers\\tipodemovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\tipodemovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RepositorioMovimientosDeStockEF.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioMovimientosDeStockEF.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAlwIsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T18:19:33.06Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapperMovimientoDeStock.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\MapperMovimientoDeStock.cs",
-              "RelativeDocumentMoniker": "DTOs\\MapperMovimientoDeStock.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\MapperMovimientoDeStock.cs",
-              "RelativeToolTip": "DTOs\\MapperMovimientoDeStock.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAOAAAA",
+              "DocumentIndex": 0,
+              "Title": "TipoDeMovimientoController.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\TipoDeMovimientoController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\TipoDeMovimientoController.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\TipoDeMovimientoController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\TipoDeMovimientoController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAuwFYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T18:18:48.329Z",
+              "WhenOpened": "2024-06-15T00:00:25.084Z",
               "EditorCaption": ""
             }
           ]

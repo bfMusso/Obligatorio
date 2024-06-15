@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LdymN2Ds/30=",
+  "dgSpecHash": "jssOLw7p15H8hqSNnx8PmF5/5bVSJOLayuxOEtK8xPGUgFqcZFCrYWxk4WaFhXuN50d7Q/dSuddLcd8zJr8QOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj",
+  "projectFilePath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\feder\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512"
+    "C:\\Users\\xfer9\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512"
   ],
   "logs": []
 }

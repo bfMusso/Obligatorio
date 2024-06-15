@@ -83,7 +83,7 @@ namespace WebApi.Controllers
                 }
                 if (dtoMovimiento.ArticuloDeMovimiento <= 0)
                 {
-                    return BadRequest("Problemas con el usuario, Id de articulo debe ser mayor a 0.");
+                    return BadRequest("Problemas con el articulo, Id de articulo debe ser mayor a 0.");
                 }
                 if (dtoMovimiento.UsuarioDeMovimiento <= 0)
                 {
