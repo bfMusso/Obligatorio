@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.InterfacesCasosDeUso.Usuario
 {
-    public interface ICUBuscarConMail<Usuario>
+    public interface ICUBuscarConMail<T>
     {
-        Usuario BuscarUsuarioConMail(string mail);
+        T BuscarUsuarioConMail(string mail);
     }
 }

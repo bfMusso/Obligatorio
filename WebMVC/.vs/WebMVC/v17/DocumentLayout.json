@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\dtos\\dtomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtomovimientodestock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\dtos\\dtoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\dtos\\dtotipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtotipodemovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\dtos\\dtousuariologueado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtousuariologueado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\movimientosdestock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\movimientosdestock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +50,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswHYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:13:39.022Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovimientosDeStockController.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\MovimientosDeStockController.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\MovimientosDeStockController.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAIwK4AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T22:11:48.345Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -22,6 +91,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DTOArticulos.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOArticulos.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOArticulos.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOArticulos.cs",
+              "RelativeToolTip": "DTOs\\DTOArticulos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T01:24:16.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\Usuarios\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Usuarios\\Login.cshtml",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\Usuarios\\Login.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Usuarios\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T00:18:34.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwCMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-16T00:12:40.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DTOTipoDeMovimiento.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOTipoDeMovimiento.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOTipoDeMovimiento.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOTipoDeMovimiento.cs",
+              "RelativeToolTip": "DTOs\\DTOTipoDeMovimiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:08:28.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DTOUsuarioLogueado.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOUsuarioLogueado.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOUsuarioLogueado.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOUsuarioLogueado.cs",
+              "RelativeToolTip": "DTOs\\DTOUsuarioLogueado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T23:25:09.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\MovimientosDeStock\\Create.cshtml",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\Create.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\MovimientosDeStock\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T22:37:28.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DTOMovimientoDeStock.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOMovimientoDeStock.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOMovimientoDeStock.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOMovimientoDeStock.cs",
+              "RelativeToolTip": "DTOs\\DTOMovimientoDeStock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T22:32:37.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Program.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Program.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Program.cs",
+              "RelativeToolTip": "WebMVC\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T00:33:29.234Z",
+              "EditorCaption": ""
             }
           ]
         }

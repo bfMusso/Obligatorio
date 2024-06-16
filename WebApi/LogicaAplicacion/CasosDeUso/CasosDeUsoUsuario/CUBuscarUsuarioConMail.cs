@@ -1,4 +1,5 @@
-﻿using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
+﻿using DTOs;
+using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario
 {
-    public class CUBuscarUsuarioConMail : ICUBuscarConMail<Usuario>
+    public class CUBuscarUsuarioConMail : ICUBuscarConMail<DTOUsuario>
     {
         public IRepositorioUsuarios Repo { get; set; }
 
@@ -18,9 +19,9 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario
             Repo = repo;
         }
 
-        public Usuario BuscarUsuarioConMail(string mail)
+        public DTOUsuario BuscarUsuarioConMail(string mail)
         {
-            return Repo.TraerUsuarioConMail(mail);
+            return MapperUsuarios.ToDTOUsuario(Repo.TraerUsuarioConMail(mail));
         }
     }
 }

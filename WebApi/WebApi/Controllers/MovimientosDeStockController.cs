@@ -1,6 +1,8 @@
 ﻿using DTOs;
+using LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
 using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
+using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaNegocio.Excepciones;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,19 +19,38 @@ namespace WebApi.Controllers
 
         public ICUBuscarMovimientoPorId<DTOMovimientoDeStock> CUBuscarMovimientoPorId { get; set; }
 
-        public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId)
+        public ICUListarMovimientosDeStock<DTOMovimientoDeStock> CUListarMovimientosDeStock { get; set; }
+
+         //public ICUBuscarConMail<DTOUsuario> CUBuscarUsuarioConMail { get; set; }
+
+        public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
+            CUListarMovimientosDeStock = cUListarMovimientosDeStock;
+            //CUBuscarUsuarioConMail = cUBuscarUsuarioConMail;
         }
 
 
 
         // GET: api/<MovimientosDeStockController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult ListarTodo()
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                List<DTOMovimientoDeStock> DTOMovimientosDeStocks = CUListarMovimientosDeStock.Listar();
+                return Ok(DTOMovimientosDeStocks);
+            }
+            catch (ExcepcionCustomException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error inesperado: " + ex.Message);
+            }
+
         }
 
         // GET api/<MovimientosDeStockController>/5
@@ -73,6 +94,10 @@ namespace WebApi.Controllers
         {
             try
             {
+                //DTOUsuario usuario = CUBuscarUsuarioConMail.BuscarUsuarioConMail(dtoMovimiento.UsuarioDeMovimientoEmail);
+                
+                //dtoMovimiento.UsuarioDeMovimiento = usuario.Id; 
+
                 if (dtoMovimiento == null)
                 {
                     return BadRequest("Datos incorrectos");
@@ -81,7 +106,7 @@ namespace WebApi.Controllers
                 {
                     return BadRequest("El Id de nuevo elemento no puede ser distinto a 0.");
                 }
-                if (dtoMovimiento.ArticuloDeMovimiento <= 0)
+                if (dtoMovimiento.ArticuloDeMovimientoId <= 0)
                 {
                     return BadRequest("Problemas con el articulo, Id de articulo debe ser mayor a 0.");
                 }

@@ -3,11 +3,15 @@ using DTOs;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoArticulo;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoTipoDeMovimiento;
+using LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
 using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
+using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaDatos.Repositorios;
 using LogicaNegocio.InterfacesRepositorios;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace WebApi
 {
@@ -17,11 +21,15 @@ namespace WebApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            //Usuarios
+            builder.Services.AddScoped<ICULogin<DTOUsuario>, CULoginUsuario>();
+            builder.Services.AddScoped<ICUBuscarConMail<DTOUsuario>, CUBuscarUsuarioConMail>();
             //Articulos
             builder.Services.AddScoped<ICUListar<DTOListarArticulos>, CUListarArticulos>();
             //Movimiento de Stock
             builder.Services.AddScoped<ICUAltaMovimientoDeStock<DTOMovimientoDeStock>, CUAltaMovimientoDeStock>();
             builder.Services.AddScoped<ICUBuscarMovimientoPorId<DTOMovimientoDeStock>, CUBuscarMovimientoDeStockPorId>();
+            builder.Services.AddScoped<ICUListarMovimientosDeStock<DTOMovimientoDeStock>, CUListarMovimientosDeStock>();
             //Tipo de movimiento de Stock
             builder.Services.AddScoped<ICUAlta<DTOTipoDeMovimiento>, CUAltaTipoDeMovimiento>();
             builder.Services.AddScoped<ICUActualizar<DTOTipoDeMovimiento>, CUActualizarTipoDeMovimiento>();
@@ -29,11 +37,15 @@ namespace WebApi
             builder.Services.AddScoped<ICUBuscarPorId<DTOTipoDeMovimiento>, CUBuscarTipoDeMovimientoPorId>();
             builder.Services.AddScoped<ICUListar<DTOTipoDeMovimiento>, CUListarTiposDeMovimiento>();
 
+
+                  
+
             //Repositorios
             builder.Services.AddScoped<IRepositorioArticulos, RepositorioArticulosEF>();
             builder.Services.AddScoped<IRepositorioUsuarios, RepositorioUsuariosEF>();
             builder.Services.AddScoped<IRepositorioMovimientoDeStock, RepositorioMovimientosDeStockEF>();
             builder.Services.AddScoped<IRepositorioTipoDeMovimiento, RepositorioTipoDeMovimiento>();
+       
 
             //conexion BD
             string strCon = builder.Configuration.GetConnectionString("conekt");
@@ -44,6 +56,31 @@ namespace WebApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
+            //Lineas de JWT
+
+            var claveSecreta = "ZWRpw6fDo28gZW0gY29tcHV0YWRvcmE=";
+            builder.Services.AddAuthentication(aut => {
+                aut.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                aut.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(aut => {
+                aut.RequireHttpsMetadata = false;
+                aut.SaveToken = true;
+                aut.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.ASCII.GetBytes(claveSecreta)),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
+
+
+            //FIN de Lineas JWT
+
+
 
             var app = builder.Build();
 

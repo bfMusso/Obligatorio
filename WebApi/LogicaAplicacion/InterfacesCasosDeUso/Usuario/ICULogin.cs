@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.InterfacesCasosDeUso.Usuario
 {
-    public interface ICULogin<Usuario>
+    public interface ICULogin<T>
     {
-        Usuario Login(string mail, string password);
+        T Login(string mail, string password);
     }
 }

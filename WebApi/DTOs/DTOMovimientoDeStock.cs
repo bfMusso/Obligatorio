@@ -13,13 +13,15 @@ namespace DTOs
 
         public DateTime FechaYHora { get; set; }
 
-        public int ArticuloDeMovimiento { get; set; }
+        public int ArticuloDeMovimientoId { get; set; }
 
         public int CantidadArticulo { get; set; }
 
         public int UsuarioDeMovimiento { get; set; }
 
-        public int Tipo { get; set; }
+        //public string UsuarioDeMovimientoEmail { get; set; }
+
+        public int TipoDeMovimientoId { get; set; }
 
     }
 }

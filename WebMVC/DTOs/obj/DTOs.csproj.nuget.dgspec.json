@@ -27,11 +27,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj": {
-                "projectPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

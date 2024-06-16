@@ -5,9 +5,7 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": [
-      "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj"
-    ]
+    "net8.0": []
   },
   "packageFolders": {
     "C:\\Users\\xfer9\\.nuget\\packages\\": {}
@@ -35,11 +33,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj": {
-              "projectPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -75,16 +69,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "No se encuentra el proyecto \"C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
-      "libraryId": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\LogicaNegocio\\LogicaNegocio.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

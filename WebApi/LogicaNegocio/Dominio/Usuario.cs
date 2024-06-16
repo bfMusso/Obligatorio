@@ -14,13 +14,7 @@ namespace LogicaNegocio.Dominio
     public class Usuario: IValidable
     {
 
-        public enum TipoDeUsuario
-        {
-            Administrador,
-            Encargado
-
-        }
-
+      
         public int Id { get; set; }
 
         [Required(ErrorMessage = "El mail es obligatorio")]
@@ -49,13 +43,13 @@ namespace LogicaNegocio.Dominio
         public String PasswordEnctriptado { get; set; }
 
         [Required(ErrorMessage = "El campo tipo de usuario es obligatorio.")]
-        public TipoDeUsuario? TipoUsuario {  get; set; }
+        public string Rol {  get; set; }
 
 
         public void Validar()
         {
 
-            if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Nombre) || string.IsNullOrEmpty(Apellido) || string.IsNullOrEmpty(Password) || !TipoUsuario.HasValue) {
+            if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Nombre) || string.IsNullOrEmpty(Apellido) || string.IsNullOrEmpty(Password) || string.IsNullOrEmpty(Rol)) {
 
                 throw new ExcepcionCustomException("Todos los campos son obligatorios.");
 
