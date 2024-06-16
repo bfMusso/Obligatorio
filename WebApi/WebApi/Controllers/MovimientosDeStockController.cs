@@ -1,4 +1,5 @@
 ﻿using DTOs;
+using LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
 using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
@@ -24,14 +25,16 @@ namespace WebApi.Controllers
 
         public ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> CUBuscarMovimientosYTipos { get; set; }
 
+        public ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> CUListarArticulosEnMovimientosEntreFechas { get; set; }
+
         public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId,
-            ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock)
+            ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock, ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> cUListarArticulosEnMovimientosEntreFechas)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
             CUListarMovimientosDeStock = cUListarMovimientosDeStock;
             CUBuscarMovimientosYTipos = cUBuscarMovimientosYTipos;
-
+            CUListarArticulosEnMovimientosEntreFechas = cUListarArticulosEnMovimientosEntreFechas;
         }
 
 
@@ -48,6 +51,33 @@ namespace WebApi.Controllers
                 }
 
                 return Ok(DTOmovimientos);
+            }
+            catch (ExcepcionCustomException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error inesperado: " + ex.Message);
+            }
+        }
+
+        // GET: api/<MovimientosDeStockController>
+        [HttpGet("ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}")]
+        public IActionResult Get(DateTime fecha1, DateTime fecha2)
+        {
+            try
+            {            
+
+                List<DTOListarArticulos> DTOArticulos = CUListarArticulosEnMovimientosEntreFechas.ListarArticulosEntreFechas(fecha1, fecha2);
+
+
+                if (DTOArticulos.Count() <= 0)
+                {
+                    return BadRequest("No hay articulos en movimientos entre las fechas dadas.");
+                }
+
+                return Ok(DTOArticulos);
             }
             catch (ExcepcionCustomException ex)
             {

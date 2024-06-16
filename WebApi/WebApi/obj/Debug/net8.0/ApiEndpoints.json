@@ -52,6 +52,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
+    "Method": "Get",
+    "RelativePath": "api/MovimientosDeStock/ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fecha1",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "fecha2",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
+    "Method": "Get",
+    "RelativePath": "api/MovimientosDeStock/MovimientoPorTipo/{articuloId}/{tipoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articuloId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApi.Controllers.TipoDeMovimientoController",
     "Method": "Get",
     "RelativePath": "api/TipoDeMovimiento",
