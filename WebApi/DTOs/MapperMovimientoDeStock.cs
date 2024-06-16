@@ -102,5 +102,34 @@ namespace DTOs
             }).ToList();
 
         }
+
+
+        public static List<DTOMovimientoStockYTipo> ToDTOsMovimientosDeStockYTipos(List<MovimientoDeStock> MovimientosDeStock)
+        {
+
+            return MovimientosDeStock.Select(dto => new DTOMovimientoStockYTipo
+            {
+                Id = dto.Id,
+
+                FechaYHora = dto.FechaYHora,
+
+                ArticuloDeMovimiento = dto.ArticuloDeMovimiento.Id,
+
+                CantidadArticulo = dto.CantidadArticulo,
+
+                UsuarioDeMovimiento = dto.UsuarioDeMovimiento.Id,
+
+                Tipo = dto.Tipo.Id,
+
+                Nombre = dto.Tipo.Nombre,
+
+                tipoDeCambioEnStock = dto.Tipo.tipoDeCambioEnStock
+
+
+
+            }).ToList();
+
+        }
+
     }
 }

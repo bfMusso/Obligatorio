@@ -78,13 +78,14 @@ namespace LogicaDatos.Repositorios
                                   .Include(m => m.ArticuloDeMovimiento)
                                   .Include(m => m.UsuarioDeMovimiento)
                                   .Include(m => m.Tipo)
-                                  .Where(m => m.ArticuloDeMovimiento.Id == id && m.Tipo == tipo)
+                                  .Where(m => m.ArticuloDeMovimiento.Id == id && m.Tipo.Id == tipo.Id)
                                   .OrderByDescending(m => m.FechaYHora)
                                   .ThenBy(m => m.CantidadArticulo)
                                   .ToList();
             //Retornamos elementos encontrados
             return movimientosEncontrados;
         }
+
 
         public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final)
         {

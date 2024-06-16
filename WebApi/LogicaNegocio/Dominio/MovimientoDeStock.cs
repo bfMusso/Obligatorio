@@ -18,7 +18,7 @@ namespace LogicaNegocio.Dominio
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Fecha y hora son obligatorios.")]
-        public DateTime FechaYHora = DateTime.Now;
+        public DateTime FechaYHora { get; set; } = DateTime.Now;
 
         [Required(ErrorMessage = "Debe seleccionarse un Articulo.")]
         public Articulo ArticuloDeMovimiento { get; set; }

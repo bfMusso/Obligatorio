@@ -3,6 +3,7 @@ using LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
 using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
+using LogicaNegocio.Dominio;
 using LogicaNegocio.Excepciones;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,16 +22,42 @@ namespace WebApi.Controllers
 
         public ICUListarMovimientosDeStock<DTOMovimientoDeStock> CUListarMovimientosDeStock { get; set; }
 
-         //public ICUBuscarConMail<DTOUsuario> CUBuscarUsuarioConMail { get; set; }
+        public ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> CUBuscarMovimientosYTipos { get; set; }
 
-        public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock)
+        public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId,
+            ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
             CUListarMovimientosDeStock = cUListarMovimientosDeStock;
-            //CUBuscarUsuarioConMail = cUBuscarUsuarioConMail;
+            CUBuscarMovimientosYTipos = cUBuscarMovimientosYTipos;
+
         }
 
+
+        // GET: api/<MovimientosDeStockController>
+        [HttpGet("MovimientoPorTipo/{articuloId}/{tipoId}")]
+        public IActionResult Get(int articuloId, int tipoId)
+        {
+            try
+            {
+                List<DTOMovimientoStockYTipo> DTOmovimientos = CUBuscarMovimientosYTipos.ListarMovimientosYTipos(articuloId, tipoId);
+
+                if (DTOmovimientos.Count() <= 0) {
+                    return BadRequest("No hay elementos que coincidan.");
+                }
+
+                return Ok(DTOmovimientos);
+            }
+            catch (ExcepcionCustomException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error inesperado: " + ex.Message);
+            }
+        }
 
 
         // GET: api/<MovimientosDeStockController>
@@ -44,7 +71,7 @@ namespace WebApi.Controllers
             }
             catch (ExcepcionCustomException ex)
             {
-                return BadRequest(ex.Message);
+                return NotFound(ex.Message);
             }
             catch (Exception ex)
             {
@@ -80,7 +107,7 @@ namespace WebApi.Controllers
             }
             catch (ExcepcionCustomException ex)
             {
-                return BadRequest(ex.Message);
+                return NotFound(ex.Message);
             }
             catch
             {
@@ -121,7 +148,7 @@ namespace WebApi.Controllers
             catch (ExcepcionCustomException ex)
             {
 
-                return BadRequest(ex.Message);
+                return NotFound(ex.Message);
 
             }
             catch (Exception ex)

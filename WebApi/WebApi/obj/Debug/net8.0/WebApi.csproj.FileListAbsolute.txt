@@ -1226,3 +1226,4 @@ C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\WebApi.
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\ref\WebApi.dll
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
