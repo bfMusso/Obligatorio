@@ -67,6 +67,7 @@ namespace WebApi.Controllers
                 }
                 return Ok(new DTOUsuarioLogueado()
                 {
+                    Email = DtoUsuario.Email,
                     Rol = DtoUsuario.Rol,
                     Token = ManejadorToken.GenerarToken(DtoUsuario)
                 });

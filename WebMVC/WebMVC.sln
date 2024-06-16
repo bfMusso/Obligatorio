@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebMVC", "WebMVC\WebMVC.csproj", "{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOs", "DTOs\DTOs.csproj", "{4C8DBBE9-B339-4573-A862-CB48F9310800}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOs", "DTOs\DTOs.csproj", "{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C8DBBE9-B339-4573-A862-CB48F9310800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C8DBBE9-B339-4573-A862-CB48F9310800}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C8DBBE9-B339-4573-A862-CB48F9310800}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C8DBBE9-B339-4573-A862-CB48F9310800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -28,12 +28,14 @@ namespace WebApi
             //Movimiento de Stock
             builder.Services.AddScoped<ICUAltaMovimientoDeStock<DTOMovimientoDeStock>, CUAltaMovimientoDeStock>();
             builder.Services.AddScoped<ICUBuscarMovimientoPorId<DTOMovimientoDeStock>, CUBuscarMovimientoDeStockPorId>();
+            builder.Services.AddScoped<ICUListarMovimientosDeStock<DTOMovimientoDeStock>, CUListarMovimientosDeStock>();
             //Tipo de movimiento de Stock
             builder.Services.AddScoped<ICUAlta<DTOTipoDeMovimiento>, CUAltaTipoDeMovimiento>();
             builder.Services.AddScoped<ICUActualizar<DTOTipoDeMovimiento>, CUActualizarTipoDeMovimiento>();
             builder.Services.AddScoped<ICUBaja<DTOTipoDeMovimiento>, CUBajaTipoDeMovimiento>();
             builder.Services.AddScoped<ICUBuscarPorId<DTOTipoDeMovimiento>, CUBuscarTipoDeMovimientoPorId>();
             builder.Services.AddScoped<ICUListar<DTOTipoDeMovimiento>, CUListarTiposDeMovimiento>();
+            builder.Services.AddScoped<ICUBuscarConMail<DTOUsuario>, CUBuscarUsuarioConMail>();        
 
             //Repositorios
             builder.Services.AddScoped<IRepositorioArticulos, RepositorioArticulosEF>();

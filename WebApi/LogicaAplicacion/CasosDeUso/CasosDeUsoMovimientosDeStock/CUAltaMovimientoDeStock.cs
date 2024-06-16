@@ -37,9 +37,9 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
         {
             //Mapeamos a Objeto MovimientoDeStock desde DTO
             MovimientoDeStock movimientoDeStock = MapperMovimientoDeStock.ToMovimientoDeStock(dto);
-            Articulo art = RepoArticulo.GetById(dto.ArticuloDeMovimiento);
+            Articulo art = RepoArticulo.GetById(dto.ArticuloDeMovimientoId);
             Usuario usu = RepoUsuario.GetById(dto.UsuarioDeMovimiento);
-            TipoDeMovimiento tipo = RepoTipoDeMovimiento.GetById(dto.Tipo);
+            TipoDeMovimiento tipo = RepoTipoDeMovimiento.GetById(dto.TipoDeMovimientoId);
             //Si no es null hacemos el Add al repo
             if (movimientoDeStock != null)
             {

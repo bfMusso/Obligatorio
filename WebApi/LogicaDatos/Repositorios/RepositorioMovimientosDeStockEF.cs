@@ -56,6 +56,7 @@ namespace LogicaDatos.Repositorios
             return Contexto.MovimientosDeStock
                            .Include(m => m.ArticuloDeMovimiento)
                            .Include(m => m.UsuarioDeMovimiento)
+                           .Include(m => m.Tipo)
                            .ToList();
         }
 
