@@ -8,6 +8,7 @@ namespace DTOs
 {
     public class DTOUsuarioLogueado
     {
+        public int Id { get; set; }
         public string Rol { get; set; }
 
         public string Token { get; set; }

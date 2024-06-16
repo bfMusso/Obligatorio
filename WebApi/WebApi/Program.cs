@@ -23,6 +23,7 @@ namespace WebApi
 
             //Usuarios
             builder.Services.AddScoped<ICULogin<DTOUsuario>, CULoginUsuario>();
+            builder.Services.AddScoped<ICUBuscarConMail<DTOUsuario>, CUBuscarUsuarioConMail>();
             //Articulos
             builder.Services.AddScoped<ICUListar<DTOListarArticulos>, CUListarArticulos>();
             //Movimiento de Stock
@@ -35,7 +36,9 @@ namespace WebApi
             builder.Services.AddScoped<ICUBaja<DTOTipoDeMovimiento>, CUBajaTipoDeMovimiento>();
             builder.Services.AddScoped<ICUBuscarPorId<DTOTipoDeMovimiento>, CUBuscarTipoDeMovimientoPorId>();
             builder.Services.AddScoped<ICUListar<DTOTipoDeMovimiento>, CUListarTiposDeMovimiento>();
-            builder.Services.AddScoped<ICUBuscarConMail<DTOUsuario>, CUBuscarUsuarioConMail>();        
+
+
+                  
 
             //Repositorios
             builder.Services.AddScoped<IRepositorioArticulos, RepositorioArticulosEF>();

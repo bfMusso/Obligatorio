@@ -14,9 +14,13 @@ namespace WebApi.Controllers
     {
         public ICULogin<DTOUsuario> CULoginUsuario { get; set; }
 
-        public UsuariosController(ICULogin<DTOUsuario> cULoginUsuario) 
+        public ICUBuscarConMail<DTOUsuario> CUBuscarUsuarioConMail { get; set; }
+    
+
+        public UsuariosController(ICULogin<DTOUsuario> cULoginUsuario, ICUBuscarConMail<DTOUsuario> cUBuscarUsuarioConMail) 
         {
             CULoginUsuario = cULoginUsuario;
+            CUBuscarUsuarioConMail = cUBuscarUsuarioConMail;
         }
 
         // GET: api/<UsuariosController>
@@ -64,9 +68,12 @@ namespace WebApi.Controllers
                 if(DtoUsuario == null)
                 {
                     return NotFound("Datos incorrectos");
-                }
+                }                                 
+
                 return Ok(new DTOUsuarioLogueado()
-                {
+                {                
+                     
+                    Id = DtoUsuario.Id,
                     Email = DtoUsuario.Email,
                     Rol = DtoUsuario.Rol,
                     Token = ManejadorToken.GenerarToken(DtoUsuario)

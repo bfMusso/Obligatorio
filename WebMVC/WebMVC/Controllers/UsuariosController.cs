@@ -99,6 +99,7 @@ namespace WebMVC.Controllers
         [HttpPost]
         public IActionResult IniciarSesion(DTOUsuarioLogin DtoUsuario)
         {
+
             try
             {
                 //Valida el DTO
@@ -116,7 +117,9 @@ namespace WebMVC.Controllers
                         {
                             HttpContext.Session.SetString("Rol", usuarioLogueado.Rol);
                             HttpContext.Session.SetString("Token", usuarioLogueado.Token);
-                            HttpContext.Session.SetString("Email", usuarioLogueado.Email);
+                            // HttpContext.Session.SetString("Id", usuarioLogueado.Id.ToString());
+                            HttpContext.Session.SetInt32("Id", usuarioLogueado.Id);
+                            HttpContext.Session.SetString("Email", usuarioLogueado.Email);                          
                             return RedirectToAction("Index", "Home"); //Ir la vista del controller deseado tras login exitoso.
                         }
                         ViewBag.Mensaje = "Datos incorrectos";

@@ -31,8 +31,14 @@ namespace WebMVC.Controllers
         // GET: MovimientosDeStockController/Create
         public ActionResult Create()
         {
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }//Fin Checkeo sesion
+
+
             DTOMovimientoDeStock movDTO = new DTOMovimientoDeStock();
-            movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
+            //movDTO.UsuarioDeMovimiento = HttpContext.Session.GetString("Id");
             movDTO.Articulos = ObtenerArticulos();
             movDTO.TiposDeMovimiento = ObtenerTiposDeMovimiento();
             return View(movDTO);      
@@ -43,13 +49,25 @@ namespace WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(DTOMovimientoDeStock movDTO)
         {
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }//F
+
+
+
+
             try
             {
+                // movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
+                //movDTO.UsuarioDeMovimiento = int.Parse(HttpContext.Session.GetString("Id"));
+                //movDTO.UsuarioDeMovimiento = int.TryParse(HttpContext.Session.GetString("Id"), out int userId) ? userId : 0;
+                movDTO.UsuarioDeMovimiento = (int)HttpContext.Session.GetInt32("Id");
+
+
                 if (ModelState.IsValid)
                 {
-
-                    //movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
-                    movDTO.UsuarioDeMovimientoEmail = "Fernando@gmail.com";
+                                   
                     HttpClient cliente = new HttpClient();
                     string url = UrlApi + "MovimientosDeStock";
                     var tarea = cliente.PostAsJsonAsync(url, movDTO);
@@ -77,7 +95,7 @@ namespace WebMVC.Controllers
             //movDTO.Usuarios = ObtenerUsuarios();
             movDTO.Articulos = ObtenerArticulos();
             movDTO.TiposDeMovimiento = ObtenerTiposDeMovimiento();
-            movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
+            //movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
             return View(movDTO);
         }
 

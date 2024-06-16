@@ -13,6 +13,7 @@ namespace DTOs
         {
             return new DTOUsuario()
             {
+                Id = usuario.Id,
                 Email = usuario.Email,
                 Password = usuario.Password,
                 Rol = usuario.Rol

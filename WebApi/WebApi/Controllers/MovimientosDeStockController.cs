@@ -21,14 +21,14 @@ namespace WebApi.Controllers
 
         public ICUListarMovimientosDeStock<DTOMovimientoDeStock> CUListarMovimientosDeStock { get; set; }
 
-        public ICUBuscarConMail<DTOUsuario> CUBuscarUsuarioConMail { get; set; }
+         //public ICUBuscarConMail<DTOUsuario> CUBuscarUsuarioConMail { get; set; }
 
-        public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock, ICUBuscarConMail<DTOUsuario> cUBuscarUsuarioConMail)
+        public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
             CUListarMovimientosDeStock = cUListarMovimientosDeStock;
-            CUBuscarUsuarioConMail = cUBuscarUsuarioConMail;
+            //CUBuscarUsuarioConMail = cUBuscarUsuarioConMail;
         }
 
 
@@ -94,9 +94,9 @@ namespace WebApi.Controllers
         {
             try
             {
-                DTOUsuario usuario = CUBuscarUsuarioConMail.BuscarUsuarioConMail(dtoMovimiento.UsuarioDeMovimientoEmail);
+                //DTOUsuario usuario = CUBuscarUsuarioConMail.BuscarUsuarioConMail(dtoMovimiento.UsuarioDeMovimientoEmail);
                 
-                dtoMovimiento.UsuarioDeMovimiento = usuario.Id; 
+                //dtoMovimiento.UsuarioDeMovimiento = usuario.Id; 
 
                 if (dtoMovimiento == null)
                 {
