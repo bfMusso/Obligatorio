@@ -19,5 +19,29 @@ namespace DTOs
                 Rol = usuario.Rol
             };
         }
+
+
+        public static List<DTOUsuario> ToListarDTOUsuarios(List<Usuario> usuarios)
+        {
+            return usuarios.Select(usuario => new DTOUsuario
+            {
+                Email = usuario.Email,
+                Password = usuario.Password,
+                Rol = usuario.Rol
+
+            }).ToList();
+
+        }
+
+        public static List<DTORoles> ToListarDTORoles(List<Usuario> usuarios)
+        {
+            return usuarios.Select(usuario => new DTORoles
+            {
+                Rol = usuario.Rol
+
+            }).ToList();
+
+        }
+
     }
 }
