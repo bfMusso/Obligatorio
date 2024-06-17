@@ -14,7 +14,5 @@ namespace DTOs
 
         public string? Rol { get; set; }
 
-        public List<DTORoles> Roles { get; set; } = new List<DTORoles> { };
-
     }
 }

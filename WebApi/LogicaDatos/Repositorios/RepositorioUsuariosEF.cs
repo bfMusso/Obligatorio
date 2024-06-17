@@ -37,14 +37,6 @@ namespace LogicaDatos.Repositorios
             return Contexto.Usuarios.ToList();
         }
 
-        public List<Usuario> GetDistinctAll()
-        {
-            return Contexto.Usuarios
-                            .GroupBy(u => u.Rol)
-                            .Select(g => g.First())
-                            .ToList();
-        }
-
 
         public Usuario GetById(int id)
         {

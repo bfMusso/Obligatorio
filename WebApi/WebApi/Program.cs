@@ -23,8 +23,7 @@ namespace WebApi
 
             //Usuarios
             builder.Services.AddScoped<ICULogin<DTOUsuario>, CULoginUsuario>();
-            builder.Services.AddScoped<ICUBuscarConMail<DTOUsuario>, CUBuscarUsuarioConMail>();
-            builder.Services.AddScoped<ICUListar<DTORoles>, CUListarUsuarios>();
+            builder.Services.AddScoped<ICUBuscarConMail<DTOUsuario>, CUBuscarUsuarioConMail>();           
             //Articulos
             builder.Services.AddScoped<ICUListar<DTOListarArticulos>, CUListarArticulos>();
             //Movimiento de Stock
@@ -34,14 +33,12 @@ namespace WebApi
             builder.Services.AddScoped<ICUListarMovimientosYTipos<DTOMovimientoStockYTipo>, CUListarMovimientosDeStockYTipos>();
             builder.Services.AddScoped<ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos>, CUListarArticulosEnMovimientosEntreFechas>();
         //Tipo de movimiento de Stock
-        builder.Services.AddScoped<ICUAlta<DTOTipoDeMovimiento>, CUAltaTipoDeMovimiento>();
+            builder.Services.AddScoped<ICUAlta<DTOTipoDeMovimiento>, CUAltaTipoDeMovimiento>();
             builder.Services.AddScoped<ICUActualizar<DTOTipoDeMovimiento>, CUActualizarTipoDeMovimiento>();
             builder.Services.AddScoped<ICUBaja<DTOTipoDeMovimiento>, CUBajaTipoDeMovimiento>();
             builder.Services.AddScoped<ICUBuscarPorId<DTOTipoDeMovimiento>, CUBuscarTipoDeMovimientoPorId>();
             builder.Services.AddScoped<ICUListar<DTOTipoDeMovimiento>, CUListarTiposDeMovimiento>();
-
-
-                  
+  
 
             //Repositorios
             builder.Services.AddScoped<IRepositorioArticulos, RepositorioArticulosEF>();
@@ -49,7 +46,6 @@ namespace WebApi
             builder.Services.AddScoped<IRepositorioMovimientoDeStock, RepositorioMovimientosDeStockEF>();
             builder.Services.AddScoped<IRepositorioTipoDeMovimiento, RepositorioTipoDeMovimiento>();
        
-
             //conexion BD
             string strCon = builder.Configuration.GetConnectionString("conekt");
             builder.Services.AddDbContext<LibreriaContext>(options => options.UseSqlServer(strCon));

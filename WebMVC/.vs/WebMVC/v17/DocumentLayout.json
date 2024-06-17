@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\",
+  "WorkspaceRootPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webmvc\\webmvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webmvc\\webmvc\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\usuarios\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webmvc\\webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\users\\feder\\desktop\\2do obligatorio\\obligatorio\\webmvc\\webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\dtos\\dtousuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtousuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -26,43 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "DTOUsuarioLogin.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOUsuarioLogin.cs",
+              "RelativeDocumentMoniker": "DTOs\\DTOUsuarioLogin.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\DTOs\\DTOUsuarioLogin.cs",
+              "RelativeToolTip": "DTOs\\DTOUsuarioLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T23:34:26.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebMVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T18:00:16.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T18:00:16.156Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MovimientosDeStockController.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "RelativeDocumentMoniker": "WebMVC\\Controllers\\MovimientosDeStockController.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "RelativeToolTip": "WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T17:54:10.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T17:54:10.07Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\UsuariosController.cs",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "WebMVC\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "WebMVC\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDUAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T17:53:45.301Z",
               "EditorCaption": ""
@@ -71,14 +97,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\WebMVC\\Views\\Usuarios\\Login.cshtml",
+              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\Usuarios\\Login.cshtml",
               "RelativeDocumentMoniker": "WebMVC\\Views\\Usuarios\\Login.cshtml",
-              "ToolTip": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebMVC\\WebMVC\\Views\\Usuarios\\Login.cshtml",
+              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\Usuarios\\Login.cshtml",
               "RelativeToolTip": "WebMVC\\Views\\Usuarios\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABDAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-17T17:53:37.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T17:53:37.829Z"
             }
           ]
         }
