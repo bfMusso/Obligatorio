@@ -35,7 +35,7 @@ namespace LogicaDatos.Repositorios
             }
             if (!ControlarSiUsuarioExiste(obj.UsuarioDeMovimiento.Id))
             {
-                throw new ExcepcionCustomException("El usuario existe ese usuario de tipo Encargado.");
+                throw new ExcepcionCustomException("Problemas para validar alta debido al usuario.");
             }
 
             //Hacemos el cambio en el stock de articulos

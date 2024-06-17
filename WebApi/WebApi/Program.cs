@@ -24,6 +24,7 @@ namespace WebApi
             //Usuarios
             builder.Services.AddScoped<ICULogin<DTOUsuario>, CULoginUsuario>();
             builder.Services.AddScoped<ICUBuscarConMail<DTOUsuario>, CUBuscarUsuarioConMail>();
+            builder.Services.AddScoped<ICUListar<DTORoles>, CUListarUsuarios>();
             //Articulos
             builder.Services.AddScoped<ICUListar<DTOListarArticulos>, CUListarArticulos>();
             //Movimiento de Stock

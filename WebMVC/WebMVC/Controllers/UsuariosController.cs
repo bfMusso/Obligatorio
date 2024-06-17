@@ -9,11 +9,14 @@ namespace WebMVC.Controllers
 {
     public class UsuariosController : Controller
     {
+
+      
         public string UrlApi;
         public UsuariosController(IConfiguration Config)
         {
             UrlApi = Config.GetValue<string>("URLAPI");
         }
+
 
         // GET: UsuariosController
         public ActionResult Index()
@@ -91,9 +94,25 @@ namespace WebMVC.Controllers
 
         }
 
+        public IActionResult CerrarSesion() {
+
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
+        }
+
         public IActionResult Login()
         {
-            return View();
+            
+            if (HttpContext.Session.GetString("Email") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            HttpContext.Session.Clear();
+
+            DTOUsuarioLogin DtoUsuario = new DTOUsuarioLogin();
+            //movDTO.UsuarioDeMovimiento = HttpContext.Session.GetString("Id");
+            DtoUsuario.Roles = ObtenerUsuarios();
+            return View(DtoUsuario);
         }
 
         [HttpPost]
@@ -119,7 +138,9 @@ namespace WebMVC.Controllers
                             HttpContext.Session.SetString("Token", usuarioLogueado.Token);
                             // HttpContext.Session.SetString("Id", usuarioLogueado.Id.ToString());
                             HttpContext.Session.SetInt32("Id", usuarioLogueado.Id);
-                            HttpContext.Session.SetString("Email", usuarioLogueado.Email);                          
+                            HttpContext.Session.SetString("Email", usuarioLogueado.Email);
+                            //Pasamos el Email a la View bag de Index en Home
+                            TempData["Mensaje"] = usuarioLogueado.Email;
                             return RedirectToAction("Index", "Home"); //Ir la vista del controller deseado tras login exitoso.
                         }
                         ViewBag.Mensaje = "Datos incorrectos";
@@ -142,10 +163,31 @@ namespace WebMVC.Controllers
             }
             catch (Exception ex)
             {
-                ViewBag.Mensaje = "Error:" + ex;
+                ViewBag.Mensaje = "Error:" + ex.Message;
             }
-            return View("Login");
+
+            DtoUsuario.Roles = ObtenerUsuarios();
+            return View("Login", DtoUsuario);
         }
 
+        public List<DTORoles> ObtenerUsuarios()
+        {
+            List<DTORoles> usuarios = new List<DTORoles>();
+            HttpClient cliente = new HttpClient();
+            string url = UrlApi + "Usuarios";
+            var tarea = cliente.GetAsync(url);
+            tarea.Wait();
+            var respuesta = tarea.Result;
+            string cuerpo = HerramientasAPI.LeerContenidoRespuesta(tarea.Result);
+            if (respuesta.IsSuccessStatusCode)
+            {
+                usuarios = JsonConvert.DeserializeObject<List<DTORoles>>(cuerpo);
+            }
+            return usuarios;
+        }
+
+
+
     }
+
 }

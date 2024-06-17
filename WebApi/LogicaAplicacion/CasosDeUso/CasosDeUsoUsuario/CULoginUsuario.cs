@@ -1,6 +1,7 @@
 ﻿using DTOs;
 using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaNegocio.Dominio;
+using LogicaNegocio.Excepciones;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
 using System.Collections.Generic;
@@ -26,8 +27,15 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario
             string encriptado = Repo.EncriptarPassword(password);
             Usuario usuario = Repo.BuscarPorMail(mail, encriptado);
 
-           
-            return MapperUsuarios.ToDTOUsuario(usuario); 
+            if (usuario != null)
+            {
+                return MapperUsuarios.ToDTOUsuario(usuario);
+            }
+            else 
+            {
+                throw new ExcepcionCustomException("Usuario no existe.");
+            }
+            
         }
 
     }

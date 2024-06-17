@@ -49,13 +49,10 @@ namespace WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(DTOMovimientoDeStock movDTO)
         {
-            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+           if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
                 return RedirectToAction("Login", "Usuarios");
             }//F
-
-
-
 
             try
             {
@@ -76,9 +73,10 @@ namespace WebMVC.Controllers
                     var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
                     if (respuesta.IsSuccessStatusCode)
                     {
-                        return RedirectToAction(nameof(Index));
+                        return RedirectToAction("Index","Home");
                     }
                     else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
+                        || (int)respuesta.StatusCode == StatusCodes.Status404NotFound
                         || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
                     {
                         ViewBag.Mensaje = respuesta.Content.ReadAsStringAsync().Result;

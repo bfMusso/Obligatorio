@@ -1,4 +1,5 @@
-﻿using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
+﻿using DTOs;
+using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario
 {
-    public class CUListarUsuarios : ICUListar<Usuario>
+    public class CUListarUsuarios : ICUListar<DTORoles>
     {
         public IRepositorioUsuarios Repo { get; set; }
 
@@ -18,9 +19,10 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario
             Repo = repo;
         }
 
-        public List<Usuario> ObtenerListado()
+        public List<DTORoles> ObtenerListado()
         {
-            return Repo.GetAll();
+            List<Usuario> usuarios = Repo.GetDistinctAll();
+            return MapperUsuarios.ToListarDTORoles(usuarios);
         }
     }
 }

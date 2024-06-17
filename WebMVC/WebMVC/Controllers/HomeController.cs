@@ -15,6 +15,8 @@ namespace WebMVC.Controllers
 
         public IActionResult Index()
         {
+            //Para poder ver el Email enviado desde el login
+            ViewBag.Mensaje = TempData["Mensaje"];
             return View();
         }
 

@@ -17,7 +17,6 @@ namespace DTOs
         public int ArticuloDeMovimientoId { get; set; }
 
         public int UsuarioDeMovimiento { get; set; }
-        //public string UsuarioDeMovimientoEmail { get; set; }
 
         public int TipoDeMovimientoId { get; set; }
 

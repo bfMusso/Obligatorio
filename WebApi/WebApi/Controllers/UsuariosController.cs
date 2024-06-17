@@ -1,4 +1,5 @@
 ﻿using DTOs;
+using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
 using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaNegocio.Excepciones;
 using Microsoft.AspNetCore.Mvc;
@@ -15,19 +16,33 @@ namespace WebApi.Controllers
         public ICULogin<DTOUsuario> CULoginUsuario { get; set; }
 
         public ICUBuscarConMail<DTOUsuario> CUBuscarUsuarioConMail { get; set; }
-    
 
-        public UsuariosController(ICULogin<DTOUsuario> cULoginUsuario, ICUBuscarConMail<DTOUsuario> cUBuscarUsuarioConMail) 
+        public ICUListar<DTORoles> CUListar { get; set; }
+
+        public UsuariosController(ICULogin<DTOUsuario> cULoginUsuario, ICUBuscarConMail<DTOUsuario> cUBuscarUsuarioConMail, ICUListar<DTORoles> cUListar) 
         {
             CULoginUsuario = cULoginUsuario;
             CUBuscarUsuarioConMail = cUBuscarUsuarioConMail;
+            CUListar = cUListar;
         }
 
         // GET: api/<UsuariosController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            try
+            {
+                List<DTORoles> usuarios = CUListar.ObtenerListado();
+                return Ok(usuarios);
+            }
+            catch (ExcepcionCustomException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch
+            {
+                return StatusCode(500, "Error inesperado.");
+            }
         }
 
         // GET api/<UsuariosController>/5
