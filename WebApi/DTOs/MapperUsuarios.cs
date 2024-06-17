@@ -33,15 +33,5 @@ namespace DTOs
 
         }
 
-        public static List<DTORoles> ToListarDTORoles(List<Usuario> usuarios)
-        {
-            return usuarios.Select(usuario => new DTORoles
-            {
-                Rol = usuario.Rol
-
-            }).ToList();
-
-        }
-
     }
 }

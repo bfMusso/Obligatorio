@@ -108,11 +108,8 @@ namespace WebMVC.Controllers
                 return RedirectToAction("Index", "Home");
             }
             HttpContext.Session.Clear();
-
-            DTOUsuarioLogin DtoUsuario = new DTOUsuarioLogin();
-            //movDTO.UsuarioDeMovimiento = HttpContext.Session.GetString("Id");
-            DtoUsuario.Roles = ObtenerUsuarios();
-            return View(DtoUsuario);
+        
+            return View();
         }
 
         [HttpPost]
@@ -165,28 +162,9 @@ namespace WebMVC.Controllers
             {
                 ViewBag.Mensaje = "Error:" + ex.Message;
             }
-
-            DtoUsuario.Roles = ObtenerUsuarios();
+          
             return View("Login", DtoUsuario);
         }
-
-        public List<DTORoles> ObtenerUsuarios()
-        {
-            List<DTORoles> usuarios = new List<DTORoles>();
-            HttpClient cliente = new HttpClient();
-            string url = UrlApi + "Usuarios";
-            var tarea = cliente.GetAsync(url);
-            tarea.Wait();
-            var respuesta = tarea.Result;
-            string cuerpo = HerramientasAPI.LeerContenidoRespuesta(tarea.Result);
-            if (respuesta.IsSuccessStatusCode)
-            {
-                usuarios = JsonConvert.DeserializeObject<List<DTORoles>>(cuerpo);
-            }
-            return usuarios;
-        }
-
-
 
     }
 

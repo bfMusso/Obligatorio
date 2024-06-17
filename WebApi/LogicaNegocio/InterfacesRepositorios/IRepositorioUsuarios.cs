@@ -16,7 +16,5 @@ namespace LogicaNegocio.InterfacesRepositorios
         Usuario TraerUsuarioConMail(string mail);
 
         bool EmailEsUnico(Usuario obj);
-
-        List<Usuario> GetDistinctAll();
     }
 }

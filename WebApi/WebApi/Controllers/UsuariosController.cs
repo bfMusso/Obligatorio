@@ -16,33 +16,19 @@ namespace WebApi.Controllers
         public ICULogin<DTOUsuario> CULoginUsuario { get; set; }
 
         public ICUBuscarConMail<DTOUsuario> CUBuscarUsuarioConMail { get; set; }
+       
 
-        public ICUListar<DTORoles> CUListar { get; set; }
-
-        public UsuariosController(ICULogin<DTOUsuario> cULoginUsuario, ICUBuscarConMail<DTOUsuario> cUBuscarUsuarioConMail, ICUListar<DTORoles> cUListar) 
+        public UsuariosController(ICULogin<DTOUsuario> cULoginUsuario, ICUBuscarConMail<DTOUsuario> cUBuscarUsuarioConMail) 
         {
             CULoginUsuario = cULoginUsuario;
-            CUBuscarUsuarioConMail = cUBuscarUsuarioConMail;
-            CUListar = cUListar;
+            CUBuscarUsuarioConMail = cUBuscarUsuarioConMail;            
         }
 
         // GET: api/<UsuariosController>
         [HttpGet]
-        public IActionResult Get()
+        public IEnumerable<string> Get()
         {
-            try
-            {
-                List<DTORoles> usuarios = CUListar.ObtenerListado();
-                return Ok(usuarios);
-            }
-            catch (ExcepcionCustomException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-            catch
-            {
-                return StatusCode(500, "Error inesperado.");
-            }
+            return new string[] { "value1", "value2" };
         }
 
         // GET api/<UsuariosController>/5
