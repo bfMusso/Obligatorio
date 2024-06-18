@@ -17,47 +17,59 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebMVC
 build_property.RootNamespace = WebMVC
-build_property.ProjectDir = C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebMVC\WebMVC\
+build_property.ProjectDir = C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebMVC\WebMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebMVC\WebMVC
+build_property.MSBuildProjectDirectory = C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebMVC\WebMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/Home/Index.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/Home/Privacy.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/MovimientosDeStock/Create.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/MovimientosDeStock/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1pZW50b3NEZVN0b2NrXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/Shared/Error.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/MovimientosDeStock/ListarArticulosPorFechas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1pZW50b3NEZVN0b2NrXExpc3RhckFydGljdWxvc1BvckZlY2hhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/MovimientosDeStock/ListarMovimientosPorTipoYArticulo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1pZW50b3NEZVN0b2NrXExpc3Rhck1vdmltaWVudG9zUG9yVGlwb1lBcnRpY3Vsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/MovimientosDeStock/ListarMovimientosPorTipoYFecha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1pZW50b3NEZVN0b2NrXExpc3Rhck1vdmltaWVudG9zUG9yVGlwb1lGZWNoYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/Usuarios/Login.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/Usuarios/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/_ViewImports.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/_ViewStart.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ORT/Semestre 3/ProyectoGIT/Obligatorio/WebMVC/WebMVC/Views/Shared/_Layout.cshtml]
+[C:/Users/feder/Desktop/2do OBLIGATORIO/Obligatorio/WebMVC/WebMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-giswp39xn8

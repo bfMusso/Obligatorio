@@ -27,14 +27,42 @@ namespace WebApi.Controllers
 
         public ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> CUListarArticulosEnMovimientosEntreFechas { get; set; }
 
+        public ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> CUListarMovimientosPorTipoYFechas { get; set; }
+
         public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId,
-            ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock, ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> cUListarArticulosEnMovimientosEntreFechas)
+            ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock, ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> cUListarArticulosEnMovimientosEntreFechas, ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> cUListarMovimientosPorTipoYFechas)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
             CUListarMovimientosDeStock = cUListarMovimientosDeStock;
             CUBuscarMovimientosYTipos = cUBuscarMovimientosYTipos;
             CUListarArticulosEnMovimientosEntreFechas = cUListarArticulosEnMovimientosEntreFechas;
+            CUListarMovimientosPorTipoYFechas = cUListarMovimientosPorTipoYFechas;
+        }
+
+        [HttpGet("CantidadDeMovimientosPorAnioYTipo/{anio}/{idTipo}")]
+        public IActionResult CantidadDeMovimientosPorAnioYTipo(int anio, int idTipo) {
+
+            try
+            {
+                DTOCantidad cantidad = CUListarMovimientosPorTipoYFechas.cantidadMovPorTipoyFecha(anio, idTipo);
+
+                if (cantidad.Cantidad <= 0)
+                {
+                    return BadRequest("No hay elementos que coincidan.");
+                }
+
+                return Ok(cantidad);
+            }
+            catch (ExcepcionCustomException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error inesperado: " + ex.Message);
+            }
+
         }
 
 
@@ -67,10 +95,15 @@ namespace WebApi.Controllers
         public IActionResult Get(DateTime fecha1, DateTime fecha2)
         {
             try
-            {            
+            {
+               
+
+                if (fecha1 > fecha2)
+                {
+                    return BadRequest("La fecha inicial no puede ser mayor que la fecha final");
+                }
 
                 List<DTOListarArticulos> DTOArticulos = CUListarArticulosEnMovimientosEntreFechas.ListarArticulosEntreFechas(fecha1, fecha2);
-
 
                 if (DTOArticulos.Count() <= 0)
                 {

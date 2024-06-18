@@ -1,0 +1,25 @@
+﻿@using DTOs
+@model List<DTOListaResumen>
+
+@if (ViewBag.Mensaje != null)
+{
+    <div class="mt-2">
+        <p class="fw-bold text-danger text-center">@ViewBag.Mensaje</p>
+    </div>
+}
+
+
+@foreach (var resumenAnual in Model)
+{
+    <h2>Año: @resumenAnual.Anio</h2>
+    <ul>
+        @foreach (var cantidad in resumenAnual.CantidadesPorTipo)
+        {
+            <li>Tipo: @cantidad.Tipo – Cantidad: @cantidad.Cantidad</li>
+        }
+    </ul>
+    <p>Total año @resumenAnual.Anio : @resumenAnual.CantidadesPorTipo.Sum(c => c.Cantidad)</p>
+}
+
+
+

@@ -102,8 +102,9 @@ namespace LogicaDatos.Repositorios
 
         }
 
-        public int CantidadesPorTipoYFecha(int anio, TipoDeMovimiento tipo)
+        public int CantidadesPorTipoYFecha(int anio, int tipoID)
         {
+            TipoDeMovimiento tipo = Contexto.TipoDeMovimientos.Find(tipoID);
             int cantidadesMovidas = 0;
             //Buscamos las cantidades segun tipo y año
             cantidadesMovidas = Contexto.MovimientosDeStock
@@ -216,8 +217,6 @@ namespace LogicaDatos.Repositorios
                 throw new ExcepcionCustomException("Error en control tipos de movimientos existentes.");
             }
         }
-
-
 
     }
 }

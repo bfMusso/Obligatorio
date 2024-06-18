@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Collections.Generic;
+using System.Runtime.Intrinsics.Arm;
 using WebMVC.ClasesAuxiliares;
 
 namespace WebMVC.Controllers
@@ -15,11 +17,199 @@ namespace WebMVC.Controllers
             UrlApi = Config.GetValue<string>("URLAPI");
         }
 
+        // GET: ListarMovimientosPorTipoYFecha
+        public ActionResult ListarMovimientosPorTipoYFecha()
+        {
+
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }//Fin Checkeo sesion
+
+            try
+            {
+                HttpClient client = new HttpClient();
+                string urlBase = UrlApi + "MovimientosDeStock/CantidadDeMovimientosPorAnioYTipo/";
+
+                //Se tienen que traer de web api
+                var tipos = new List<int> { 4, 5 };
+                var anios = new List<int> { 2021, 2022, 2023, 2024};
+
+                List<DTOListaResumen> listaCantidades = new List<DTOListaResumen>();
+
+                foreach (var anio in anios)
+                {
+                    var resumenAnual = new DTOListaResumen
+                    {
+                        Anio = anio,
+                        CantidadesPorTipo = new List<DTOResumen>()
+                    };
+
+                    foreach (var tipo in tipos)
+                    {
+                        var url = $"{urlBase}{anio}/{tipo}";
+                        var tarea = client.GetAsync(url);
+                        tarea.Wait();
+                        var respuesta = tarea.Result;
+                        string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+
+                        if (respuesta.IsSuccessStatusCode) //ES 200
+                        {
+                            var cantidad = JsonConvert.DeserializeObject<DTOResumen>(cuerpo);
+                            resumenAnual.CantidadesPorTipo.Add(
+                            new DTOResumen
+                            {
+                                Tipo = tipo, // Puedes ajustar esto según tu necesidad
+                                Cantidad = cantidad.Cantidad
+                            });
+                        }
+                    }
+                    listaCantidades.Add(resumenAnual);
+                }
+
+                return View(listaCantidades);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = "Ocurrión un error inesperado: " + ex.Message;
+                return View();
+            }
+        }
+
+        // GET: ListarMovimientosPorTipoYArticulo
+        public ActionResult ListarMovimientosPorTipoYArticulo() {
+
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }//Fin Checkeo sesion
+
+            try
+            {
+                HttpClient client = new HttpClient();
+                string url = UrlApi + "MovimientosDeStock";///ListarTodo
+                var tarea = client.GetAsync(url);
+
+                tarea.Wait();
+                var respuesta = tarea.Result;
+                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+
+                if (respuesta.IsSuccessStatusCode) //ES 200
+                {
+                    List<DTOMovimientoDeStock> movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoDeStock>>(cuerpo);
+                    return View(movimientos);
+                }
+                else
+                {
+                    ViewBag.Mensaje = cuerpo;
+                    return View(new List<DTOMovimientoDeStock>());
+                }
+            }
+            catch
+            {
+                ViewBag.Mensaje = "Ocurrión un error inesperado";
+                return View(new List<DTOMovimientoDeStock>());
+            }
+
+        }
+
+        // GET: ListarMovimientosPorTipoYArticulo/articulo, tipo
+        [HttpPost]
+        public ActionResult ListarMovimientosPorTipoYArticulo(int articulo, int tipo)
+        {
+            try
+            {
+                HttpClient client = new HttpClient();
+                string url = UrlApi + "MovimientosDeStock/MovimientoPorTipo/" + articulo + "/" + tipo;
+                var tarea = client.GetAsync(url);
+
+                tarea.Wait();
+                var respuesta = tarea.Result;
+                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+
+                if (respuesta.IsSuccessStatusCode) //ES 200
+                {
+                    List<DTOMovimientoDeStock> movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoDeStock>>(cuerpo);
+                    return View(movimientos);
+                }
+                else
+                {
+                    ViewBag.Mensaje = "Error: " + cuerpo;
+                    return View(new List<DTOMovimientoDeStock>());
+                }
+            }
+            catch
+            {
+                ViewBag.Mensaje = "Ocurrión un error inesperado";
+                return View(new List<DTOMovimientoDeStock>());
+            }
+        }
+
+
 
         // GET: MovimientosDeStockController
-        public ActionResult Index()
+        public ActionResult ListarArticulosPorFechas()
         {
-            return View();
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }//Fin Checkeo sesion
+
+            try
+            {
+                HttpClient client = new HttpClient();
+                string url = UrlApi + "Articulos";
+                var tarea = client.GetAsync(url);
+
+                tarea.Wait();
+                var respuesta = tarea.Result;
+                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+
+                if (respuesta.IsSuccessStatusCode) //ES 200
+                {
+                    List<DTOListarArticulos> articulos = JsonConvert.DeserializeObject<List<DTOListarArticulos>>(cuerpo);
+                    return View(articulos);
+                }
+                else
+                {
+                    ViewBag.Mensaje = cuerpo;
+                    return View(new List<DTOListarArticulos>());
+                }
+            }
+            catch
+            {
+                ViewBag.Mensaje = "Ocurrión un error inesperado";
+                return View(new List<DTOListarArticulos>());
+            }
+        }
+
+        [HttpPost]
+        public ActionResult ListarArticulosPorFechas(string inicial, string final) {
+
+            try
+            {
+                HttpClient client = new HttpClient();
+                string url = UrlApi + "MovimientosDeStock/ArticulosEnMovimientosEntreFechas/" + inicial + "/" + final;
+                var tarea = client.GetAsync(url);
+
+                tarea.Wait();
+                var respuesta = tarea.Result;
+                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+
+                if (respuesta.IsSuccessStatusCode) //ES 200
+                {
+                    List<DTOListarArticulos> articulos = JsonConvert.DeserializeObject<List<DTOListarArticulos>>(cuerpo);
+                    return View(articulos);
+                }else {
+                    ViewBag.Mensaje = "Error: " + cuerpo;
+                    return View(new List<DTOListarArticulos>());
+                }
+            }
+            catch
+            {
+                ViewBag.Mensaje = "Ocurrión un error inesperado";
+                return View(new List<DTOListarArticulos>());
+            }
         }
 
         // GET: MovimientosDeStockController/Details/5
