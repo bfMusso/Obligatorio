@@ -21,7 +21,8 @@ namespace WebApi.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            try
+            
+             try
             {
                 List<DTOListarArticulos> DTOArticulos = CUListado.ObtenerListado();
                 return Ok(DTOArticulos);
@@ -30,10 +31,15 @@ namespace WebApi.Controllers
             {
                 return BadRequest(ex.Message);
             }
-            catch (Exception ex) {
-                return StatusCode(500, "Error inesperado: " + ex.Message);
+            catch{
+                return StatusCode(500, "Error inesperado: ");
             }
-           
+             
+
+
+            //List<DTOListarArticulos> DTOArticulos = CUListado.ObtenerListado();
+            //return Ok(DTOArticulos);
+
         }
     }
 }
