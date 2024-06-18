@@ -53,6 +53,16 @@
   },
   {
     "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
+    "Method": "GetAlta",
+    "RelativePath": "api/MovimientosDeStock/AltaMovimientosDeStock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
     "Method": "Get",
     "RelativePath": "api/MovimientosDeStock/ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}",
     "HttpMethod": "GET",

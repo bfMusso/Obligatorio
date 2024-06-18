@@ -6,6 +6,7 @@ using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.Excepciones;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -36,6 +37,14 @@ namespace WebApi.Controllers
             CUBuscarMovimientosYTipos = cUBuscarMovimientosYTipos;
             CUListarArticulosEnMovimientosEntreFechas = cUListarArticulosEnMovimientosEntreFechas;
         }
+
+        [HttpGet("AltaMovimientosDeStock")]      
+        [Authorize(Roles ="Encargado")]
+        public IActionResult GetAlta()
+        {
+            return Ok();
+        }
+        
 
 
         // GET: api/<MovimientosDeStockController>
@@ -107,7 +116,6 @@ namespace WebApi.Controllers
             {
                 return StatusCode(500, "Error inesperado: " + ex.Message);
             }
-
         }
 
         // GET api/<MovimientosDeStockController>/5
@@ -145,8 +153,11 @@ namespace WebApi.Controllers
             }
         }
 
+
+
         // POST api/<MovimientosDeStockController>
         [HttpPost]
+        [Authorize]
         public IActionResult Post([FromBody] DTOMovimientoDeStock dtoMovimiento)
         {
             try

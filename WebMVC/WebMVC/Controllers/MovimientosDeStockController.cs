@@ -29,20 +29,43 @@ namespace WebMVC.Controllers
         }
 
         // GET: MovimientosDeStockController/Create
+
         public ActionResult Create()
         {
+            
+            
             if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
                 return RedirectToAction("Login", "Usuarios");
-            }//Fin Checkeo sesion
-
-
-            DTOMovimientoDeStock movDTO = new DTOMovimientoDeStock();
-            //movDTO.UsuarioDeMovimiento = HttpContext.Session.GetString("Id");
-            movDTO.Articulos = ObtenerArticulos();
-            movDTO.TiposDeMovimiento = ObtenerTiposDeMovimiento();
-            return View(movDTO);      
+            }//Fin Checkeo sesion desde MVC
+           
+            
+            HttpClient cliente = new HttpClient();
+            string url = UrlApi + "MovimientosDeStock/AltaMovimientosDeStock";
+            cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                HttpContext.Session.GetString("Token"));
+            var tarea = cliente.GetAsync(url);
+            tarea.Wait();
+            var respuesta = tarea.Result;
+            var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+            if (respuesta.IsSuccessStatusCode)
+            {
+           
+                DTOMovimientoDeStock movDTO = new DTOMovimientoDeStock();
+                //movDTO.UsuarioDeMovimiento = HttpContext.Session.GetString("Id");
+                movDTO.Articulos = ObtenerArticulos();
+                movDTO.TiposDeMovimiento = ObtenerTiposDeMovimiento();
+                return View(movDTO);
+            
+            }
+            else
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }
+            
         }
+
+
 
         // POST: MovimientosDeStockController/Create
         [HttpPost]
@@ -67,6 +90,8 @@ namespace WebMVC.Controllers
                                    
                     HttpClient cliente = new HttpClient();
                     string url = UrlApi + "MovimientosDeStock";
+                    cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                        HttpContext.Session.GetString("Token"));
                     var tarea = cliente.PostAsJsonAsync(url, movDTO);
                     tarea.Wait();
                     var respuesta = tarea.Result;
@@ -77,9 +102,14 @@ namespace WebMVC.Controllers
                     }
                     else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
                         || (int)respuesta.StatusCode == StatusCodes.Status404NotFound
-                        || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
+                        || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)                      
                     {
                         ViewBag.Mensaje = respuesta.Content.ReadAsStringAsync().Result;
+                        
+                    }else
+                    {
+                        //|| (int)respuesta.StatusCode == StatusCodes.Status401Unauthorized)
+                        return RedirectToAction("Login", "Usuarios");
                     }
 
                 }

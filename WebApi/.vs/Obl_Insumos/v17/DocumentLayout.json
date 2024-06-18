@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\logicanegocio\\interfacesrepositorios\\irepositoriousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,12 +11,24 @@
       "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\tipodemovimientocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\dtos\\mapperusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mapperusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\logicanegocio\\interfacesrepositorios\\irepositoriousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{878BD700-FB44-4DB6-ADD4-B17EB2E46450}|LogicaNegocio\\LogicaNegocio.csproj|solutionrelative:logicanegocio\\interfacesrepositorios\\irepositoriousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\logicadatos\\repositorios\\repositoriousuariosef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37207B50-6288-4279-8160-0717400C3413}|LogicaDatos\\LogicaDatos.csproj|solutionrelative:logicadatos\\repositorios\\repositoriousuariosef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6384FE1-3AF0-4BFA-BA20-1C3A77E1D540}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\dtos\\mapperusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|solutionrelative:dtos\\mapperusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD9D80AF-FF77-44AE-991C-C93C5EDFB464}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webapi\\dtos\\dtousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,11 +90,12 @@
               "RelativeToolTip": "LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuarios.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T17:11:45.882Z"
+              "WhenOpened": "2024-06-17T17:11:45.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "RepositorioUsuariosEF.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaDatos\\Repositorios\\RepositorioUsuariosEF.cs",
               "RelativeDocumentMoniker": "LogicaDatos\\Repositorios\\RepositorioUsuariosEF.cs",
@@ -102,24 +103,25 @@
               "RelativeToolTip": "LogicaDatos\\Repositorios\\RepositorioUsuariosEF.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAewCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T17:04:58.362Z"
+              "WhenOpened": "2024-06-17T17:04:58.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
               "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAxwCgAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAA9wCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T16:58:08.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MapperUsuarios.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\MapperUsuarios.cs",
               "RelativeDocumentMoniker": "DTOs\\MapperUsuarios.cs",
@@ -143,39 +145,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "TipoDeMovimientoController.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\TipoDeMovimientoController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\TipoDeMovimientoController.cs",
               "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\TipoDeMovimientoController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\TipoDeMovimientoController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAmwCUAAAAcAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAIwCUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T14:50:03.606Z"
+              "WhenOpened": "2024-06-17T14:50:03.606Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\UsuariosController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwBwAAAAoAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T13:56:23.476Z"
+              "WhenOpened": "2024-06-17T13:56:23.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MovimientosDeStockController.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\MovimientosDeStockController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\MovimientosDeStockController.cs",
               "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\WebApi\\Controllers\\MovimientosDeStockController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\MovimientosDeStockController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAYwHwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T14:16:18.116Z"
+              "WhenOpened": "2024-06-17T14:16:18.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
