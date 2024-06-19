@@ -10,19 +10,19 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosDeUso.CasosDeUsoImpuesto
 {
-    public class CUCargarImpuestos : ICUCargarImpuestos<Impuesto>
+    public class CUCargarValoresFijos : ICUCargarValoresFijos<ValorFijo>
     {
        
 
-        public IRepositorioImpuestos Repo { get; set; }
+        public IRepositorioValoresFijos Repo { get; set; }
 
-        public CUCargarImpuestos(IRepositorioImpuestos repo)
+        public CUCargarValoresFijos(IRepositorioValoresFijos repo)
         {
             Repo = repo;
         }
 
 
-        public void Cargar(string impuesto)
+        public void Cargar(string valor)
         {
             /*
              switch (impuesto)

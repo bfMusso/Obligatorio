@@ -50,6 +50,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet("CantidadDeMovimientosPorAnioYTipo")]
+        [Authorize]
         public IActionResult CantidadDeMovimientosPorAnioYTipo() {
 
             try
@@ -77,6 +78,7 @@ namespace WebApi.Controllers
 
         // GET: api/<MovimientosDeStockController>
         [HttpGet("MovimientoPorTipo/{articuloId}/{tipoId}")]
+        [Authorize]
         public IActionResult Get(int articuloId, int tipoId)
         {
             try
@@ -100,7 +102,9 @@ namespace WebApi.Controllers
         }
 
         // GET: api/<MovimientosDeStockController>
+        
         [HttpGet("ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}")]
+        [Authorize]
         public IActionResult Get(DateTime fecha1, DateTime fecha2)
         {
             try
@@ -134,6 +138,7 @@ namespace WebApi.Controllers
 
         // GET: api/<MovimientosDeStockController>
         [HttpGet]
+        [Authorize]
         public IActionResult ListarTodo()
         {
             try
@@ -154,7 +159,7 @@ namespace WebApi.Controllers
 
         // GET api/<MovimientosDeStockController>/5
         [HttpGet("{id}", Name = "FindByIdMovimientoDeStock")]
-
+        [Authorize]
         public IActionResult Get(int id)
         {
             try

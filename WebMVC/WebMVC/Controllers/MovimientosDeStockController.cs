@@ -30,9 +30,11 @@ namespace WebMVC.Controllers
 
             try
             {
-                HttpClient client = new HttpClient();
-                string url = UrlApi + "MovimientosDeStock/CantidadDeMovimientosPorAnioYTipo";        
-                var tarea = client.GetAsync(url);
+                HttpClient cliente = new HttpClient();
+                string url = UrlApi + "MovimientosDeStock/CantidadDeMovimientosPorAnioYTipo";                      
+                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                HttpContext.Session.GetString("Token"));
+                var tarea = cliente.GetAsync(url);
                 tarea.Wait();
                 var respuesta = tarea.Result;
                 string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
@@ -63,10 +65,11 @@ namespace WebMVC.Controllers
 
             try
             {
-                HttpClient client = new HttpClient();
-                string url = UrlApi + "MovimientosDeStock";///ListarTodo
-                var tarea = client.GetAsync(url);
-
+                HttpClient cliente = new HttpClient();
+                string url = UrlApi + "MovimientosDeStock";///ListarTodo              
+                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                HttpContext.Session.GetString("Token"));
+                var tarea = cliente.GetAsync(url);
                 tarea.Wait();
                 var respuesta = tarea.Result;
                 string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
@@ -94,12 +97,19 @@ namespace WebMVC.Controllers
         [HttpPost]
         public ActionResult ListarMovimientosPorTipoYArticuloPost(int articulo, int tipo)
         {
+
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }//Fin Checkeo sesion
+
             try
             {
-                HttpClient client = new HttpClient();
-                string url = UrlApi + "MovimientosDeStock/MovimientoPorTipo/" + articulo + "/" + tipo;
-                var tarea = client.GetAsync(url);
-
+                HttpClient cliente = new HttpClient();
+                string url = UrlApi + "MovimientosDeStock/MovimientoPorTipo/" + articulo + "/" + tipo;              
+                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                HttpContext.Session.GetString("Token"));
+                var tarea = cliente.GetAsync(url);
                 tarea.Wait();
                 var respuesta = tarea.Result;
                 string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
@@ -134,10 +144,11 @@ namespace WebMVC.Controllers
 
             try
             {
-                HttpClient client = new HttpClient();
-                string url = UrlApi + "Articulos";
-                var tarea = client.GetAsync(url);
-
+                HttpClient cliente = new HttpClient();
+                string url = UrlApi + "Articulos";               
+                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                HttpContext.Session.GetString("Token"));
+                var tarea = cliente.GetAsync(url);
                 tarea.Wait();
                 var respuesta = tarea.Result;
                 string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
@@ -163,12 +174,19 @@ namespace WebMVC.Controllers
         [HttpPost]
         public ActionResult ListarArticulosPorFechas(string inicial, string final) {
 
+
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }//Fin Checkeo sesion
+
             try
             {
-                HttpClient client = new HttpClient();
-                string url = UrlApi + "MovimientosDeStock/ArticulosEnMovimientosEntreFechas/" + inicial + "/" + final;
-                var tarea = client.GetAsync(url);
-
+                HttpClient cliente = new HttpClient();
+                string url = UrlApi + "MovimientosDeStock/ArticulosEnMovimientosEntreFechas/" + inicial + "/" + final;               
+                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                HttpContext.Session.GetString("Token"));
+                var tarea = cliente.GetAsync(url);
                 tarea.Wait();
                 var respuesta = tarea.Result;
                 string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
@@ -293,48 +311,6 @@ namespace WebMVC.Controllers
             return View(movDTO);
         }
 
-
-        // GET: MovimientosDeStockController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: MovimientosDeStockController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: MovimientosDeStockController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: MovimientosDeStockController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
 
 
         /*

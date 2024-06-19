@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.InterfacesCasosDeUso.Impuesto
 {
-    public interface ICUCargarImpuestos<T>
+    public interface ICUCargarValoresFijos<T>
     {
         void Cargar(string id);
     }

@@ -58,26 +58,6 @@ namespace LogicaDatos.Migrations
                     b.ToTable("Articulos");
                 });
 
-            modelBuilder.Entity("LogicaNegocio.Dominio.Impuesto", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Impuestos");
-                });
-
             modelBuilder.Entity("LogicaNegocio.Dominio.MovimientoDeStock", b =>
                 {
                     b.Property<int>("Id")
@@ -173,6 +153,26 @@ namespace LogicaDatos.Migrations
                         .IsUnique();
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("LogicaNegocio.Dominio.ValorFijo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Valor")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ValoresFijos");
                 });
 
             modelBuilder.Entity("LogicaNegocio.Dominio.MovimientoDeStock", b =>

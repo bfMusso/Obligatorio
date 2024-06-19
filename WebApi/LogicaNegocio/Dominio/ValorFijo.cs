@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocio.Dominio
 {
-    public class Impuesto:IValidable
+    public class ValorFijo:IValidable
     {
 
         public int Id { get; set; }
@@ -19,7 +19,7 @@ namespace LogicaNegocio.Dominio
         public string Nombre { get; set; }
 
         [Required(ErrorMessage = "Valor es obligatorio")]
-        [Range(0, int.MaxValue, ErrorMessage = "El valor del impuesto no puede ser menor a 0")]
+        [Range(0, int.MaxValue, ErrorMessage = "El valor no puede ser menor a 0")]
         public decimal Valor { get; set; }
 
         public void Validar()

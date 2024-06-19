@@ -1079,6 +1079,7 @@ C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\WebApi\obj\Debug\net8.
 C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\appsettings.json
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\WebApi.exe
@@ -1090,6 +1091,7 @@ C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Azure.C
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Azure.Identity.dll
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\BCrypt.Net.dll
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Humanizer.dll
+C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -1225,5 +1227,3 @@ C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\refint\
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\obj\Debug\net8.0\ref\WebApi.dll
-C:\ORT\Semestre 3\ProyectoGIT\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\feder\Desktop\2do OBLIGATORIO\Obligatorio\WebApi\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

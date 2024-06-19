@@ -47,7 +47,8 @@ namespace WebApi
             builder.Services.AddScoped<IRepositorioUsuarios, RepositorioUsuariosEF>();
             builder.Services.AddScoped<IRepositorioMovimientoDeStock, RepositorioMovimientosDeStockEF>();
             builder.Services.AddScoped<IRepositorioTipoDeMovimiento, RepositorioTipoDeMovimiento>();
-       
+            builder.Services.AddScoped<IRepositorioValoresFijos, RepositorioValoresFijosEF>();
+
             //conexion BD
             string strCon = builder.Configuration.GetConnectionString("conekt");
             builder.Services.AddDbContext<LibreriaContext>(options => options.UseSqlServer(strCon));

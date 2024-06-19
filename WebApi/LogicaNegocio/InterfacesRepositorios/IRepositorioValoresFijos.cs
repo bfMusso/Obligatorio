@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocio.InterfacesRepositorios
 {
-    public interface IRepositorioImpuestos
+    public interface IRepositorioValoresFijos
     {
         //metodo traerimpuesto
 
-        public Impuesto CargarImpuestos(string id);
+        public ValorFijo CargarValores(string id);
     
     }
 }

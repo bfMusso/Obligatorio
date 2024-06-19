@@ -14,7 +14,7 @@ namespace LogicaDatos.Repositorios
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<MovimientoDeStock> MovimientosDeStock { get; set; }
         public DbSet<TipoDeMovimiento> TipoDeMovimientos { get; set; }
-        public DbSet<Impuesto> Impuestos { get; set; }
+        public DbSet<ValorFijo> ValoresFijos { get; set; }
 
 
         public LibreriaContext(DbContextOptions<LibreriaContext> options) : base(options)

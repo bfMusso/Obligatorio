@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\movimientosdestock\\listarmovimientosportipoyarticulopost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\movimientosdestock\\listarmovimientosportipoyarticulopost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\movimientosdestock\\listarmovimientosportipoyarticulo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\movimientosdestock\\listarmovimientosportipoyarticulo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -39,40 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ListarMovimientosPorTipoYArticuloPost.cshtml",
-              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticuloPost.cshtml",
-              "RelativeDocumentMoniker": "WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticuloPost.cshtml",
-              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticuloPost.cshtml",
-              "RelativeToolTip": "WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticuloPost.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAA0AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T02:29:42.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListarMovimientosPorTipoYArticulo.cshtml",
-              "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticulo.cshtml",
-              "RelativeDocumentMoniker": "WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticulo.cshtml",
-              "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticulo.cshtml",
-              "RelativeToolTip": "WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticulo.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T02:21:22.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MovimientosDeStockController.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "RelativeDocumentMoniker": "WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "RelativeToolTip": "WebMVC\\Controllers\\MovimientosDeStockController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAYwGEAAAANAAAA",
+              "ViewState": "AQIAADMBAAAAAAAAAAAYwEEBAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T12:55:23.693Z",
+              "WhenOpened": "2024-06-19T03:54:55.249Z",
               "EditorCaption": ""
             }
           ]
