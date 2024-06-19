@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Runtime.Intrinsics.Arm;
+using System.Security.Policy;
 using WebMVC.ClasesAuxiliares;
 
 namespace WebMVC.Controllers
@@ -55,8 +56,12 @@ namespace WebMVC.Controllers
             }      
         }
 
+
+
         // GET: ListarMovimientosPorTipoYArticulo
-        public ActionResult ListarMovimientosPorTipoYArticulo() {
+
+  
+            public ActionResult ListarMovimientosPorTipoYArticulo() {
 
             if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
@@ -66,7 +71,7 @@ namespace WebMVC.Controllers
             try
             {
                 HttpClient cliente = new HttpClient();
-                string url = UrlApi + "MovimientosDeStock";///ListarTodo              
+                string url = UrlApi + "MovimientosDeStock/MovimientosDeStockYTipo";              
                 cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
                 HttpContext.Session.GetString("Token"));
                 var tarea = cliente.GetAsync(url);
@@ -76,26 +81,27 @@ namespace WebMVC.Controllers
 
                 if (respuesta.IsSuccessStatusCode) //ES 200
                 {
-                    List<DTOMovimientoDeStock> movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoDeStock>>(cuerpo);
+                    List<DTOMovimientoStockYTipo> movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoStockYTipo>>(cuerpo);
                     return View(movimientos);
                 }
                 else
                 {
                     ViewBag.Mensaje = cuerpo;
-                    return View(new List<DTOMovimientoDeStock>());
+                    return View(new List<DTOMovimientoStockYTipo>());
                 }
             }
             catch
             {
                 ViewBag.Mensaje = "Ocurrión un error inesperado";
-                return View(new List<DTOMovimientoDeStock>());
+                return View(new List<DTOMovimientoStockYTipo>());
             }
 
         }
 
+
         // GET: ListarMovimientosPorTipoYArticulo/articulo, tipo
         [HttpPost]
-        public ActionResult ListarMovimientosPorTipoYArticuloPost(int articulo, int tipo)
+        public ActionResult ListarMovimientosPorTipoYArticulo(int articulo, int tipo)
         {
 
             if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
@@ -364,5 +370,68 @@ namespace WebMVC.Controllers
             return tiposMov;
         }
 
+        public IActionResult MovimientosPaginado(int? pagina) {
+
+            List<DTOMovimientoDeStock> movimientos = new List<DTOMovimientoDeStock>();
+
+            try
+            {
+                if (pagina == null) {
+                    pagina = 1;
+                }
+                HttpClient cliente = new HttpClient();
+                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
+                var tarea = cliente.GetAsync(UrlApi + "MovimientoDeStock/MovimientosPorPagina/" + pagina);
+                tarea.Wait();
+                var respuesta = tarea.Result;
+                var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+                if (respuesta.IsSuccessStatusCode)
+                {
+                    movimientos  = JsonConvert.DeserializeObject<List<DTOMovimientoDeStock>>(cuerpo);
+                    double cantidadDePaginas = ObtenerCantidadDePaginas();
+                    ViewBag.Paginas = double.Round(cantidadDePaginas);
+                    //return View(movimientos);
+                }
+                else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
+                        || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
+                {
+                    return ViewBag.Mensaje = cuerpo;
+                }
+            }
+            catch
+            {
+               ViewBag.Mensaje = "Error";
+            }
+            return View(movimientos);
+        }
+
+
+
+        public double ObtenerCantidadDePaginas() {
+
+            double CantidadPaginas = 0;
+
+            try
+            {
+                HttpClient cliente = new HttpClient();
+                var tarea = cliente.GetAsync(UrlApi + "MovimientoDeStock/CantidadPaginas");
+                tarea.Wait();
+                var respuesta = tarea.Result;
+                var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+                if (respuesta.IsSuccessStatusCode)
+                {
+                    double.TryParse(cuerpo, out CantidadPaginas);
+                }
+                else if ((int)respuesta.StatusCode != StatusCodes.Status400BadRequest
+                        || (int)respuesta.StatusCode != StatusCodes.Status500InternalServerError)
+                {
+                    CantidadPaginas = -1;
+                }
+            }
+            catch(Exception ex){
+                throw new Exception("Error");
+            }
+            return CantidadPaginas;
+        }
     }
 }

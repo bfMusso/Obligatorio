@@ -30,8 +30,16 @@ namespace WebApi.Controllers
 
         public ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> CUListarMovimientosPorTipoYFechas { get; set; }
 
+        public ICUCantidadTotalMovimientos CUCantidadTotalMovimientos { get; set; }
+
+        public ICUMovimientosAMostrarPorPagina CUMovimientosAMostrarPorPagina { get; set; }
+
+        public ICUListarSimpleMOvimientoDeStockYTipo<DTOMovimientoStockYTipo> CUListarSimpleMovimientoDeStockYTipo { get; set; }
+
         public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId,
-            ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock, ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> cUListarArticulosEnMovimientosEntreFechas, ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> cUListarMovimientosPorTipoYFechas)
+            ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock,
+            ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> cUListarArticulosEnMovimientosEntreFechas, ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> cUListarMovimientosPorTipoYFechas,
+            ICUCantidadTotalMovimientos cUCantidadTotalMovimientos, ICUMovimientosAMostrarPorPagina cUMovimientosAMostrarPorPagina, ICUListarSimpleMOvimientoDeStockYTipo<DTOMovimientoStockYTipo> cUListarSimpleMovimientoDeStockYTipo)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
@@ -39,6 +47,9 @@ namespace WebApi.Controllers
             CUBuscarMovimientosYTipos = cUBuscarMovimientosYTipos;
             CUListarArticulosEnMovimientosEntreFechas = cUListarArticulosEnMovimientosEntreFechas;
             CUListarMovimientosPorTipoYFechas = cUListarMovimientosPorTipoYFechas;
+            CUCantidadTotalMovimientos = cUCantidadTotalMovimientos;
+            CUMovimientosAMostrarPorPagina = cUMovimientosAMostrarPorPagina;
+            CUListarSimpleMovimientoDeStockYTipo = cUListarSimpleMovimientoDeStockYTipo;
         }
 
 
@@ -76,6 +87,31 @@ namespace WebApi.Controllers
         }
 
 
+        //
+        // GET: api/<MovimientosDeStockController>
+        [HttpGet("MovimientosDeStockYTipo")]
+        [Authorize]
+        public IActionResult MovimientosDeStockYTipo()
+        {
+            try
+            {
+                List<DTOMovimientoStockYTipo> DTOMovimientosDeStockYTipo = CUListarSimpleMovimientoDeStockYTipo.ListarMovimientosDeStockYTipo();
+                return Ok(DTOMovimientosDeStockYTipo);
+            }
+            catch (ExcepcionCustomException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Error inesperado: " + ex.Message);
+            }
+
+        }
+
+
+
+
         // GET: api/<MovimientosDeStockController>
         [HttpGet("MovimientoPorTipo/{articuloId}/{tipoId}")]
         [Authorize]
@@ -102,14 +138,14 @@ namespace WebApi.Controllers
         }
 
         // GET: api/<MovimientosDeStockController>
-        
+
         [HttpGet("ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}")]
         [Authorize]
         public IActionResult Get(DateTime fecha1, DateTime fecha2)
         {
             try
             {
-               
+
 
                 if (fecha1 > fecha2)
                 {
@@ -236,6 +272,48 @@ namespace WebApi.Controllers
                 return StatusCode(500, $"Error inesperado, no se pudo realizar el alta. Detalles: {ex.Message}");
 
             }
+        }
+
+
+        [HttpGet("CantidadDePaginas")]
+
+        public IActionResult CantidadTotalDePaginas()
+        {
+            try
+            {
+                return Ok((double)CUCantidadTotalMovimientos.CantidadTotalMovimientos() / 5);
+            }
+            catch (ExcepcionCustomException ex) {
+                return BadRequest(ex.Message);
+            }
+            catch {
+
+                return StatusCode(500, "Error inesperado");
+            }
+
+        }
+
+
+        [HttpGet("MovimientosPorPagina/{pagina}")]
+        public IActionResult MovimientosPorPagina(int pagina)
+        {
+            try
+            {
+                if (pagina == 0) { 
+                    return BadRequest("El numero de pagina no es correcto.");
+                }
+                return Ok(CUMovimientosAMostrarPorPagina.MovimientosPorPagina(pagina));
+            }
+            catch
+            (ExcepcionCustomException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch 
+            {
+                return StatusCode(500, "Error inesperado");
+            }
+        
         }
 
         // PUT api/<MovimientosDeStockController>/5

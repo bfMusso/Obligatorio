@@ -96,5 +96,17 @@ namespace LogicaDatos.Repositorios
             //bool nombre = Contexto.Articulos.Any(art => art.CodigoProveedor == codigo);
         }
 
+        public List<Articulo> ArticulosAMostrarPorPagina(int pagina)
+        {
+            return Contexto.Articulos.Skip((pagina - 1) * 5)
+                                              .Take(5)
+                                              .ToList();
+        }
+
+        public int CantidadTotalDeArticulos()
+        {
+            return Contexto.MovimientosDeStock.Count();
+        }
+
     }
 }

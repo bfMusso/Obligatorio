@@ -28,14 +28,6 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
 
             if (movimientos.Count > 0)
             {
-                /* 
-                 foreach (var movimiento in movimientos)
-                {
-                    DTOMovimientoDeStock DTOmovimiento = MapperMovimientoDeStock.ToDTOMovimientoDeStock(movimiento);
-                    DtosMovimientos.Add(DTOmovimiento);
-                }
-                 */
-
                  DtosMovimientos = MapperMovimientoDeStock.ToDTOSMovimientosDeStock(movimientos);
             }
             return DtosMovimientos;

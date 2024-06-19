@@ -1,4 +1,4 @@
-﻿@model List<DTOs.DTOMovimientoDeStock>
+﻿@model List<DTOs.DTOMovimientoStockYTipo>
 
 @{
     ViewBag.Title = "Listar Movimientos por Tipo y Articulo";
@@ -11,7 +11,7 @@
 
 <div class="row mt-3 justify-content-center align-items-center">
     <div class="col-md-6">
-        <form asp-action="ListarMovimientosPorTipoYArticuloPost">
+        <form asp-action="ListarMovimientosPorTipoYArticulo">
             <div class="form-group fw-bold text-center">
                 <label for="articulo" class="control-label">Articulo Id: </label>
                 <input type="number" name="articulo" class="form-control" />
@@ -47,6 +47,9 @@
                     <th>Id Artículo de Movimiento</th>
                     <th>Usuario de Movimiento</th>
                     <th>Id Tipo de Movimiento</th>
+                    <th>Nombre</th>
+                    <th>Tipo De Cambio En Stock</th>
+
                 </tr>
             </thead>
             <tbody class="text-center">
@@ -56,9 +59,11 @@
                         <td>@movimiento.Id</td>
                         <td>@movimiento.FechaYHora</td>
                         <td>@movimiento.CantidadArticulo</td>
-                        <td>@movimiento.ArticuloDeMovimientoId</td>
+                        <td>@movimiento.ArticuloDeMovimiento</td>
                         <td>@movimiento.UsuarioDeMovimiento</td>
-                        <td>@movimiento.TipoDeMovimientoId</td>
+                        <td>@movimiento.Tipo</td>
+                        <td>@movimiento.Nombre</td>
+                        <td>@movimiento.tipoDeCambioEnStock</td>
                     </tr>
                 }
             </tbody>
@@ -66,5 +71,6 @@
     </div>
 
 }
+
 
 
