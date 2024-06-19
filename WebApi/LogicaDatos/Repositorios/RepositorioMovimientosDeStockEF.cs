@@ -86,10 +86,23 @@ namespace LogicaDatos.Repositorios
                     return movimientosEncontrados;
                 }
 
-        
-     
+        public List<MovimientoDeStock> ListarMovimientosDeStockYTipo()
+        {
+            List<MovimientoDeStock> movimientosEncontrados = new List<MovimientoDeStock>();
+            //Buscamos movimientos segun tipo y el id de articulo
+            movimientosEncontrados = Contexto.MovimientosDeStock
+                                  .Include(m => m.ArticuloDeMovimiento)
+                                  .Include(m => m.UsuarioDeMovimiento)
+                                  .Include(m => m.Tipo)
+                                  .OrderByDescending(m => m.FechaYHora)
+                                  .ThenBy(m => m.CantidadArticulo)
+                                  .ToList();
+            //Retornamos elementos encontrados
+            return movimientosEncontrados;
+        }
 
-            public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final)
+
+        public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final)
         {
             List<Articulo> articulosEncontrados = new List<Articulo>();
             //Buscamos los articulos en rango de fechas
@@ -245,6 +258,23 @@ namespace LogicaDatos.Repositorios
                 throw new ExcepcionCustomException("Error en control tipos de movimientos existentes.");
             }
         }
+
+        public List<MovimientoDeStock> MovimientosAMostrarPorPagina(int pagina)
+        {
+            return Contexto.MovimientosDeStock
+                                              .Include(m => m.ArticuloDeMovimiento)
+                                              .Include(m => m.UsuarioDeMovimiento)
+                                              .Include(m => m.Tipo)
+                                              .Skip((pagina - 1) * 5)
+                                              .Take(5)
+                                              .ToList();
+        }
+
+        public int CantidadTotalDeMovimientos()
+        {
+           return Contexto.MovimientosDeStock.Count();
+        }
+
 
     }
 }

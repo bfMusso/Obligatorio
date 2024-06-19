@@ -53,6 +53,7 @@ namespace DTOs
 
 
         //Para listar los movimientos
+        /*
         public static List<MovimientoDeStock> ToMovimientosDeStock(List<DTOMovimientoDeStock> dtos)
         {
             return dtos.Select(dto => new MovimientoDeStock
@@ -80,13 +81,18 @@ namespace DTOs
 
             }).ToList();
         }
+         
+         */
+
 
         public static List<DTOMovimientoDeStock> ToDTOSMovimientosDeStock(List<MovimientoDeStock> MovimientosDeStock)
         {
 
+
             return MovimientosDeStock.Select(obj => new DTOMovimientoDeStock
             {
-                //Id = dto.Id, //EF deberia poder asignar el Id sin este atributo mapeado
+
+                //Id = obj.Id, //EF deberia poder asignar el Id sin este atributo mapeado
 
                 FechaYHora = obj.FechaYHora,
 

@@ -16,6 +16,7 @@ namespace LogicaNegocio.InterfacesRepositorios
 
         void Add(MovimientoDeStock obj);
 
+        public List<MovimientoDeStock> ListarMovimientosDeStockYTipo();
         public List<MovimientoDeStock> BuscarElementosPorIdYTipo(int id, TipoDeMovimiento tipo);
 
         public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final);
@@ -29,5 +30,9 @@ namespace LogicaNegocio.InterfacesRepositorios
         public bool ControlarSiUsuarioExiste(int id);
 
         public bool ControlarSiArticuloExiste(int id);
+
+        List<MovimientoDeStock> MovimientosAMostrarPorPagina(int pagina);
+
+        int CantidadTotalDeMovimientos();
     }
 }

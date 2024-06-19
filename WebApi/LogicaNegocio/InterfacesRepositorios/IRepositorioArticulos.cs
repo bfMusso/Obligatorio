@@ -14,5 +14,9 @@ namespace LogicaNegocio.InterfacesRepositorios
 
         void CodigoUnico(string codigo);
 
+        List<Articulo> ArticulosAMostrarPorPagina(int pagina);
+
+        int CantidadTotalDeArticulos();
+
     }
 }

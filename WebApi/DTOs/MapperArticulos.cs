@@ -28,7 +28,7 @@ namespace DTOs
         }
 
         //De un articulo  a un DTO
-        public static DTOListarArticulos ToDTOListarArticulos(Articulo dto)
+        public static DTOListarArticulos ToDTOListarArticulo(Articulo dto)
         {
             DTOListarArticulos dtoMapeado = new DTOListarArticulos()
             {
