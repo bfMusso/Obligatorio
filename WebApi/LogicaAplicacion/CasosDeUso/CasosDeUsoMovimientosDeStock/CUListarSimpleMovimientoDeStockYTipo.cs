@@ -20,12 +20,12 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
             Repo = repo;
         }
 
-        public List<DTOMovimientoStockYTipo> ListarMovimientosDeStockYTipo()
+        public List<DTOMovimientoStockYTipo> ListarMovimientosDeStockYTipo(int pagina)
         {
             List<MovimientoDeStock> movimientos = new List<MovimientoDeStock>();
             List<DTOMovimientoStockYTipo> DtosMovimientosStockYTipo = new List<DTOMovimientoStockYTipo>();
 
-            movimientos = Repo.ListarMovimientosDeStockYTipo();
+            movimientos = Repo.ListarMovimientosDeStockYTipo(pagina);
             if (movimientos.Count > 0)
             {
                 DtosMovimientosStockYTipo = MapperMovimientoDeStock.ToDTOsMovimientosDeStockYTipos(movimientos);

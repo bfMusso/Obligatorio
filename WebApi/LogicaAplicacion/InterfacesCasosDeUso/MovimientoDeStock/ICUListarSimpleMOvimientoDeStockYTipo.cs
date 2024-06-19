@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock
 {public interface ICUListarSimpleMOvimientoDeStockYTipo <T>
     {
-        List<T> ListarMovimientosDeStockYTipo();
+        List<T> ListarMovimientosDeStockYTipo(int pagina);
 
     }
 }

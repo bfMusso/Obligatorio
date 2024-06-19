@@ -94,6 +94,16 @@
   },
   {
     "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
+    "Method": "CantidadTotalDePaginas",
+    "RelativePath": "api/MovimientosDeStock/CantidadDePaginas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
     "Method": "Get",
     "RelativePath": "api/MovimientosDeStock/MovimientoPorTipo/{articuloId}/{tipoId}",
     "HttpMethod": "GET",
@@ -107,6 +117,38 @@
       },
       {
         "Name": "tipoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
+    "Method": "MovimientosDeStockYTipo",
+    "RelativePath": "api/MovimientosDeStock/MovimientosDeStockYTipo/{pagina}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
+    "Method": "MovimientosPorPagina",
+    "RelativePath": "api/MovimientosDeStock/MovimientosPorPagina/{pagina}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
         "Type": "System.Int32",
         "IsRequired": true
       }
