@@ -8,6 +8,9 @@ namespace DTOs
 {
     public class DTOCantidad
     {
-       public int Cantidad { get; set; }
+        public int Anio { get; set; }
+        public string Tipo { get; set; }
+        
+        public int Cantidad { get; set; }
     }
 }

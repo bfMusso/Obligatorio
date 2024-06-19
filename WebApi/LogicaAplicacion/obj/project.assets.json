@@ -2832,19 +2832,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\feder\\.nuget\\packages\\": {}
+    "C:\\Users\\xfer9\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\LogicaAplicacion.csproj",
+      "projectUniqueName": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaAplicacion\\LogicaAplicacion.csproj",
       "projectName": "LogicaAplicacion",
-      "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\LogicaAplicacion.csproj",
-      "packagesPath": "C:\\Users\\feder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaAplicacion\\obj\\",
+      "projectPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaAplicacion\\LogicaAplicacion.csproj",
+      "packagesPath": "C:\\Users\\xfer9\\.nuget\\packages\\",
+      "outputPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaAplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\feder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\xfer9\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2852,21 +2852,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\DTOs.csproj": {
-              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\DTOs\\DTOs.csproj"
+            "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\DTOs.csproj": {
+              "projectPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\DTOs\\DTOs.csproj"
             },
-            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\LogicaDatos.csproj": {
-              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaDatos\\LogicaDatos.csproj"
+            "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaDatos\\LogicaDatos.csproj": {
+              "projectPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaDatos\\LogicaDatos.csproj"
             },
-            "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj": {
-              "projectPath": "C:\\Users\\feder\\Desktop\\2do OBLIGATORIO\\Obligatorio\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj"
+            "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj": {
+              "projectPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebApi\\LogicaNegocio\\LogicaNegocio.csproj"
             }
           }
         }
@@ -2901,7 +2900,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

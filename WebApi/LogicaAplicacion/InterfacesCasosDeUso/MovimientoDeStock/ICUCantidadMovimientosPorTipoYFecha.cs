@@ -10,6 +10,6 @@ namespace LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock
 {
     public interface ICUCantidadMovimientosPorTipoYFecha <T>
     {
-        T cantidadMovPorTipoyFecha(int anio, int tipo);
+        List<T> cantidadMovPorTipoyFecha();
     }
 }
