@@ -89,13 +89,17 @@ namespace WebApi.Controllers
 
         //
         // GET: api/<MovimientosDeStockController>
-        [HttpGet("MovimientosDeStockYTipo")]
+        [HttpGet("MovimientosDeStockYTipo/{pagina}")]
         [Authorize]
-        public IActionResult MovimientosDeStockYTipo()
+        public IActionResult MovimientosDeStockYTipo(int pagina)
         {
             try
             {
-                List<DTOMovimientoStockYTipo> DTOMovimientosDeStockYTipo = CUListarSimpleMovimientoDeStockYTipo.ListarMovimientosDeStockYTipo();
+                if (pagina == 0)
+                {
+                    return BadRequest("El número de página recibida no es correcta");
+                }
+                List<DTOMovimientoStockYTipo> DTOMovimientosDeStockYTipo = CUListarSimpleMovimientoDeStockYTipo.ListarMovimientosDeStockYTipo(pagina);
                 return Ok(DTOMovimientosDeStockYTipo);
             }
             catch (ExcepcionCustomException ex)

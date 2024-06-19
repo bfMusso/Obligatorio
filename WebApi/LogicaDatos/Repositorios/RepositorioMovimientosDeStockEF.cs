@@ -86,7 +86,7 @@ namespace LogicaDatos.Repositorios
                     return movimientosEncontrados;
                 }
 
-        public List<MovimientoDeStock> ListarMovimientosDeStockYTipo()
+        public List<MovimientoDeStock> ListarMovimientosDeStockYTipo(int pagina)
         {
             List<MovimientoDeStock> movimientosEncontrados = new List<MovimientoDeStock>();
             //Buscamos movimientos segun tipo y el id de articulo
@@ -96,6 +96,8 @@ namespace LogicaDatos.Repositorios
                                   .Include(m => m.Tipo)
                                   .OrderByDescending(m => m.FechaYHora)
                                   .ThenBy(m => m.CantidadArticulo)
+                                  .Skip((pagina - 1) * 5)
+                                  .Take(5)
                                   .ToList();
             //Retornamos elementos encontrados
             return movimientosEncontrados;

@@ -61,41 +61,48 @@ namespace WebMVC.Controllers
         // GET: ListarMovimientosPorTipoYArticulo
 
   
-            public ActionResult ListarMovimientosPorTipoYArticulo() {
+            public ActionResult ListarMovimientosPorTipoYArticulo(int? pagina) {
 
             if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
                 return RedirectToAction("Login", "Usuarios");
             }//Fin Checkeo sesion
-
+            List<DTOMovimientoStockYTipo> movimientos = new List<DTOMovimientoStockYTipo>();
             try
             {
+                if (pagina == null) 
+                {
+                 pagina = 1;
+                }
+       
                 HttpClient cliente = new HttpClient();
-                string url = UrlApi + "MovimientosDeStock/MovimientosDeStockYTipo";              
+                //string url = UrlApi + "MovimientosDeStock/MovimientosDeStockYTipo/" + pagina;              
                 cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
                 HttpContext.Session.GetString("Token"));
-                var tarea = cliente.GetAsync(url);
+                var tarea = cliente.GetAsync(UrlApi + "MovimientosDeStock/MovimientosDeStockYTipo/" + pagina);
                 tarea.Wait();
                 var respuesta = tarea.Result;
                 string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
 
                 if (respuesta.IsSuccessStatusCode) //ES 200
                 {
-                    List<DTOMovimientoStockYTipo> movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoStockYTipo>>(cuerpo);
-                    return View(movimientos);
+                     movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoStockYTipo>>(cuerpo);
+                    double cantidadDePaginas = ObtenerCantidadDePaginas();
+                    ViewBag.Paginas = Math.Ceiling(cantidadDePaginas);
+                    //ViewBag.Paginas = 2;
                 }
-                else
+                else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
+                || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
                 {
-                    ViewBag.Mensaje = cuerpo;
-                    return View(new List<DTOMovimientoStockYTipo>());
-                }
+                    return ViewBag.Mensaje = cuerpo;
+                    
+                }          
             }
             catch
             {
-                ViewBag.Mensaje = "Ocurrión un error inesperado";
-                return View(new List<DTOMovimientoStockYTipo>());
+                ViewBag.Mensaje = "Ocurrión un error inesperado";              
             }
-
+            return View(movimientos);
         }
 
 
@@ -409,29 +416,30 @@ namespace WebMVC.Controllers
 
         public double ObtenerCantidadDePaginas() {
 
-            double CantidadPaginas = 0;
+            double cantidadPaginas = 0;
 
             try
-            {
+            { 
                 HttpClient cliente = new HttpClient();
-                var tarea = cliente.GetAsync(UrlApi + "MovimientoDeStock/CantidadPaginas");
+                var tarea = cliente.GetAsync(UrlApi + "MovimientosDeStock/CantidadDePaginas");
                 tarea.Wait();
                 var respuesta = tarea.Result;
                 var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
                 if (respuesta.IsSuccessStatusCode)
                 {
-                    double.TryParse(cuerpo, out CantidadPaginas);
+                    cuerpo = cuerpo.Replace(".", ",");
+                    double.TryParse(cuerpo, out cantidadPaginas);
                 }
                 else if ((int)respuesta.StatusCode != StatusCodes.Status400BadRequest
                         || (int)respuesta.StatusCode != StatusCodes.Status500InternalServerError)
                 {
-                    CantidadPaginas = -1;
+                    cantidadPaginas = -1;
                 }
             }
             catch(Exception ex){
                 throw new Exception("Error");
             }
-            return CantidadPaginas;
+            return cantidadPaginas;
         }
     }
 }

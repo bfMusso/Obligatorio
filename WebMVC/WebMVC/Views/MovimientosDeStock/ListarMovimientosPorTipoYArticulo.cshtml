@@ -73,4 +73,12 @@
 }
 
 
+<div style="text-align:center">
+
+    @for (int i = 1; i <= ViewBag.Paginas; i++)
+    {
+        <a class=" text-primary" href="/MovimientosDeStock/ListarMovimientosPorTipoYArticulo?pagina=@i">@i | </a>
+    }
+
+</div>
 
