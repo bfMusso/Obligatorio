@@ -69,25 +69,27 @@ namespace LogicaDatos.Repositorios
                             .FirstOrDefault(m => m.Id == id);
         }
 
+        
+                public List<MovimientoDeStock> BuscarElementosPorIdYTipo(int id, TipoDeMovimiento tipo)
+                {
+                    List<MovimientoDeStock> movimientosEncontrados = new List<MovimientoDeStock>();
+                    //Buscamos movimientos segun tipo y el id de articulo
+                    movimientosEncontrados = Contexto.MovimientosDeStock
+                                          .Include(m => m.ArticuloDeMovimiento)
+                                          .Include(m => m.UsuarioDeMovimiento)
+                                          .Include(m => m.Tipo)
+                                          .Where(m => m.ArticuloDeMovimiento.Id == id && m.Tipo.Id == tipo.Id)
+                                          .OrderByDescending(m => m.FechaYHora)
+                                          .ThenBy(m => m.CantidadArticulo)
+                                          .ToList();
+                    //Retornamos elementos encontrados
+                    return movimientosEncontrados;
+                }
 
-        public List<MovimientoDeStock> BuscarElementosPorIdYTipo(int id, TipoDeMovimiento tipo)
-        {
-            List<MovimientoDeStock> movimientosEncontrados = new List<MovimientoDeStock>();
-            //Buscamos movimientos segun tipo y el id de articulo
-            movimientosEncontrados = Contexto.MovimientosDeStock
-                                  .Include(m => m.ArticuloDeMovimiento)
-                                  .Include(m => m.UsuarioDeMovimiento)
-                                  .Include(m => m.Tipo)
-                                  .Where(m => m.ArticuloDeMovimiento.Id == id && m.Tipo.Id == tipo.Id)
-                                  .OrderByDescending(m => m.FechaYHora)
-                                  .ThenBy(m => m.CantidadArticulo)
-                                  .ToList();
-            //Retornamos elementos encontrados
-            return movimientosEncontrados;
-        }
+        
+     
 
-
-        public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final)
+            public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final)
         {
             List<Articulo> articulosEncontrados = new List<Articulo>();
             //Buscamos los articulos en rango de fechas
@@ -101,7 +103,7 @@ namespace LogicaDatos.Repositorios
             return articulosEncontrados;
 
         }
-
+        /*
         public int CantidadesPorTipoYFecha(int anio, int tipoID)
         {
             TipoDeMovimiento tipo = Contexto.TipoDeMovimientos.Find(tipoID);
@@ -113,7 +115,33 @@ namespace LogicaDatos.Repositorios
             //Retornamos resultados
             return cantidadesMovidas;
         }
+        */
+       
 
+        public List<(int, string, int)> CantidadesPorTipoYFecha()
+        {
+
+            var movimientosFiltrados = Contexto.MovimientosDeStock
+                .Include(m => m.Tipo)
+                .GroupBy(m => new { Anio = m.FechaYHora.Year, Tipo = m.Tipo.Nombre })
+                .Select(grupo => new
+                {
+                    Anio = grupo.Key.Anio,
+                    Tipo = grupo.Key.Tipo,
+                    Cantidad = grupo.Count()
+                })
+                .ToList();
+
+            List<(int, string, int)> movimientosARetornar = new List<(int, string, int)>();
+            foreach (var mf in movimientosFiltrados)
+            {
+                movimientosARetornar.Add(new(mf.Anio, mf.Tipo, mf.Cantidad));
+            }
+
+            return movimientosARetornar;
+
+        }
+            
 
         public void ModificarStockArticulos(int cantidad, int IdArticulo, bool tipoCambio) {
             //Traemos el articulo

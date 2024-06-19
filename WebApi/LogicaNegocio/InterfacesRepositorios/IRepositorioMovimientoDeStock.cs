@@ -20,7 +20,7 @@ namespace LogicaNegocio.InterfacesRepositorios
 
         public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final);
 
-        public int CantidadesPorTipoYFecha(int anio, int tipo);
+        public List<(int,string,int)> CantidadesPorTipoYFecha();
 
         public void ModificarStockArticulos(int cantidad, int IdArticulo, bool tipoCambio);
 

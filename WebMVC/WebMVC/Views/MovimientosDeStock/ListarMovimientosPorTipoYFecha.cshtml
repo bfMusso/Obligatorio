@@ -1,5 +1,5 @@
 ﻿@using DTOs
-@model List<DTOListaResumen>
+@model List<DTOCantidad>
 
 @if (ViewBag.Mensaje != null)
 {
@@ -7,19 +7,25 @@
         <p class="fw-bold text-danger text-center">@ViewBag.Mensaje</p>
     </div>
 }
-
-
-@foreach (var resumenAnual in Model)
-{
-    <h2>Año: @resumenAnual.Anio</h2>
-    <ul>
-        @foreach (var cantidad in resumenAnual.CantidadesPorTipo)
-        {
-            <li>Tipo: @cantidad.Tipo – Cantidad: @cantidad.Cantidad</li>
-        }
-    </ul>
-    <p>Total año @resumenAnual.Anio : @resumenAnual.CantidadesPorTipo.Sum(c => c.Cantidad)</p>
+@{
+    var agrupadosPorAnio = Model.GroupBy(r => r.Anio).ToList();
 }
 
+@foreach (var agrupado in agrupadosPorAnio)
+{
+    int totalAcumulado = 0;
+
+    <h2>Año: @agrupado.Key</h2>
+
+    <ul>
+        @foreach (var resumenAnual in agrupado)
+        {
+            <li>Tipo: @resumenAnual.Tipo – Cantidad: @resumenAnual.Cantidad</li>
+            totalAcumulado += resumenAnual.Cantidad;
+        }
+    </ul>
+
+    <p>Total año @agrupado.Key : @totalAcumulado</p>
+}
 
 

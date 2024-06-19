@@ -6,6 +6,7 @@ using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.Excepciones;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -40,14 +41,22 @@ namespace WebApi.Controllers
             CUListarMovimientosPorTipoYFechas = cUListarMovimientosPorTipoYFechas;
         }
 
-        [HttpGet("CantidadDeMovimientosPorAnioYTipo/{anio}/{idTipo}")]
-        public IActionResult CantidadDeMovimientosPorAnioYTipo(int anio, int idTipo) {
+
+        [HttpGet("AltaMovimientosDeStock")]
+        [Authorize(Roles = "Encargado")]
+        public IActionResult GetAlta()
+        {
+            return Ok();
+        }
+
+        [HttpGet("CantidadDeMovimientosPorAnioYTipo")]
+        public IActionResult CantidadDeMovimientosPorAnioYTipo() {
 
             try
             {
-                DTOCantidad cantidad = CUListarMovimientosPorTipoYFechas.cantidadMovPorTipoyFecha(anio, idTipo);
+                List<DTOCantidad> cantidad = CUListarMovimientosPorTipoYFechas.cantidadMovPorTipoyFecha();
 
-                if (cantidad.Cantidad <= 0)
+                if (cantidad.Count <= 0)
                 {
                     return BadRequest("No hay elementos que coincidan.");
                 }
@@ -180,12 +189,13 @@ namespace WebApi.Controllers
 
         // POST api/<MovimientosDeStockController>
         [HttpPost]
+        [Authorize]
         public IActionResult Post([FromBody] DTOMovimientoDeStock dtoMovimiento)
         {
             try
             {
                 //DTOUsuario usuario = CUBuscarUsuarioConMail.BuscarUsuarioConMail(dtoMovimiento.UsuarioDeMovimientoEmail);
-                
+
                 //dtoMovimiento.UsuarioDeMovimiento = usuario.Id; 
 
                 if (dtoMovimiento == null)

@@ -26,54 +26,31 @@ namespace WebMVC.Controllers
                 return RedirectToAction("Login", "Usuarios");
             }//Fin Checkeo sesion
 
+            List <DTOCantidad> listadoPorFecha = new List<DTOCantidad>();
+
             try
             {
                 HttpClient client = new HttpClient();
-                string urlBase = UrlApi + "MovimientosDeStock/CantidadDeMovimientosPorAnioYTipo/";
-
-                //Se tienen que traer de web api
-                var tipos = new List<int> { 4, 5 };
-                var anios = new List<int> { 2021, 2022, 2023, 2024};
-
-                List<DTOListaResumen> listaCantidades = new List<DTOListaResumen>();
-
-                foreach (var anio in anios)
+                string url = UrlApi + "MovimientosDeStock/CantidadDeMovimientosPorAnioYTipo";        
+                var tarea = client.GetAsync(url);
+                tarea.Wait();
+                var respuesta = tarea.Result;
+                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+               
+                if (respuesta.IsSuccessStatusCode) //ES 200
                 {
-                    var resumenAnual = new DTOListaResumen
-                    {
-                        Anio = anio,
-                        CantidadesPorTipo = new List<DTOResumen>()
-                    };
-
-                    foreach (var tipo in tipos)
-                    {
-                        var url = $"{urlBase}{anio}/{tipo}";
-                        var tarea = client.GetAsync(url);
-                        tarea.Wait();
-                        var respuesta = tarea.Result;
-                        string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
-
-                        if (respuesta.IsSuccessStatusCode) //ES 200
-                        {
-                            var cantidad = JsonConvert.DeserializeObject<DTOResumen>(cuerpo);
-                            resumenAnual.CantidadesPorTipo.Add(
-                            new DTOResumen
-                            {
-                                Tipo = tipo, // Puedes ajustar esto según tu necesidad
-                                Cantidad = cantidad.Cantidad
-                            });
-                        }
-                    }
-                    listaCantidades.Add(resumenAnual);
+                     listadoPorFecha = JsonConvert.DeserializeObject<List<DTOCantidad>>(cuerpo);
+                   return View(listadoPorFecha);
                 }
 
-                return View(listaCantidades);
+                ViewBag.Mensaje = cuerpo;
+                return View(listadoPorFecha);
             }
             catch (Exception ex)
             {
                 ViewBag.Mensaje = "Ocurrión un error inesperado: " + ex.Message;
-                return View();
-            }
+                return View(listadoPorFecha);
+            }      
         }
 
         // GET: ListarMovimientosPorTipoYArticulo
@@ -115,7 +92,7 @@ namespace WebMVC.Controllers
 
         // GET: ListarMovimientosPorTipoYArticulo/articulo, tipo
         [HttpPost]
-        public ActionResult ListarMovimientosPorTipoYArticulo(int articulo, int tipo)
+        public ActionResult ListarMovimientosPorTipoYArticuloPost(int articulo, int tipo)
         {
             try
             {
@@ -129,19 +106,19 @@ namespace WebMVC.Controllers
 
                 if (respuesta.IsSuccessStatusCode) //ES 200
                 {
-                    List<DTOMovimientoDeStock> movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoDeStock>>(cuerpo);
+                    List<DTOMovimientoStockYTipo> movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoStockYTipo>>(cuerpo);
                     return View(movimientos);
                 }
                 else
                 {
                     ViewBag.Mensaje = "Error: " + cuerpo;
-                    return View(new List<DTOMovimientoDeStock>());
+                    return View(new List<DTOMovimientoStockYTipo>());
                 }
             }
             catch
             {
                 ViewBag.Mensaje = "Ocurrión un error inesperado";
-                return View(new List<DTOMovimientoDeStock>());
+                return View(new List<DTOMovimientoStockYTipo>());
             }
         }
 
@@ -221,17 +198,37 @@ namespace WebMVC.Controllers
         // GET: MovimientosDeStockController/Create
         public ActionResult Create()
         {
+            
+
             if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
                 return RedirectToAction("Login", "Usuarios");
-            }//Fin Checkeo sesion
+            }//Fin Checkeo sesion desde MVC
+            
 
+            HttpClient cliente = new HttpClient();
+            string url = UrlApi + "MovimientosDeStock/AltaMovimientosDeStock";
+            cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                HttpContext.Session.GetString("Token"));
+            var tarea = cliente.GetAsync(url);
+            tarea.Wait();
+            var respuesta = tarea.Result;
+            var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+            if (respuesta.IsSuccessStatusCode)
+            {
 
-            DTOMovimientoDeStock movDTO = new DTOMovimientoDeStock();
-            //movDTO.UsuarioDeMovimiento = HttpContext.Session.GetString("Id");
-            movDTO.Articulos = ObtenerArticulos();
-            movDTO.TiposDeMovimiento = ObtenerTiposDeMovimiento();
-            return View(movDTO);      
+                DTOMovimientoDeStock movDTO = new DTOMovimientoDeStock();
+                //movDTO.UsuarioDeMovimiento = HttpContext.Session.GetString("Id");
+                movDTO.Articulos = ObtenerArticulos();
+                movDTO.TiposDeMovimiento = ObtenerTiposDeMovimiento();
+                return View(movDTO);
+
+            }
+            else
+            {
+                return RedirectToAction("Login", "Usuarios");
+            }
+
         }
 
         // POST: MovimientosDeStockController/Create
@@ -239,11 +236,12 @@ namespace WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(DTOMovimientoDeStock movDTO)
         {
-           if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+           
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
                 return RedirectToAction("Login", "Usuarios");
             }//F
-
+            
             try
             {
                 // movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
@@ -254,28 +252,36 @@ namespace WebMVC.Controllers
 
                 if (ModelState.IsValid)
                 {
-                                   
+
                     HttpClient cliente = new HttpClient();
                     string url = UrlApi + "MovimientosDeStock";
+                    cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                        HttpContext.Session.GetString("Token"));
                     var tarea = cliente.PostAsJsonAsync(url, movDTO);
                     tarea.Wait();
                     var respuesta = tarea.Result;
                     var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
                     if (respuesta.IsSuccessStatusCode)
                     {
-                        return RedirectToAction("Index","Home");
+                        return RedirectToAction("Index", "Home");
                     }
                     else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
                         || (int)respuesta.StatusCode == StatusCodes.Status404NotFound
                         || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
                     {
                         ViewBag.Mensaje = respuesta.Content.ReadAsStringAsync().Result;
+
+                    }
+                    else
+                    {
+                        //|| (int)respuesta.StatusCode == StatusCodes.Status401Unauthorized)
+                        return RedirectToAction("Login", "Usuarios");
                     }
 
                 }
 
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 ViewBag.Mensaje = ex.Message;
             }
@@ -286,6 +292,7 @@ namespace WebMVC.Controllers
             //movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
             return View(movDTO);
         }
+
 
         // GET: MovimientosDeStockController/Edit/5
         public ActionResult Edit(int id)

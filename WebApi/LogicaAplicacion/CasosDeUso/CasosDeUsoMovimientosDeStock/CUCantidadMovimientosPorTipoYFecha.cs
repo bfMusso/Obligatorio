@@ -22,10 +22,10 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
             Repo = repo;
         }
 
-        public DTOCantidad cantidadMovPorTipoyFecha(int anio, int tipoId)
-        {   
-            DTOCantidad dTOCantidad = new DTOCantidad();
-            dTOCantidad.Cantidad = Repo.CantidadesPorTipoYFecha(anio, tipoId);
+        public List<DTOCantidad> cantidadMovPorTipoyFecha()
+        {
+            List<DTOCantidad> dTOCantidad = new List<DTOCantidad>();
+            dTOCantidad = MapperCantidad.ToDTOCantidad(Repo.CantidadesPorTipoYFecha());
             return dTOCantidad;
         }
     }
