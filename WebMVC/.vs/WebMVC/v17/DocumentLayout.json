@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\movimientosdestock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\movimientosdestock\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\views\\movimientosdestock\\listarmovimientosportipoyfecha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\movimientosdestock\\listarmovimientosportipoyfecha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDF16AD4-21F8-4CD9-8E2E-78165A2EDB4A}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\movimientosdestockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{33B8F2AB-AF84-48D8-9C14-C9C031A5BDC3}|DTOs\\DTOs.csproj|c:\\ort\\semestre 3\\proyectogit\\obligatorio\\webmvc\\dtos\\dtomovimientostockytipopaginado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,20 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MovimientosDeStockController.cs",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "RelativeDocumentMoniker": "WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Controllers\\MovimientosDeStockController.cs",
               "RelativeToolTip": "WebMVC\\Controllers\\MovimientosDeStockController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAwwGgAAAAAAAAA",
+              "ViewState": "AQIAABkBAAAAAAAAAAAuwH4AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T21:14:32.313Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -79,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\Create.cshtml",
               "RelativeDocumentMoniker": "WebMVC\\Views\\MovimientosDeStock\\Create.cshtml",
               "ToolTip": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\Create.cshtml",
               "RelativeToolTip": "WebMVC\\Views\\MovimientosDeStock\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABDAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAABkAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-20T02:04:43.634Z",
               "EditorCaption": ""
@@ -128,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ListarArticulosPorFechas.cshtml",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\ListarArticulosPorFechas.cshtml",
               "RelativeDocumentMoniker": "WebMVC\\Views\\MovimientosDeStock\\ListarArticulosPorFechas.cshtml",
@@ -140,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ListarMovimientosPorTipoYFecha.cshtml",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYFecha.cshtml",
               "RelativeDocumentMoniker": "WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYFecha.cshtml",
@@ -152,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ListarMovimientosPorTipoYArticulo.cshtml",
               "DocumentMoniker": "C:\\ORT\\Semestre 3\\ProyectoGIT\\Obligatorio\\WebMVC\\WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticulo.cshtml",
               "RelativeDocumentMoniker": "WebMVC\\Views\\MovimientosDeStock\\ListarMovimientosPorTipoYArticulo.cshtml",
