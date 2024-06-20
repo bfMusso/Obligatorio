@@ -10,7 +10,6 @@ namespace DTOs
     {
         public List<DTOMovimientoStockYTipo> MovimientosStockYTipo { get; set; }
 
-        public int TotalElementos { get; set; }
-        public int TopeDePagina { get; set; }
+        public int PaginasTotales { get; set; }  
     }
 }
