@@ -12,6 +12,8 @@ namespace LogicaNegocio.InterfacesRepositorios
         //metodo traerimpuesto
 
         public ValorFijo CargarValores(string id);
+
+        public int ObtenerTopePaginas();
     
     }
 }

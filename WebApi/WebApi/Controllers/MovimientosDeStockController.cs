@@ -1,7 +1,9 @@
 ﻿using DTOs;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario;
+using LogicaAplicacion.CasosDeUso.CasosDeUsoValoresFijos;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
+using LogicaAplicacion.InterfacesCasosDeUso.Impuesto;
 using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaNegocio.Dominio;
@@ -24,22 +26,23 @@ namespace WebApi.Controllers
 
         public ICUListarMovimientosDeStock<DTOMovimientoDeStock> CUListarMovimientosDeStock { get; set; }
 
-        public ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> CUBuscarMovimientosYTipos { get; set; }
+        public ICUListarMovimientosYTipos<DTOMovimientoStockYTipoPaginado> CUBuscarMovimientosYTipos { get; set; }
 
-        public ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> CUListarArticulosEnMovimientosEntreFechas { get; set; }
+        public ICUListarArticulosEnMovimientosEntreFechas<DTOArticulosPaginados> CUListarArticulosEnMovimientosEntreFechas { get; set; }
 
         public ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> CUListarMovimientosPorTipoYFechas { get; set; }
 
         public ICUCantidadTotalMovimientos CUCantidadTotalMovimientos { get; set; }
 
-        public ICUMovimientosAMostrarPorPagina CUMovimientosAMostrarPorPagina { get; set; }
+       
 
         public ICUListarSimpleMOvimientoDeStockYTipo<DTOMovimientoStockYTipo> CUListarSimpleMovimientoDeStockYTipo { get; set; }
+        public ICUObtenerTotalPaginas CUObtenerTotalPaginado { get; set; }
 
         public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId,
-            ICUListarMovimientosYTipos<DTOMovimientoStockYTipo> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock,
-            ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos> cUListarArticulosEnMovimientosEntreFechas, ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> cUListarMovimientosPorTipoYFechas,
-            ICUCantidadTotalMovimientos cUCantidadTotalMovimientos, ICUMovimientosAMostrarPorPagina cUMovimientosAMostrarPorPagina, ICUListarSimpleMOvimientoDeStockYTipo<DTOMovimientoStockYTipo> cUListarSimpleMovimientoDeStockYTipo)
+            ICUListarMovimientosYTipos<DTOMovimientoStockYTipoPaginado> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock,
+            ICUListarArticulosEnMovimientosEntreFechas<DTOArticulosPaginados> cUListarArticulosEnMovimientosEntreFechas, ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> cUListarMovimientosPorTipoYFechas,
+            ICUCantidadTotalMovimientos cUCantidadTotalMovimientos, ICUListarSimpleMOvimientoDeStockYTipo<DTOMovimientoStockYTipo> cUListarSimpleMovimientoDeStockYTipo, ICUObtenerTotalPaginas cUObtenerTotalPaginas)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
@@ -47,9 +50,9 @@ namespace WebApi.Controllers
             CUBuscarMovimientosYTipos = cUBuscarMovimientosYTipos;
             CUListarArticulosEnMovimientosEntreFechas = cUListarArticulosEnMovimientosEntreFechas;
             CUListarMovimientosPorTipoYFechas = cUListarMovimientosPorTipoYFechas;
-            CUCantidadTotalMovimientos = cUCantidadTotalMovimientos;
-            CUMovimientosAMostrarPorPagina = cUMovimientosAMostrarPorPagina;
+            CUCantidadTotalMovimientos = cUCantidadTotalMovimientos;           
             CUListarSimpleMovimientoDeStockYTipo = cUListarSimpleMovimientoDeStockYTipo;
+            CUObtenerTotalPaginado = cUObtenerTotalPaginas;
         }
 
 
@@ -61,7 +64,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet("CantidadDeMovimientosPorAnioYTipo")]
-        [Authorize]
+        //[Authorize]
         public IActionResult CantidadDeMovimientosPorAnioYTipo() {
 
             try
@@ -86,11 +89,11 @@ namespace WebApi.Controllers
 
         }
 
-
+        /*
         //
         // GET: api/<MovimientosDeStockController>
         [HttpGet("MovimientosDeStockYTipo/{pagina}")]
-        [Authorize]
+        //[Authorize]
         public IActionResult MovimientosDeStockYTipo(int pagina)
         {
             try
@@ -112,20 +115,24 @@ namespace WebApi.Controllers
             }
 
         }
-
+        */
 
 
 
         // GET: api/<MovimientosDeStockController>
-        [HttpGet("MovimientoPorTipo/{articuloId}/{tipoId}")]
+        [HttpGet("MovimientoPorTipo/{articuloId}/{tipoId}/{pagina}")]
         [Authorize]
-        public IActionResult Get(int articuloId, int tipoId)
+        public IActionResult Get(int articuloId, int tipoId, int pagina)
         {
             try
             {
-                List<DTOMovimientoStockYTipo> DTOmovimientos = CUBuscarMovimientosYTipos.ListarMovimientosYTipos(articuloId, tipoId);
+                if (pagina == 0)
+                {
+                    return BadRequest("El número de página recibida no es correcta");
+                }
+                DTOMovimientoStockYTipoPaginado DTOmovimientos = CUBuscarMovimientosYTipos.ListarMovimientosYTipos(articuloId, tipoId, pagina);
 
-                if (DTOmovimientos.Count() <= 0) {
+                if (DTOmovimientos.TotalElementos <= 0) {
                     return BadRequest("No hay elementos que coincidan.");
                 }
 
@@ -143,9 +150,9 @@ namespace WebApi.Controllers
 
         // GET: api/<MovimientosDeStockController>
 
-        [HttpGet("ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}")]
+        [HttpGet("ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}/{pagina}")]
         [Authorize]
-        public IActionResult Get(DateTime fecha1, DateTime fecha2)
+        public IActionResult Get(DateTime fecha1, DateTime fecha2, int pagina)
         {
             try
             {
@@ -156,9 +163,9 @@ namespace WebApi.Controllers
                     return BadRequest("La fecha inicial no puede ser mayor que la fecha final");
                 }
 
-                List<DTOListarArticulos> DTOArticulos = CUListarArticulosEnMovimientosEntreFechas.ListarArticulosEntreFechas(fecha1, fecha2);
+                DTOArticulosPaginados DTOArticulos = CUListarArticulosEnMovimientosEntreFechas.ListarArticulosEntreFechas(fecha1, fecha2, pagina);
 
-                if (DTOArticulos.Count() <= 0)
+                if (DTOArticulos.Articulos.Count() <= 0)
                 {
                     return BadRequest("No hay articulos en movimientos entre las fechas dadas.");
                 }
@@ -285,7 +292,7 @@ namespace WebApi.Controllers
         {
             try
             {
-                return Ok((double)CUCantidadTotalMovimientos.CantidadTotalMovimientos() / 5);
+                return Ok((double)CUCantidadTotalMovimientos.CantidadTotalMovimientos() / CUObtenerTotalPaginado.ObtenerPaginado());
             }
             catch (ExcepcionCustomException ex) {
                 return BadRequest(ex.Message);
@@ -298,27 +305,6 @@ namespace WebApi.Controllers
         }
 
 
-        [HttpGet("MovimientosPorPagina/{pagina}")]
-        public IActionResult MovimientosPorPagina(int pagina)
-        {
-            try
-            {
-                if (pagina == 0) { 
-                    return BadRequest("El numero de pagina no es correcto.");
-                }
-                return Ok(CUMovimientosAMostrarPorPagina.MovimientosPorPagina(pagina));
-            }
-            catch
-            (ExcepcionCustomException ex)
-            {
-                return BadRequest(ex.Message);
-            }
-            catch 
-            {
-                return StatusCode(500, "Error inesperado");
-            }
-        
-        }
 
         // PUT api/<MovimientosDeStockController>/5
         /*

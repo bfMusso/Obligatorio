@@ -24,5 +24,7 @@ namespace DTOs
 
         public bool tipoDeCambioEnStock { get; set; }
 
+        public int CantidadItemsTotales { get; set; }
+
     }
 }

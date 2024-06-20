@@ -3,6 +3,7 @@ using LogicaNegocio.Excepciones;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,16 @@ namespace LogicaDatos.Repositorios
              }
 
              return encontrado;            
+        }
+
+        public int ObtenerTopePaginas()
+        {
+            int topePagina = Contexto.ValoresFijos
+                                .Where(v => v.Nombre == "Paginado")
+                                .Select(v => v.Valor)
+                                .SingleOrDefault();
+            return topePagina;
+
         }
     }
 }

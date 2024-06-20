@@ -24,8 +24,8 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
 
         public List<DTOCantidad> cantidadMovPorTipoyFecha()
         {
-            List<DTOCantidad> dTOCantidad = new List<DTOCantidad>();
-            dTOCantidad = MapperCantidad.ToDTOCantidad(Repo.CantidadesPorTipoYFecha());
+            List<DTOCantidad> dTOCantidad = new List<DTOCantidad>();    
+            dTOCantidad = MapperCantidad.ToDTOCantidad(Repo.CantidadesPorTipoYFecha());            
             return dTOCantidad;
         }
     }
