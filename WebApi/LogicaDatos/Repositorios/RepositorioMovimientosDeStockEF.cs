@@ -126,19 +126,7 @@ namespace LogicaDatos.Repositorios
             //Retornamos elementos encontrados
             return articulosEncontrados;
         }
-        /*
-        public int CantidadesPorTipoYFecha(int anio, int tipoID)
-        {
-            TipoDeMovimiento tipo = Contexto.TipoDeMovimientos.Find(tipoID);
-            int cantidadesMovidas = 0;
-            //Buscamos las cantidades segun tipo y año
-            cantidadesMovidas = Contexto.MovimientosDeStock
-                                        .Where(m => m.FechaYHora.Year == anio && m.Tipo == tipo)
-                                        .Sum(m => m.CantidadArticulo);
-            //Retornamos resultados
-            return cantidadesMovidas;
-        }
-        */
+       
        
 
         public List<(int, string, int)> CantidadesPorTipoYFecha()

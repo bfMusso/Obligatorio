@@ -42,7 +42,7 @@ namespace WebApi.Controllers
         public MovimientosDeStockController(ICUAltaMovimientoDeStock<DTOMovimientoDeStock> cUAltaMovimientoDeStock, ICUBuscarMovimientoPorId<DTOMovimientoDeStock> cUBuscarMovimientoPorId,
             ICUListarMovimientosYTipos<DTOMovimientoStockYTipoPaginado> cUBuscarMovimientosYTipos, ICUListarMovimientosDeStock<DTOMovimientoDeStock> cUListarMovimientosDeStock,
             ICUListarArticulosEnMovimientosEntreFechas<DTOArticulosPaginados> cUListarArticulosEnMovimientosEntreFechas, ICUCantidadMovimientosPorTipoYFecha<DTOCantidad> cUListarMovimientosPorTipoYFechas,
-            ICUCantidadTotalMovimientos cUCantidadTotalMovimientos, ICUListarSimpleMOvimientoDeStockYTipo<DTOMovimientoStockYTipo> cUListarSimpleMovimientoDeStockYTipo, ICUObtenerTotalPaginas cUObtenerTotalPaginas)
+            ICUCantidadTotalMovimientos cUCantidadTotalMovimientos, ICUObtenerTotalPaginas cUObtenerTotalPaginas)
         {
             CUAltaMovimientoDeStock = cUAltaMovimientoDeStock;
             CUBuscarMovimientoPorId = cUBuscarMovimientoPorId;
@@ -50,8 +50,7 @@ namespace WebApi.Controllers
             CUBuscarMovimientosYTipos = cUBuscarMovimientosYTipos;
             CUListarArticulosEnMovimientosEntreFechas = cUListarArticulosEnMovimientosEntreFechas;
             CUListarMovimientosPorTipoYFechas = cUListarMovimientosPorTipoYFechas;
-            CUCantidadTotalMovimientos = cUCantidadTotalMovimientos;           
-            CUListarSimpleMovimientoDeStockYTipo = cUListarSimpleMovimientoDeStockYTipo;
+            CUCantidadTotalMovimientos = cUCantidadTotalMovimientos;             
             CUObtenerTotalPaginado = cUObtenerTotalPaginas;
         }
 
@@ -89,36 +88,6 @@ namespace WebApi.Controllers
 
         }
 
-        /*
-        //
-        // GET: api/<MovimientosDeStockController>
-        [HttpGet("MovimientosDeStockYTipo/{pagina}")]
-        //[Authorize]
-        public IActionResult MovimientosDeStockYTipo(int pagina)
-        {
-            try
-            {
-                if (pagina == 0)
-                {
-                    return BadRequest("El número de página recibida no es correcta");
-                }
-                List<DTOMovimientoStockYTipo> DTOMovimientosDeStockYTipo = CUListarSimpleMovimientoDeStockYTipo.ListarMovimientosDeStockYTipo(pagina);
-                return Ok(DTOMovimientosDeStockYTipo);
-            }
-            catch (ExcepcionCustomException ex)
-            {
-                return NotFound(ex.Message);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "Error inesperado: " + ex.Message);
-            }
-
-        }
-        */
-
-
-
         // GET: api/<MovimientosDeStockController>
         [HttpGet("MovimientoPorTipo/{articuloId}/{tipoId}/{pagina}")]
         [Authorize]
@@ -132,7 +101,7 @@ namespace WebApi.Controllers
                 }
                 DTOMovimientoStockYTipoPaginado DTOmovimientos = CUBuscarMovimientosYTipos.ListarMovimientosYTipos(articuloId, tipoId, pagina);
 
-                if (DTOmovimientos.TotalElementos <= 0) {
+                if (DTOmovimientos.MovimientosStockYTipo.Count() <= 0) {
                     return BadRequest("No hay elementos que coincidan.");
                 }
 
@@ -156,8 +125,6 @@ namespace WebApi.Controllers
         {
             try
             {
-
-
                 if (fecha1 > fecha2)
                 {
                     return BadRequest("La fecha inicial no puede ser mayor que la fecha final");
@@ -246,9 +213,6 @@ namespace WebApi.Controllers
         {
             try
             {
-                //DTOUsuario usuario = CUBuscarUsuarioConMail.BuscarUsuarioConMail(dtoMovimiento.UsuarioDeMovimientoEmail);
-
-                //dtoMovimiento.UsuarioDeMovimiento = usuario.Id; 
 
                 if (dtoMovimiento == null)
                 {
@@ -303,25 +267,6 @@ namespace WebApi.Controllers
             }
 
         }
-
-
-
-        // PUT api/<MovimientosDeStockController>/5
-        /*
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-        */
-
-
-        // DELETE api/<MovimientosDeStockController>/5
-        /*
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
-        */
 
     }
 }

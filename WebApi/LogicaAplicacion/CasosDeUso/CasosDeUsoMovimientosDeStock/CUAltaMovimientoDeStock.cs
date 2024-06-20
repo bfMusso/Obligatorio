@@ -64,8 +64,6 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
             {
                 throw new ExcepcionCustomException("No se pudo realiazar el alta de movimiento de stock.");
             }
-
-            
         }
     }
 }

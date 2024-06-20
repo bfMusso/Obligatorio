@@ -56,8 +56,6 @@ namespace WebMVC.Controllers
             }      
         }
 
-
-
       
 
         // GET: ListarMovimientosPorTipoYArticulo/articulo, tipo
@@ -100,10 +98,10 @@ namespace WebMVC.Controllers
                     {
                         movimientos = JsonConvert.DeserializeObject<DTOMovimientoStockYTipoPaginado>(cuerpo);
 
-                        
 
-                      //  ViewBag.Paginas = (int)(movimientos.TotalElementos / movimientos.TopeDePagina);
-                        ViewBag.Paginas = (int)Math.Ceiling((double)movimientos.TotalElementos / movimientos.TopeDePagina);
+
+                        //  ViewBag.Paginas = (int)(movimientos.TotalElementos / movimientos.TopeDePagina);
+                        ViewBag.Paginas = movimientos.PaginasTotales;
 
                     }
                     else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
@@ -182,17 +180,12 @@ namespace WebMVC.Controllers
             }
         }
 
-        // GET: MovimientosDeStockController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+       
 
         // GET: MovimientosDeStockController/Create
         public ActionResult Create()
         {
             
-
             if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
                 return RedirectToAction("Login", "Usuarios");
@@ -236,10 +229,7 @@ namespace WebMVC.Controllers
             }//F
             
             try
-            {
-                // movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
-                //movDTO.UsuarioDeMovimiento = int.Parse(HttpContext.Session.GetString("Id"));
-                //movDTO.UsuarioDeMovimiento = int.TryParse(HttpContext.Session.GetString("Id"), out int userId) ? userId : 0;
+            {              
                 movDTO.UsuarioDeMovimiento = (int)HttpContext.Session.GetInt32("Id");
 
 
@@ -270,9 +260,7 @@ namespace WebMVC.Controllers
                         //|| (int)respuesta.StatusCode == StatusCodes.Status401Unauthorized)
                         return RedirectToAction("Login", "Usuarios");
                     }
-
                 }
-
             }
             catch (Exception ex)
             {
@@ -285,7 +273,6 @@ namespace WebMVC.Controllers
             //movDTO.UsuarioDeMovimientoEmail = HttpContext.Session.GetString("Email");
             return View(movDTO);
         }
-
 
 
         /*
@@ -307,21 +294,6 @@ namespace WebMVC.Controllers
             return articulos;
         }
 
-        public List<DTOUsuario> ObtenerUsuarios()
-        {
-            List<DTOUsuario> usuarios = new List<DTOUsuario>();
-            HttpClient cliente = new HttpClient();
-            string url = UrlApi + "Usuarios";
-            var tarea = cliente.GetAsync(url);
-            tarea.Wait();
-            var respuesta = tarea.Result;
-            string cuerpo = HerramientasAPI.LeerContenidoRespuesta(tarea.Result);
-            if (respuesta.IsSuccessStatusCode)
-            {
-                usuarios = JsonConvert.DeserializeObject<List<DTOUsuario>>(cuerpo);
-            }
-            return usuarios;
-        }
 
         public List<DTOTipoDeMovimiento> ObtenerTiposDeMovimiento()
         {
@@ -338,36 +310,6 @@ namespace WebMVC.Controllers
             }
             return tiposMov;
         }
-
-       
-
-
-        public double ObtenerCantidadDePaginas() {
-
-            double cantidadPaginas = 0;
-
-            try
-            { 
-                HttpClient cliente = new HttpClient();
-                var tarea = cliente.GetAsync(UrlApi + "MovimientosDeStock/CantidadDePaginas");
-                tarea.Wait();
-                var respuesta = tarea.Result;
-                var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
-                if (respuesta.IsSuccessStatusCode)
-                {
-                    cuerpo = cuerpo.Replace(".", ",");
-                    double.TryParse(cuerpo, out cantidadPaginas);
-                }
-                else if ((int)respuesta.StatusCode != StatusCodes.Status400BadRequest
-                        || (int)respuesta.StatusCode != StatusCodes.Status500InternalServerError)
-                {
-                    cantidadPaginas = -1;
-                }
-            }
-            catch(Exception ex){
-                throw new Exception("Error");
-            }
-            return cantidadPaginas;
-        }
+  
     }
 }

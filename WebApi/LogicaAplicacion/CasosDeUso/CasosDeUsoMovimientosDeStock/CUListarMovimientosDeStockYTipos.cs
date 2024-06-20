@@ -37,6 +37,7 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
 
             int totalElementos = movimientos.Count();
             int TopeDePagina = ObtenerTopePaginas.ObtenerPaginado();
+            int paginasTotales = (int)Math.Ceiling((double)totalElementos / TopeDePagina);
 
             movimientos = movimientos.Skip((pagina - 1) * TopeDePagina).Take(TopeDePagina).ToList();
 
@@ -46,8 +47,8 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
             return new DTOMovimientoStockYTipoPaginado()
             {
                 MovimientosStockYTipo = movimientosMapeados,
-                TotalElementos = totalElementos,
-                TopeDePagina = TopeDePagina
+                PaginasTotales = paginasTotales,
+                
             };
 
            
