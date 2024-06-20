@@ -8,6 +8,6 @@ namespace LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock
 {
     public interface ICUListarArticulosEnMovimientosEntreFechas<T>
     {
-        List<T> ListarArticulosEntreFechas(DateTime fecha1, DateTime fecha2);
+        T ListarArticulosEntreFechas(DateTime fecha1, DateTime fecha2, int pagina);
     }
 }

@@ -4,7 +4,9 @@ using LogicaAplicacion.CasosDeUso.CasosDeUsoArticulo;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoTipoDeMovimiento;
 using LogicaAplicacion.CasosDeUso.CasosDeUsoUsuario;
+using LogicaAplicacion.CasosDeUso.CasosDeUsoValoresFijos;
 using LogicaAplicacion.InterfacesCasosDeUso.Genericas;
+using LogicaAplicacion.InterfacesCasosDeUso.Impuesto;
 using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
 using LogicaAplicacion.InterfacesCasosDeUso.Usuario;
 using LogicaDatos.Repositorios;
@@ -20,7 +22,8 @@ namespace WebApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            //
+            builder.Services.AddScoped<ICUObtenerTotalPaginas, CUObtenerTotalPaginado>();
             //Usuarios
             builder.Services.AddScoped<ICULogin<DTOUsuario>, CULoginUsuario>();
             builder.Services.AddScoped<ICUBuscarConMail<DTOUsuario>, CUBuscarUsuarioConMail>();           
@@ -30,11 +33,11 @@ namespace WebApi
             builder.Services.AddScoped<ICUAltaMovimientoDeStock<DTOMovimientoDeStock>, CUAltaMovimientoDeStock>();
             builder.Services.AddScoped<ICUBuscarMovimientoPorId<DTOMovimientoDeStock>, CUBuscarMovimientoDeStockPorId>();
             builder.Services.AddScoped<ICUListarMovimientosDeStock<DTOMovimientoDeStock>, CUListarMovimientosDeStock>();
-            builder.Services.AddScoped<ICUListarMovimientosYTipos<DTOMovimientoStockYTipo>, CUListarMovimientosDeStockYTipos>();
-            builder.Services.AddScoped<ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos>, CUListarArticulosEnMovimientosEntreFechas>();
+            builder.Services.AddScoped<ICUListarMovimientosYTipos<DTOMovimientoStockYTipoPaginado>, CUListarMovimientosDeStockYTipos>();
+            builder.Services.AddScoped<ICUListarArticulosEnMovimientosEntreFechas<DTOArticulosPaginados>, CUListarArticulosEnMovimientosEntreFechas>();
             builder.Services.AddScoped<ICUCantidadMovimientosPorTipoYFecha<DTOCantidad>, CUCantidadMovimientosPorTipoYFecha>();
             builder.Services.AddScoped<ICUCantidadTotalMovimientos, CUCantidadTotalMovimientos>();
-            builder.Services.AddScoped<ICUMovimientosAMostrarPorPagina, CUMovimientosAMostrarPorPagina>();
+            
             builder.Services.AddScoped<ICUListarSimpleMOvimientoDeStockYTipo<DTOMovimientoStockYTipo>, CUListarSimpleMovimientoDeStockYTipo>();
 
             //Tipo de movimiento de Stock

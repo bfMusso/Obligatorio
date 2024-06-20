@@ -167,8 +167,8 @@ namespace LogicaDatos.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("Valor")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

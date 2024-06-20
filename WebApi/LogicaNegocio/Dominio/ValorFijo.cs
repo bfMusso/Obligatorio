@@ -20,7 +20,7 @@ namespace LogicaNegocio.Dominio
 
         [Required(ErrorMessage = "Valor es obligatorio")]
         [Range(0, int.MaxValue, ErrorMessage = "El valor no puede ser menor a 0")]
-        public decimal Valor { get; set; }
+        public int Valor { get; set; }
 
         public void Validar()
         {

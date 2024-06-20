@@ -1,5 +1,7 @@
 ﻿using DTOs;
+using LogicaAplicacion.InterfacesCasosDeUso.Impuesto;
 using LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock;
+using LogicaDatos.Migrations;
 using LogicaNegocio.Dominio;
 using LogicaNegocio.InterfacesRepositorios;
 using System;
@@ -10,20 +12,34 @@ using System.Threading.Tasks;
 
 namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
 {
-    public class CUListarArticulosEnMovimientosEntreFechas : ICUListarArticulosEnMovimientosEntreFechas<DTOListarArticulos>
+    public class CUListarArticulosEnMovimientosEntreFechas : ICUListarArticulosEnMovimientosEntreFechas<DTOArticulosPaginados>
     {
         public IRepositorioMovimientoDeStock Repo { get; set; }
+        public ICUObtenerTotalPaginas ObtenerTopePaginas { get; set; }
 
-        public CUListarArticulosEnMovimientosEntreFechas(IRepositorioMovimientoDeStock repo)
+        public CUListarArticulosEnMovimientosEntreFechas(IRepositorioMovimientoDeStock repo, ICUObtenerTotalPaginas obtenerTopePaginas)
         {
             Repo = repo;
+            ObtenerTopePaginas = obtenerTopePaginas;
         }
 
-        public List<DTOListarArticulos> ListarArticulosEntreFechas(DateTime fecha1, DateTime fecha2)
+        public DTOArticulosPaginados ListarArticulosEntreFechas(DateTime fecha1, DateTime fecha2, int pagina)
         {
             List<Articulo> articulos = Repo.BuscarArtDeMovEnRangoDeFechas(fecha1, fecha2);
 
-            return MapperArticulos.ToDTOListarArticulos(articulos);
+            int totalElementos = articulos.Count();
+            int TopeDePagina = ObtenerTopePaginas.ObtenerPaginado();
+            int paginasTotales = (int)Math.Ceiling((double)totalElementos / TopeDePagina);
+
+            articulos = articulos.Skip((pagina - 1) * TopeDePagina).Take(TopeDePagina).ToList();
+
+           List<DTOListarArticulos> articulosMapeados = MapperArticulos.ToDTOListarArticulos(articulos);
+
+            return new DTOArticulosPaginados()
+            {
+                Articulos = articulosMapeados,
+                PaginasTotales = paginasTotales               
+            };
         }
     }
 }

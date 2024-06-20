@@ -64,7 +64,7 @@
   {
     "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
     "Method": "Get",
-    "RelativePath": "api/MovimientosDeStock/ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}",
+    "RelativePath": "api/MovimientosDeStock/ArticulosEnMovimientosEntreFechas/{fecha1}/{fecha2}/{pagina}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -77,6 +77,11 @@
       {
         "Name": "fecha2",
         "Type": "System.DateTime",
+        "IsRequired": true
+      },
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -105,7 +110,7 @@
   {
     "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
     "Method": "Get",
-    "RelativePath": "api/MovimientosDeStock/MovimientoPorTipo/{articuloId}/{tipoId}",
+    "RelativePath": "api/MovimientosDeStock/MovimientoPorTipo/{articuloId}/{tipoId}/{pagina}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -119,34 +124,7 @@
         "Name": "tipoId",
         "Type": "System.Int32",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
-    "Method": "MovimientosDeStockYTipo",
-    "RelativePath": "api/MovimientosDeStock/MovimientosDeStockYTipo/{pagina}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "pagina",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.MovimientosDeStockController",
-    "Method": "MovimientosPorPagina",
-    "RelativePath": "api/MovimientosDeStock/MovimientosPorPagina/{pagina}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+      },
       {
         "Name": "pagina",
         "Type": "System.Int32",

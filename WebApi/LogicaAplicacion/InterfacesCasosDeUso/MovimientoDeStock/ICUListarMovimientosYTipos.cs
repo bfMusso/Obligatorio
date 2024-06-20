@@ -8,7 +8,7 @@ namespace LogicaAplicacion.InterfacesCasosDeUso.MovimientoDeStock
 {
     public interface ICUListarMovimientosYTipos<T>
     {
-        List<T> ListarMovimientosYTipos(int idArticulo, int idTipo);
+        T ListarMovimientosYTipos(int idArticulo, int idTipo, int pagina);
     }
 }
 

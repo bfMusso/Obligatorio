@@ -7,7 +7,7 @@
         <p class="fw-bold text-danger text-center">@ViewBag.Mensaje</p>
     </div>
 }
-@{
+@{   
     var agrupadosPorAnio = Model.GroupBy(r => r.Anio).ToList();
 }
 

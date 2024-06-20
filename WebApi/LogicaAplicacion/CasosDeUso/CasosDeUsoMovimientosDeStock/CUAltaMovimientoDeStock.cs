@@ -45,6 +45,7 @@ namespace LogicaAplicacion.CasosDeUso.CasosDeUsoMovimientosDeStock
 
             //IMPLEMENTAR IF DTO.CANTIDAD > VALOR FIJO se va por la excepcion.
             ValorFijo tope = RepoValoresFijos.CargarValores("Tope");
+
             if (dto.CantidadArticulo > tope.Valor)
             {
                 throw new ExcepcionCustomException("Se sobrepasó el tope permitido.");

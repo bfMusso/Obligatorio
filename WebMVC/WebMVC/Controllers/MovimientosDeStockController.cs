@@ -58,165 +58,127 @@ namespace WebMVC.Controllers
 
 
 
-        // GET: ListarMovimientosPorTipoYArticulo
-
-  
-            public ActionResult ListarMovimientosPorTipoYArticulo(int? pagina) {
-
-            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
-            {
-                return RedirectToAction("Login", "Usuarios");
-            }//Fin Checkeo sesion
-            List<DTOMovimientoStockYTipo> movimientos = new List<DTOMovimientoStockYTipo>();
-            try
-            {
-                if (pagina == null) 
-                {
-                 pagina = 1;
-                }
-       
-                HttpClient cliente = new HttpClient();
-                //string url = UrlApi + "MovimientosDeStock/MovimientosDeStockYTipo/" + pagina;              
-                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
-                HttpContext.Session.GetString("Token"));
-                var tarea = cliente.GetAsync(UrlApi + "MovimientosDeStock/MovimientosDeStockYTipo/" + pagina);
-                tarea.Wait();
-                var respuesta = tarea.Result;
-                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
-
-                if (respuesta.IsSuccessStatusCode) //ES 200
-                {
-                     movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoStockYTipo>>(cuerpo);
-                    double cantidadDePaginas = ObtenerCantidadDePaginas();
-                    ViewBag.Paginas = Math.Ceiling(cantidadDePaginas);
-                    //ViewBag.Paginas = 2;
-                }
-                else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
-                || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
-                {
-                    return ViewBag.Mensaje = cuerpo;
-                    
-                }          
-            }
-            catch
-            {
-                ViewBag.Mensaje = "Ocurrión un error inesperado";              
-            }
-            return View(movimientos);
-        }
-
+      
 
         // GET: ListarMovimientosPorTipoYArticulo/articulo, tipo
-        [HttpPost]
-        public ActionResult ListarMovimientosPorTipoYArticulo(int articulo, int tipo)
-        {
-
-            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
-            {
-                return RedirectToAction("Login", "Usuarios");
-            }//Fin Checkeo sesion
-
-            try
-            {
-                HttpClient cliente = new HttpClient();
-                string url = UrlApi + "MovimientosDeStock/MovimientoPorTipo/" + articulo + "/" + tipo;              
-                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
-                HttpContext.Session.GetString("Token"));
-                var tarea = cliente.GetAsync(url);
-                tarea.Wait();
-                var respuesta = tarea.Result;
-                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
-
-                if (respuesta.IsSuccessStatusCode) //ES 200
-                {
-                    List<DTOMovimientoStockYTipo> movimientos = JsonConvert.DeserializeObject<List<DTOMovimientoStockYTipo>>(cuerpo);
-                    return View(movimientos);
-                }
-                else
-                {
-                    ViewBag.Mensaje = "Error: " + cuerpo;
-                    return View(new List<DTOMovimientoStockYTipo>());
-                }
-            }
-            catch
-            {
-                ViewBag.Mensaje = "Ocurrión un error inesperado";
-                return View(new List<DTOMovimientoStockYTipo>());
-            }
-        }
-
-
-
-        // GET: MovimientosDeStockController
-        public ActionResult ListarArticulosPorFechas()
+        [HttpGet]
+        public ActionResult ListarMovimientosPorTipoYArticulo(int articulo, int tipo, int? pagina)
         {
             if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
                 return RedirectToAction("Login", "Usuarios");
             }//Fin Checkeo sesion
 
-            try
+            if (articulo == null && tipo == null || articulo == 0 && tipo == 0)
             {
-                HttpClient cliente = new HttpClient();
-                string url = UrlApi + "Articulos";               
-                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
-                HttpContext.Session.GetString("Token"));
-                var tarea = cliente.GetAsync(url);
-                tarea.Wait();
-                var respuesta = tarea.Result;
-                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+                ViewBag.Mensaje = "Ingrese un articulo y un valor";
+                return View();
+            }
+            else
+            {
+                ViewBag.ArticuloAlmacenado = articulo;
+                ViewBag.TipoAlmacenado = tipo;
 
-                if (respuesta.IsSuccessStatusCode) //ES 200
+
+               DTOMovimientoStockYTipoPaginado movimientos = new DTOMovimientoStockYTipoPaginado();
+                try
                 {
-                    List<DTOListarArticulos> articulos = JsonConvert.DeserializeObject<List<DTOListarArticulos>>(cuerpo);
-                    return View(articulos);
+                    if (pagina == null)
+                    {
+                        pagina = 1;
+                    }
+
+                    HttpClient cliente = new HttpClient();
+                    cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
+                    string url = UrlApi + "MovimientosDeStock/MovimientoPorTipo/" + articulo + "/" + tipo + "/" + pagina;
+                    var tarea = cliente.GetAsync(url);
+                    tarea.Wait();
+                    var respuesta = tarea.Result;
+                    string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+
+                    if (respuesta.IsSuccessStatusCode) //ES 200
+                    {
+                        movimientos = JsonConvert.DeserializeObject<DTOMovimientoStockYTipoPaginado>(cuerpo);
+
+                        
+
+                      //  ViewBag.Paginas = (int)(movimientos.TotalElementos / movimientos.TopeDePagina);
+                        ViewBag.Paginas = (int)Math.Ceiling((double)movimientos.TotalElementos / movimientos.TopeDePagina);
+
+                    }
+                    else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
+                     || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
+                    {
+                        return ViewBag.Mensaje = cuerpo;
+
+                    }
                 }
-                else
+                catch
                 {
-                    ViewBag.Mensaje = cuerpo;
-                    return View(new List<DTOListarArticulos>());
+                    ViewBag.Mensaje = "Ocurrión un error inesperado";
                 }
+                return View(movimientos.MovimientosStockYTipo);
             }
-            catch
-            {
-                ViewBag.Mensaje = "Ocurrión un error inesperado";
-                return View(new List<DTOListarArticulos>());
-            }
+
+            
         }
 
-        [HttpPost]
-        public ActionResult ListarArticulosPorFechas(string inicial, string final) {
-
+        [HttpGet]
+        public ActionResult ListarArticulosPorFechas(string inicial, string final, int? pagina) {
 
             if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
             {
                 return RedirectToAction("Login", "Usuarios");
             }//Fin Checkeo sesion
 
-            try
-            {
-                HttpClient cliente = new HttpClient();
-                string url = UrlApi + "MovimientosDeStock/ArticulosEnMovimientosEntreFechas/" + inicial + "/" + final;               
-                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
-                HttpContext.Session.GetString("Token"));
-                var tarea = cliente.GetAsync(url);
-                tarea.Wait();
-                var respuesta = tarea.Result;
-                string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
 
-                if (respuesta.IsSuccessStatusCode) //ES 200
-                {
-                    List<DTOListarArticulos> articulos = JsonConvert.DeserializeObject<List<DTOListarArticulos>>(cuerpo);
-                    return View(articulos);
-                }else {
-                    ViewBag.Mensaje = "Error: " + cuerpo;
-                    return View(new List<DTOListarArticulos>());
-                }
-            }
-            catch
+            if (inicial == null && final == null)
             {
-                ViewBag.Mensaje = "Ocurrión un error inesperado";
-                return View(new List<DTOListarArticulos>());
+                ViewBag.Mensaje = "Ingrese ambas fechas para buscar";
+                return View();
+            }
+            else
+            {
+                ViewBag.FechaInicial = inicial;
+                ViewBag.FechaFinal = final;
+
+
+                DTOArticulosPaginados articulos = new DTOArticulosPaginados();
+                try
+                {
+                    if (pagina == null)
+                    {
+                        pagina = 1;
+                    }
+                    HttpClient cliente = new HttpClient();
+                    string url = UrlApi + "MovimientosDeStock/ArticulosEnMovimientosEntreFechas/" + inicial + "/" + final + "/" + pagina;
+                    cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",
+                    HttpContext.Session.GetString("Token"));
+                    var tarea = cliente.GetAsync(url);
+                    tarea.Wait();
+                    var respuesta = tarea.Result;
+                    string cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
+
+                    if (respuesta.IsSuccessStatusCode) //ES 200
+                    {
+                        articulos = JsonConvert.DeserializeObject<DTOArticulosPaginados>(cuerpo);
+
+                        ViewBag.Paginas = articulos.PaginasTotales;
+
+                    }
+                    else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
+                        || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
+                    {
+                        return ViewBag.Mensaje = cuerpo;
+
+                    }
+                }
+                catch
+                {
+                    ViewBag.Mensaje = "Ocurrión un error inesperado";
+                }
+
+                return View(articulos.Articulos);
             }
         }
 
@@ -377,41 +339,7 @@ namespace WebMVC.Controllers
             return tiposMov;
         }
 
-        public IActionResult MovimientosPaginado(int? pagina) {
-
-            List<DTOMovimientoDeStock> movimientos = new List<DTOMovimientoDeStock>();
-
-            try
-            {
-                if (pagina == null) {
-                    pagina = 1;
-                }
-                HttpClient cliente = new HttpClient();
-                cliente.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", HttpContext.Session.GetString("Token"));
-                var tarea = cliente.GetAsync(UrlApi + "MovimientoDeStock/MovimientosPorPagina/" + pagina);
-                tarea.Wait();
-                var respuesta = tarea.Result;
-                var cuerpo = HerramientasAPI.LeerContenidoRespuesta(respuesta);
-                if (respuesta.IsSuccessStatusCode)
-                {
-                    movimientos  = JsonConvert.DeserializeObject<List<DTOMovimientoDeStock>>(cuerpo);
-                    double cantidadDePaginas = ObtenerCantidadDePaginas();
-                    ViewBag.Paginas = double.Round(cantidadDePaginas);
-                    //return View(movimientos);
-                }
-                else if ((int)respuesta.StatusCode == StatusCodes.Status400BadRequest
-                        || (int)respuesta.StatusCode == StatusCodes.Status500InternalServerError)
-                {
-                    return ViewBag.Mensaje = cuerpo;
-                }
-            }
-            catch
-            {
-               ViewBag.Mensaje = "Error";
-            }
-            return View(movimientos);
-        }
-
+       
 
 
         public double ObtenerCantidadDePaginas() {

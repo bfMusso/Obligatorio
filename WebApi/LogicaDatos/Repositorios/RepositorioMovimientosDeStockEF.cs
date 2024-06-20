@@ -70,24 +70,31 @@ namespace LogicaDatos.Repositorios
         }
 
         
-                public List<MovimientoDeStock> BuscarElementosPorIdYTipo(int id, TipoDeMovimiento tipo)
-                {
-                    List<MovimientoDeStock> movimientosEncontrados = new List<MovimientoDeStock>();
-                    //Buscamos movimientos segun tipo y el id de articulo
-                    movimientosEncontrados = Contexto.MovimientosDeStock
-                                          .Include(m => m.ArticuloDeMovimiento)
-                                          .Include(m => m.UsuarioDeMovimiento)
-                                          .Include(m => m.Tipo)
-                                          .Where(m => m.ArticuloDeMovimiento.Id == id && m.Tipo.Id == tipo.Id)
-                                          .OrderByDescending(m => m.FechaYHora)
-                                          .ThenBy(m => m.CantidadArticulo)
-                                          .ToList();
-                    //Retornamos elementos encontrados
-                    return movimientosEncontrados;
-                }
+       public List<MovimientoDeStock> BuscarElementosPorIdYTipo(int id, TipoDeMovimiento tipo)
+       {
+            int topePagina = ObtenerTopeDePaginados();
+
+
+             List<MovimientoDeStock> movimientosEncontrados = new List<MovimientoDeStock>();
+                //Buscamos movimientos segun tipo y el id de articulo
+             movimientosEncontrados = Contexto.MovimientosDeStock
+                                 .Include(m => m.ArticuloDeMovimiento)
+                                 .Include(m => m.UsuarioDeMovimiento)
+                                 .Include(m => m.Tipo)
+                                 .Where(m => m.ArticuloDeMovimiento.Id == id && m.Tipo.Id == tipo.Id)
+                                 .OrderByDescending(m => m.FechaYHora)
+                                 .ThenBy(m => m.CantidadArticulo)                                 
+                                 .ToList();
+            //Retornamos elementos encontrados
+            return movimientosEncontrados;
+       }
 
         public List<MovimientoDeStock> ListarMovimientosDeStockYTipo(int pagina)
         {
+            int topePagina = ObtenerTopeDePaginados();
+            
+
+
             List<MovimientoDeStock> movimientosEncontrados = new List<MovimientoDeStock>();
             //Buscamos movimientos segun tipo y el id de articulo
             movimientosEncontrados = Contexto.MovimientosDeStock
@@ -96,8 +103,8 @@ namespace LogicaDatos.Repositorios
                                   .Include(m => m.Tipo)
                                   .OrderByDescending(m => m.FechaYHora)
                                   .ThenBy(m => m.CantidadArticulo)
-                                  .Skip((pagina - 1) * 5)
-                                  .Take(5)
+                                  .Skip((pagina - 1) * topePagina)
+                                  .Take(topePagina)
                                   .ToList();
             //Retornamos elementos encontrados
             return movimientosEncontrados;
@@ -106,17 +113,18 @@ namespace LogicaDatos.Repositorios
 
         public List<Articulo> BuscarArtDeMovEnRangoDeFechas(DateTime inicial, DateTime final)
         {
+            int topePagina = ObtenerTopeDePaginados();
+
             List<Articulo> articulosEncontrados = new List<Articulo>();
             //Buscamos los articulos en rango de fechas
             articulosEncontrados = Contexto.MovimientosDeStock
                                             .Include(m => m.ArticuloDeMovimiento)
                                             .Where(m => m.FechaYHora >= inicial && m.FechaYHora <= final)
                                             .Select(m => m.ArticuloDeMovimiento)
-                                            .Distinct()
+                                            .Distinct()                                           
                                             .ToList();
             //Retornamos elementos encontrados
             return articulosEncontrados;
-
         }
         /*
         public int CantidadesPorTipoYFecha(int anio, int tipoID)
@@ -145,6 +153,7 @@ namespace LogicaDatos.Repositorios
                     Tipo = grupo.Key.Tipo,
                     Cantidad = grupo.Count()
                 })
+                .OrderByDescending(grupo => grupo.Anio)
                 .ToList();
 
             List<(int, string, int)> movimientosARetornar = new List<(int, string, int)>();
@@ -261,6 +270,24 @@ namespace LogicaDatos.Repositorios
             }
         }
 
+    
+        public int CantidadTotalDeMovimientos()
+        {
+           return Contexto.MovimientosDeStock.Count();
+        }
+
+
+        
+          public int ObtenerTopeDePaginados()
+        {
+            int topePagina = Contexto.ValoresFijos
+                                .Where(v => v.Nombre == "Paginado")
+                                .Select(v => v.Valor)
+                                .SingleOrDefault();
+
+            return topePagina;
+        }
+
         public List<MovimientoDeStock> MovimientosAMostrarPorPagina(int pagina)
         {
             return Contexto.MovimientosDeStock
@@ -271,12 +298,5 @@ namespace LogicaDatos.Repositorios
                                               .Take(5)
                                               .ToList();
         }
-
-        public int CantidadTotalDeMovimientos()
-        {
-           return Contexto.MovimientosDeStock.Count();
-        }
-
-
     }
 }
