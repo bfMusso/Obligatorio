@@ -22,7 +22,7 @@ namespace WebMVC.Controllers
         public ActionResult ListarMovimientosPorTipoYFecha()
         {
 
-            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            if (HttpContext.Session.GetString("Token") == null)
             {
                 return RedirectToAction("Login", "Usuarios");
             }//Fin Checkeo sesion
@@ -62,7 +62,7 @@ namespace WebMVC.Controllers
         [HttpGet]
         public ActionResult ListarMovimientosPorTipoYArticulo(int articulo, int tipo, int? pagina)
         {
-            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            if (HttpContext.Session.GetString("Token") == null)
             {
                 return RedirectToAction("Login", "Usuarios");
             }//Fin Checkeo sesion
@@ -124,7 +124,7 @@ namespace WebMVC.Controllers
         [HttpGet]
         public ActionResult ListarArticulosPorFechas(string inicial, string final, int? pagina) {
 
-            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Rol") != "Encargado")
+            if (HttpContext.Session.GetString("Token") == null)
             {
                 return RedirectToAction("Login", "Usuarios");
             }//Fin Checkeo sesion
